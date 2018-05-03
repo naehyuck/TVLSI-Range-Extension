@@ -3,13 +3,9 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: EV_range_extension.aux
 The style file: ieeetr.bst
 Database file #1: EV.bib
-Repeated entry---line 322 of file EV.bib
- : @inproceedings{Yan:NAPS14
- :                          ,
-I'm skipping whatever remains of this entry
 You've used 37 entries,
             1876 wiz_defined-function locations,
-            664 strings with 11181 characters,
+            664 strings with 11205 characters,
 and the built_in function-call counts, 6228 in all, are:
 = -- 428
 > -- 432
@@ -48,4 +44,3 @@ warning$ -- 0
 while$ -- 31
 width$ -- 39
 write$ -- 288
-(There was 1 error message)

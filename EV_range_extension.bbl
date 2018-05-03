@@ -10,6 +10,71 @@ N.~Chang, D.~Baek, and J.~Hong, ``Power consumption characterization, modeling
   and estimation of electric vehicles,'' in {\em Proceedings of IEEE/ACM
   International Conference on Computer-Aided Design (ICCAD)}, 2014.
 
+\bibitem{Seraens:thesis12}
+B.~Saerens, {\em Optimal control based eco-driving}.
+\newblock PhD thesis, Katholieke Universities Leuven, 2012.
+
+\bibitem{Kamal:TITS11}
+M.~A.~S. Kamal, M.~Mukai, J.~Murata, and T.~Kawabe, ``Ecological vehicle
+  control on roads with up-down slopes,'' {\em IEEE Transactions on Intelligent
+  Transportation Systems, vol. 12, no. 3, Sept.}, 2011.
+
+\bibitem{Ozatay:TITS14}
+E.~Ozatay, S.~Onori, J.~Wollaeger, U.~Ozguner, G.~Rizzoni, D.~Filev,
+  J.~Michelini, and S.~Cairano, ``Cloud-based velocity profile optimization for
+  everyday driving: a dynamic-programming-based solution,'' {\em IEEE
+  Transactions on Intelligent Transportation Systems, vol. 15, no. 6}, 2014.
+
+\bibitem{Dovgana:ASC14}
+E.~Dovgana, M.~Javorskib, T.~Tusara, M.~Gamsa, and B.~Filipica, ``Discovering
+  driving strategies with a multiobjective optimization algorithm,'' {\em
+  Applied Soft computing}, 2014.
+
+\bibitem{Ozatay:IFAC14}
+E.~Ozatay, U.~Ozguner, J.~Michelini, and D.~Filev, ``Analytical solution to the
+  minimum energy consumption based velocity profile optimization problem with
+  variable road grade,'' in {\em Proceedings of IFAC world congress}, 2014.
+
+\bibitem{Khayyam:ESA12}
+H.~Khayyam, S.~Nahavandi, and S.~Davis, ``Adaptive cruise control look-ahead
+  system for energy management of vehicles,'' {\em Expert Systems with
+  Applications}, 2012.
+
+\bibitem{Yan:NAPS14}
+Q.~Yan, B.~Zhang, and M.~Kezunovic, ``Optimization of electric vehicle movement
+  for efficient energy consumption,'' in {\em North American Power Symposium
+  (NAPS)}, 2014.
+
+\bibitem{Lin:ICCA14}
+X.~Lin, D.~Gorges, and S.~Liu, ``Eco-driving assistance system for electric
+  vehicles based on speed profile optimization,'' in {\em Proceedings of IEEE
+  Conference on Control Applications}, 2014.
+
+\bibitem{Wu:ITS15}
+X.~Wu, X.~He, and G.~Yu, ``Energy-optimal speed control for electric vehicles
+  on signalized arterials,'' {\em Transactions on Intelligent Transportation
+  Systems, vol. 16, no. 5}, 2015.
+
+\bibitem{Dib:IVPPC11}
+W.~Dib, L.~Serrao, and A.~Sciarretta, ``Optimal control to minimize trip time
+  and energy consumption in electric vehicles,'' in {\em Proceedings of IEEE
+  Vehicle Power and Propulsion Conference}, 2011.
+
+\bibitem{Dib:OGST12}
+W.~Dib, A.~Chasse, D.~di~Domenico, P.~Moulin, and A.~Sciarretta, ``Evaluation
+  of the energy efficiency of a fleet of electric vehicle for eco-driving
+  application,'' {\em Oil Gas Science and Technology}, 2012.
+
+\bibitem{Mensing:TR13}
+F.~Mensing, E.~Bideaux, R.~Trigui, and H.~Tattegrain, ``Trajectory optimization
+  for eco-driving taking into account traffic constraints,'' {\em
+  Transportation Research Part D: Transport and Environment}, 2013.
+
+\bibitem{Dib:CEP14}
+W.~Dib, A.~Chasse, P.~Moulin, A.~Sciarretta, and G.~Corde, ``Optimal energy
+  management for an electric vehicle in eco-driving applications,'' {\em
+  Control Engineering Practice}, 2014.
+
 \bibitem{Seshia:TCAD17}
 S.~A. Seshia, S.~Hu, W.~Li, and Q.~Zhu, ``Design automation of cyber-physical
   systems: Challenges, advances, and opportunities,'' {\em IEEE Transactions on
@@ -69,71 +134,6 @@ Y.~Kim, J.~Koh, Q.~Xie, Y.~Wang, N.~Chang, and M.~Pedram, ``A scalable and
   flexible hybrid energy storage system design and implementation,'' {\em
   Journal of Power Sources}, 2014.
 
-\bibitem{Seraens:thesis12}
-B.~Saerens, {\em Optimal control based eco-driving}.
-\newblock PhD thesis, Katholieke Universities Leuven, 2012.
-
-\bibitem{Yan:NAPS14}
-Q.~Yan, B.~Zhang, and M.~Kezunovic, ``Optimization of electric vehicle movement
-  for efficient energy consumption,'' in {\em North American Power Symposium
-  (NAPS)}, 2014.
-
-\bibitem{Lin:ICCA14}
-X.~Lin, D.~Gorges, and S.~Liu, ``Eco-driving assistance system for electric
-  vehicles based on speed profile optimization,'' in {\em Proceedings of IEEE
-  Conference on Control Applications}, 2014.
-
-\bibitem{Wu:ITS15}
-X.~Wu, X.~He, and G.~Yu, ``Energy-optimal speed control for electric vehicles
-  on signalized arterials,'' {\em Transactions on Intelligent Transportation
-  Systems, vol. 16, no. 5}, 2015.
-
-\bibitem{Dib:IVPPC11}
-W.~Dib, L.~Serrao, and A.~Sciarretta, ``Optimal control to minimize trip time
-  and energy consumption in electric vehicles,'' in {\em Proceedings of IEEE
-  Vehicle Power and Propulsion Conference}, 2011.
-
-\bibitem{Kamal:TITS11}
-M.~A.~S. Kamal, M.~Mukai, J.~Murata, and T.~Kawabe, ``Ecological vehicle
-  control on roads with up-down slopes,'' {\em IEEE Transactions on Intelligent
-  Transportation Systems, vol. 12, no. 3, Sept.}, 2011.
-
-\bibitem{Ozatay:TITS14}
-E.~Ozatay, S.~Onori, J.~Wollaeger, U.~Ozguner, G.~Rizzoni, D.~Filev,
-  J.~Michelini, and S.~Cairano, ``Cloud-based velocity profile optimization for
-  everyday driving: a dynamic-programming-based solution,'' {\em IEEE
-  Transactions on Intelligent Transportation Systems, vol. 15, no. 6}, 2014.
-
-\bibitem{Dovgana:ASC14}
-E.~Dovgana, M.~Javorskib, T.~Tusara, M.~Gamsa, and B.~Filipica, ``Discovering
-  driving strategies with a multiobjective optimization algorithm,'' {\em
-  Applied Soft computing}, 2014.
-
-\bibitem{Ozatay:IFAC14}
-E.~Ozatay, U.~Ozguner, J.~Michelini, and D.~Filev, ``Analytical solution to the
-  minimum energy consumption based velocity profile optimization problem with
-  variable road grade,'' in {\em Proceedings of IFAC world congress}, 2014.
-
-\bibitem{Khayyam:ESA12}
-H.~Khayyam, S.~Nahavandi, and S.~Davis, ``Adaptive cruise control look-ahead
-  system for energy management of vehicles,'' {\em Expert Systems with
-  Applications}, 2012.
-
-\bibitem{Dib:OGST12}
-W.~Dib, A.~Chasse, D.~di~Domenico, P.~Moulin, and A.~Sciarretta, ``Evaluation
-  of the energy efficiency of a fleet of electric vehicle for eco-driving
-  application,'' {\em Oil Gas Science and Technology}, 2012.
-
-\bibitem{Mensing:TR13}
-F.~Mensing, E.~Bideaux, R.~Trigui, and H.~Tattegrain, ``Trajectory optimization
-  for eco-driving taking into account traffic constraints,'' {\em
-  Transportation Research Part D: Transport and Environment}, 2013.
-
-\bibitem{Dib:CEP14}
-W.~Dib, A.~Chasse, P.~Moulin, A.~Sciarretta, and G.~Corde, ``Optimal energy
-  management for an electric vehicle in eco-driving applications,'' {\em
-  Control Engineering Practice}, 2014.
-
 \bibitem{Park:DAC13}
 S.~Park, Y.~Kim, and N.~Chang, ``Hybrid energy storage systems and battery
   management for electric vehicles,'' in {\em Proceedings of DAC}, 2013.
@@ -154,25 +154,25 @@ E.~Hellstrom, M.~Ivarsson, J.~Aslund, and L.~Nielsen, ``Look-ahead control for
   Engineering Practice, vol. 17, no. 2}, 2009.
 
 \bibitem{GM_Bolt:official}
-``2018 chevrolet bolt ev features and specifications.'' Chevrolet Official
+``2018 chevrolet {B}olt {EV} features and specifications.'' Chevrolet Official
   Website,
   \url{http://www.chevrolet.ca/bolt-ev-electric-vehicle/specs/trims.html}.
 
 \bibitem{GM_Bolt:spec}
-``Deep dive: Chevrolet bolt battery pack, motor and more.'' Inside EVs,
+``{D}eep {D}ive: {C}hevrolet {B}olt battery pack, motor and more.'' Inside EVs,
   \url{https://insideevs.com/deep-dive-chevrolet-bolt-battery-pack-motor-and-more/}.
 
 \bibitem{GM_Bolt:range25mph}
-``Opel ampera-e (bolt ev) goes 387 miles on single charge – videos.'' Inside
-  EVs, \url{https://insideevs.com/opel-ampera-e-goes-387-miles/}.
+``Opel {A}mpera-{E} ({B}olt {EV}) goes 387 miles on single charge -- videos.''
+  Inside EVs, \url{https://insideevs.com/opel-ampera-e-goes-387-miles/}.
 
 \bibitem{GM_Bolt:range65mph}
-``Chevrolet bolt sets consumer reports' electric-vehicle range record.''
+``Chevrolet {B}olt sets consumer reports' electric-vehicle range record.''
   Customer Reports,
   \url{https://www.consumerreports.org/2017-chevrolet-bolt/chevrolet-bolt-sets-electric-vehicle-range-record/}.
 
 \bibitem{GM_Bolt:range75mph}
-``Instrumented test of chevrolet bolt – 190 miles of range at steady 75
+``Instrumented test of {C}hevrolet {B}olt -- 190 miles of range at steady 75
   mph.'' Inside EVs,
   \url{https://insideevs.com/instrumented-test-of-chevrolet-bolt-190-miles-of-range-at-steady-75-mph/}.
 

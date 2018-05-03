@@ -159,11 +159,11 @@ ADVISOR is a vehicle simulator that takes into account various factors of vehicl
 
 We choose Chevrolet Bolt (1,616 kg curb weight) for the target vehicle, but our method does not restrict a particular type of vehicles. The top speed of Chevrolet Bolt is 150 km/h. It is capable of achieving a 6.5 second 0--100 km/h time with a 150 kW electric permanent magnet motor~\cite{GM_Bolt:official}. Chevrolet Bolt is equipped with a 350 V and 57.4 kWh Lithium-ion battery pack with 96-series and 3-parallel of 3.65 V cells~\cite{GM_Bolt:spec}. 
 
-We first implement a Chevrolet Bolt power model based on the vehicle specifications and reports for the Chevrolet Bolt performance and range at various constant velocities~\cite{GM_Bolt:range25mph,GM_Bolt:range65mph,GM_Bolt:range75mph,GM_Bolt:range93mph}. We extract the model coefficients of~\eqref{eq:EV_specific_model} by running ADVISOR. The model coefficient extraction result shows as in Figure~\ref{fig:ADVISOR_model_validation}. The normalized root-mean-square deviation is 5.1\%. Table \ref{tab:table_Bolt} summarizes the model coefficients of (\label{eq:EV_specific_model}) for Chevrolet Bolt.
+We first implement a Chevrolet Bolt power model based on the vehicle specifications and reports for the Chevrolet Bolt performance and range at various constant velocities~\cite{GM_Bolt:range25mph,GM_Bolt:range65mph,GM_Bolt:range75mph,GM_Bolt:range93mph}. We extract the model coefficients of~\eqref{eq:EV_specific_model} by running ADVISOR. The model coefficient extraction result shows as in Figure~\ref{fig:ADVISOR_model_validation}. The normalized root-mean-square deviation is 5.1\%. Table \ref{table:Coeff_Bolt} summarizes the model coefficients of (\ref{eq:EV_specific_model}) for Chevrolet Bolt.
 
 \begin{table}
-\label{tab:table_Bolt}
 \caption{Model coefficients for Chevrolet Bolt.}
+\label{table:Coeff_Bolt}
 \end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

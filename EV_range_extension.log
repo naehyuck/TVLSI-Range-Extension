@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 MAY 2018 16:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 MAY 2018 17:00
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -739,11 +739,7 @@ Package: kolabels-utf 2015/03/20 v1.5 UTF-8 Hangul item labels
 (/usr/local/texlive/2016/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-(./EV_range_extension.aux
-
-LaTeX Warning: Label `eq:EV_specific_model' multiply defined.
-
-)
+(./EV_range_extension.aux)
 \openout1 = `EV_range_extension.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -825,7 +821,8 @@ LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 20.
 LaTeX Font Info:    Try loading font information for LUC+nanummj on input line 
 20.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
 LaTeX Font Info:    ... okay on input line 20.
@@ -1091,30 +1088,26 @@ Overfull \hbox (12.2933pt too wide) in paragraph at lines 175--178
 
 ) [9
 
-] (./EV_range_extension.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+] (./EV_range_extension.aux) ) 
 Here is how much of TeX's memory you used:
  5346 strings out of 493014
- 74000 string characters out of 6133351
- 159334 words of memory out of 5000000
+ 74002 string characters out of 6133351
+ 159277 words of memory out of 5000000
  8694 multiletter control sequences out of 15000+600000
  61384 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,15n,26p,1474b,283s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
-pe1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ti
-mes/utmri8a.pfb>
-Output written on EV_range_extension.pdf (9 pages, 1109110 bytes).
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
+ps/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cmextra/cmex9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/symbol/usyr.p
+fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on EV_range_extension.pdf (9 pages, 1109096 bytes).
 PDF statistics:
  597 PDF objects out of 1000 (max. 8388607)
  425 compressed objects within 5 object streams

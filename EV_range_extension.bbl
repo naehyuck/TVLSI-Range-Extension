@@ -15,32 +15,6 @@ S.~A. Seshia, S.~Hu, W.~Li, and Q.~Zhu, ``Design automation of cyber-physical
   systems: Challenges, advances, and opportunities,'' {\em IEEE Transactions on
   Computer-Aided Design of Integrated Circuits and Systems}, 2017.
 
-\bibitem{Xie:TCAD13}
-Q.~Xie, Y.~Wang, Y.~Kim, M.~Pedram, and N.~Chang, ``Charge allocation in hybrid
-  electrical energy storage systems,'' {\em Transactions on Computer-Aided
-  Design of Integrated Circuits and Systems}, 2013.
-
-\bibitem{Kim:JPS14}
-Y.~Kim, J.~Koh, Q.~Xie, Y.~Wang, N.~Chang, and M.~Pedram, ``A scalable and
-  flexible hybrid energy storage system design and implementation,'' {\em
-  Journal of Power Sources}, 2014.
-
-\bibitem{Liu:TPDS17}
-Y.~Liu and S.~Hu, ``Renewable energy pricing driven scheduling in distributed
-  smart community systems,'' {\em IEEE Transactions on Parallel and Distributed
-  Systems}, 2017.
-
-\bibitem{Zhao:ICCAD15}
-H.~Zhao, D.~Quach, S.~Wang, H.~Chen, X.~Li, and S.~Tan, ``Learning based
-  compact thermal modeling for energy-efficient smart building management,'' in
-  {\em Proceedings of International Conference on Computer-Aided Design
-  (ICCAD)}, 2015.
-
-\bibitem{Vatanparvar:TECS18}
-K.~Vatanparvar and M.~A.~A. Faruque, ``Design and analysis of battery-aware
-  automotive climate control for electric vehicles,'' {\em ACM Transaction on
-  Embedded Computing Systems}, 2018.
-
 \bibitem{Vatanparvar:TSG18}
 K.~Vatanparvar, S.~Faezi, I.~Burago, M.~Levorato, and M.~A.~A. Faruque,
   ``Extended range electric vehicle with driving behavior estimation in energy
@@ -68,6 +42,32 @@ D.~Shin, M.~Poncino, E.~Macii, and N.~Chang, ``A statistical model-based
   cell-to-cell variability management of li-ion battery pack,'' {\em
   Transactions on Computer-Aided Design of Integrated Circuits and Systems
   (TCAD)}, 2015.
+
+\bibitem{Zhao:ICCAD15}
+H.~Zhao, D.~Quach, S.~Wang, H.~Chen, X.~Li, and S.~Tan, ``Learning based
+  compact thermal modeling for energy-efficient smart building management,'' in
+  {\em Proceedings of International Conference on Computer-Aided Design
+  (ICCAD)}, 2015.
+
+\bibitem{Vatanparvar:TECS18}
+K.~Vatanparvar and M.~A.~A. Faruque, ``Design and analysis of battery-aware
+  automotive climate control for electric vehicles,'' {\em ACM Transaction on
+  Embedded Computing Systems}, 2018.
+
+\bibitem{Liu:TPDS17}
+Y.~Liu and S.~Hu, ``Renewable energy pricing driven scheduling in distributed
+  smart community systems,'' {\em IEEE Transactions on Parallel and Distributed
+  Systems}, 2017.
+
+\bibitem{Xie:TCAD13}
+Q.~Xie, Y.~Wang, Y.~Kim, M.~Pedram, and N.~Chang, ``Charge allocation in hybrid
+  electrical energy storage systems,'' {\em Transactions on Computer-Aided
+  Design of Integrated Circuits and Systems}, 2013.
+
+\bibitem{Kim:JPS14}
+Y.~Kim, J.~Koh, Q.~Xie, Y.~Wang, N.~Chang, and M.~Pedram, ``A scalable and
+  flexible hybrid energy storage system design and implementation,'' {\em
+  Journal of Power Sources}, 2014.
 
 \bibitem{Seraens:thesis12}
 B.~Saerens, {\em Optimal control based eco-driving}.

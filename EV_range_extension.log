@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 MAY 2018 11:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 MAY 2018 12:11
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -955,26 +955,28 @@ File: Figures/ICEV_EV_consumption.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/ICEV_EV_consumption.pdf used on input line 163
 .
 (pdftex.def)             Requested size: 252.0pt x 132.23999pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [3]
-<Figures/efficiency_maps.pdf, id=23, 400.49625pt x 208.78pt>
+<Figures/efficiency_maps.pdf, id=21, 400.49625pt x 208.78pt>
 File: Figures/efficiency_maps.pdf Graphic file (type pdf)
 
 <use Figures/efficiency_maps.pdf>
 Package pdftex.def Info: Figures/efficiency_maps.pdf used on input line 187.
 (pdftex.def)             Requested size: 252.0pt x 131.3696pt.
 
-<Figures/const_vel_drive_problem.pdf, id=24, 373.395pt x 223.83624pt>
+<Figures/const_vel_drive_problem.pdf, id=22, 373.395pt x 223.83624pt>
 File: Figures/const_vel_drive_problem.pdf Graphic file (type pdf)
 
 <use Figures/const_vel_drive_problem.pdf>
 Package pdftex.def Info: Figures/const_vel_drive_problem.pdf used on input line
  201.
 (pdftex.def)             Requested size: 226.79846pt x 135.95586pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-<Figures/Design_space_exploration.pdf, id=25, 424.58624pt x 663.47874pt>
+ [4 <./Figures/ADVISOR_model_validation_result.pdf> <./Figures/ICEV_EV_consumpt
+ion.pdf> <./Figures/efficiency_maps.pdf> <./Figures/const_vel_drive_problem.pdf
+>]
+<Figures/Design_space_exploration.pdf, id=188, 424.58624pt x 663.47874pt>
 File: Figures/Design_space_exploration.pdf Graphic file (type pdf)
 
 <use Figures/Design_space_exploration.pdf>
@@ -982,7 +984,7 @@ Package pdftex.def Info: Figures/Design_space_exploration.pdf used on input lin
 e 212.
 (pdftex.def)             Requested size: 239.39923pt x 374.09677pt.
 
-<Figures/Opt_drive_problem.pdf, id=26, 397.485pt x 182.6825pt>
+<Figures/Opt_drive_problem.pdf, id=189, 397.485pt x 182.6825pt>
 File: Figures/Opt_drive_problem.pdf Graphic file (type pdf)
 
 <use Figures/Opt_drive_problem.pdf>
@@ -995,9 +997,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: Command \textellipsis invalid in math mode on input line 243.
 
-[4 <./Figures/ADVISOR_model_validation_result.pdf> <./Figures/ICEV_EV_consumpti
-on.pdf> <./Figures/efficiency_maps.pdf> <./Figures/const_vel_drive_problem.pdf>
-] <Figures/velocity_planning_road_Z.pdf, id=190, 1280.785pt x 435.6275pt>
+<Figures/velocity_planning_road_Z.pdf, id=190, 1280.785pt x 435.6275pt>
 File: Figures/velocity_planning_road_Z.pdf Graphic file (type pdf)
 
 <use Figures/velocity_planning_road_Z.pdf>
@@ -1036,16 +1036,15 @@ File: Figures/EDP_bar.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/EDP_bar.pdf used on input line 313.
 (pdftex.def)             Requested size: 252.0pt x 136.96297pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <./Figures/EDP_velocity_planning.pdf> <./Figures/EDP_bar.pdf>]
-<Figures/model_fidelity.pdf, id=540, 471.06439pt x 275.03323pt>
+<Figures/model_fidelity.pdf, id=473, 471.06439pt x 275.03323pt>
 File: Figures/model_fidelity.pdf Graphic file (type pdf)
 
 <use Figures/model_fidelity.pdf>
 Package pdftex.def Info: Figures/model_fidelity.pdf used on input line 327.
 (pdftex.def)             Requested size: 252.0pt x 147.13083pt.
- (./EV_range_extension.bbl [8 <./Figures/model_fidelity.pdf>]
+ [7 <./Figures/EDP_velocity_planning.pdf>]
+(./EV_range_extension.bbl [8 <./Figures/EDP_bar.pdf> <./Figures/model_fidelity.
+pdf>]
 Underfull \hbox (badness 3849) in paragraph at lines 157--160
 []\OT1/ptm/m/n/8 ``2018 chevro-let bolt ev fea-tures and spec-i-fi-ca-tions.'' 
 Chevro-let
@@ -1110,7 +1109,7 @@ fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
 ocal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on EV_range_extension.pdf (9 pages, 1108357 bytes).
+Output written on EV_range_extension.pdf (9 pages, 1108768 bytes).
 PDF statistics:
  597 PDF objects out of 1000 (max. 8388607)
  425 compressed objects within 5 object streams

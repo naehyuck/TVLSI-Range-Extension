@@ -107,10 +107,12 @@ A commonly used vehicle power consumption model is from the vehicle dynamics equ
 %
 \begin{equation}  \label{eq:dynamics_model} %equation 1
 \begin{split}
-P_{trac} 	= F \frac{ds}{dt} = Fv= (F_{R} + F_{A} + F_{G} + F_{I} + F_{B}) v
+P_{trac}	&= F \frac{ds}{dt} = Fv= (F_{R} + F_{G} + F_{I} + F_{A}) v \\
+F_{R} \propto C_{rr}W,~F_{G} &\propto Wsin\theta,~F_{I} \propto ma,~\text{and}~F_{A} \propto \frac{1}{2} \rho C_d Av^2 \\
+P_{trac} &\approx (\alpha  + \beta sin\theta + \gamma a + \delta v^2)mv
 \end{split}
 \end{equation}
-where $F_R$, $F_A$, $F_G$, $F_I$, and $F_B$ denote the rolling resistance, aerodynamic resistance, gradient resistance, inertia resistance, and brake force provided by hydraulic brakes, respectively~\cite{Park:DAC13}. Aerodynamic resistance can be ignored when the vehicle velocity is slower than 40 km/h.
+where $F_R$, $F_G$, $F_I$, $F_A$, and $F_B$ denote the rolling resistance, gradient resistance, inertia resistance, aerodynamic resistance, and brake force provided by hydraulic brakes, respectively~\cite{Park:DAC13}. The coefficients $\alpha$, $\beta$, $\gamma$, and $\delta$ correspond to the rolling resistance, gradient resistance, inertia resistance, and aerodynamic resistance, respectively.
 
 The actual power consumption evaluation of ICEV, i.e., fuel consumption rate, should take into account the powertrain efficiency. A simplified model of ICEV fuel consumption in~\cite{Kamal:TITS11} is written as follows:
 %
@@ -132,10 +134,10 @@ where $k_c$, $T$, $k_i$, $\omega$, $k_w$, $C$ represent a copper loss coefficien
 EVs mostly use regenerative braking during deceleration, which converts kinetic energy to electric energy except low-cost golf carts. The harvested energy from regenerative braking is closely related to the electromagnetic flux inside of the motor, and the flux is proportional to the motor RPM. The regenerative braking model of an EV can be  simplified as (\ref{eq:regen_model}) 
 %
 \begin{equation}\label{eq:regen_model} 
-P_{regen} = \delta T v + \epsilon 
+P_{regen} = \epsilon T v + \zeta
 \end{equation}  %equation 4
 %
-where $\delta$ and $\epsilon$ are regenerative braking coefficients.
+where $\epsilon$ and $\zeta$ are regenerative braking coefficients.
 
 The power consumption model (\ref{eq:motorloss_model}) is commonly used in various analytical EV power managements~\cite{Dib:IVPPC11, Dib:CEP14, Wu:TR15}. However, there are still considerable sources of power loss from  the drivetrain. To make a long story short, (\ref{eq:dynamics_model}) -- (\ref{eq:motorloss_model}) do not accurately explain EV-specific power consumption in various driving conditions according to our intensive measurement with real EVs. 
 
@@ -159,11 +161,18 @@ ADVISOR is a vehicle simulator that takes into account various factors of vehicl
 
 We choose Chevrolet Bolt (1,616 kg curb weight) for the target vehicle, but our method does not restrict a particular type of vehicles. The top speed of Chevrolet Bolt is 150 km/h. It is capable of achieving a 6.5 second 0--100 km/h time with a 150 kW electric permanent magnet motor~\cite{GM_Bolt:official}. Chevrolet Bolt is equipped with a 350 V and 57.4 kWh Lithium-ion battery pack with 96-series and 3-parallel of 3.65 V cells~\cite{GM_Bolt:spec}. 
 
-We first implement a Chevrolet Bolt power model based on the vehicle specifications and reports for the Chevrolet Bolt performance and range at various constant velocities~\cite{GM_Bolt:range25mph,GM_Bolt:range65mph,GM_Bolt:range75mph,GM_Bolt:range93mph}. We extract the model coefficients of~\eqref{eq:EV_specific_model} by running ADVISOR. The model coefficient extraction result shows as in Figure~\ref{fig:ADVISOR_model_validation}. The normalized root-mean-square deviation is 5.1\%. Table \ref{table:Coeff_Bolt} summarizes the model coefficients of (\ref{eq:EV_specific_model}) for Chevrolet Bolt.
+We first implement a Chevrolet Bolt power model based on the vehicle specifications and reports for the Chevrolet Bolt performance and range at various constant velocities~\cite{GM_Bolt:range25mph,GM_Bolt:range65mph,GM_Bolt:range75mph,GM_Bolt:range93mph}. We extract the model coefficients of~\eqref{eq:EV_specific_model} by running ADVISOR. The model coefficient extraction result shows as in Figure~\ref{fig:ADVISOR_model_validation}. The normalized root-mean-square deviation is 5.1\%. Table \ref{table:Coeff_Bolt} summarizes the model coefficients of (\ref{eq:EV_specific_model}) for Chevrolet Bolt. 
 
 \begin{table}
 \caption{Model coefficients for Chevrolet Bolt.}
 \label{table:Coeff_Bolt}
+\centering
+\begin{tabular}{|c|c|c|c|c|c|}  \hline
+$\alpha$	&0.06		&$\beta$	&9.5549	&$\gamma$	&1.0013	\\ \hline
+$\delta$	&0.00012 		&$C_0$	&1000 	&$C_1$		&10.588	\\ \hline
+$C_2$	&8.11		&$C_3$	&0.00032	&$\epsilon$	&0.6633	\\ \hline
+$\zeta$	&5813.6		\\ \cline{1-2}
+\end{tabular}
 \end{table}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -303,19 +312,15 @@ The energy-delay curves show the merit of the proposed velocity planning compare
 
 However, it is hard to compromise energy and driving time in general. In this paper, we propose to use energy-delay product ($EDP$), energy-square-delay product ($E^2DP$), or energy-cubic-delay product ($E^3DP$) so that a single metric can consider both energy and driving time. Figure~\ref{fig:minimum_EDP_velocity_planning} shows the minimum-EDP velocity planning. 
 
-If energy delay product ($EDP$) is used as a cost function, the optimization considers both energy and delay penalty. However, the minimum-EDP velocity planning often overrides the minimum-energy velocity because the delay penalty due to the reduced velocity is greater than the energy penalty due to the increased torque. Therefore, this policy can be used when the deadline is tight. Chances of energy saving by the minimum-energy velocity planning decrease as the deadline becomes tighter. 
-%The velocity planning is likely to drive the EV at a constant velocity rather than applying regenerative braking on a downhill to meet the tighter deadline.
-%In addition, the velocity planning attempts to reduce driving time with a constant velocity rather than deceleration at the top of the hill.
-The velocity planning attempts to reduce driving time with a constant velocity rather than deceleration at the top of the hill.
+If energy delay product ($EDP$) is used as a cost function, the optimization considers both energy and delay penalty. However, the $EDP$-optimal velocity planning often overrides the minimum-energy velocity because the delay penalty due to the reduced velocity is greater than the energy penalty due to the increased torque. Therefore, this policy can be used when the deadline is tight. Chances of energy saving by the minimum-energy velocity planning decrease as the deadline becomes tighter. 
+The velocity planning attempts to reduce driving time with a constant velocity rather than deceleration at the top of the hill. 
 %
-The EV similarly accelerates to the minimum-energy velocity (or the minimum velocity constraint, whichever comes first) by the road slope. However, it does not decelerate at the top of the hill to reduce driving time. It also does not slow down when climbing up the second uphill. The EV keeps driving at the same velocity on the downhill and the following float road until it arrives at the destination. So, if the deadline is tight, we use $EDP$ for the metric.
+The $EDP$-optimal velocity planning similarly accelerates to the minimum-energy velocity (or the minimum velocity constraint, whichever comes first) by the road slope. However, the planning does not decelerate at the top of the hill to reduce driving time. It only slightly slows down when climbing up an uphill at the maximum velocity since the energy penalty become higher than the delay penalty. The EV keeps driving at the same velocity on the downhill and the following float road until it arrives at the destination. So, if the deadline is tight, we use $EDP$ for the metric.
 
-On the other hand, when the square of energy delay product ($E^2DP$) is used as a metric to optimize, the energy penalty contributes more to the cost function. As a result, the driving velocity decreases when driving on an uphill because the energy penalty due to the increased torque is greater than the delay penalty as shown in Figure~\ref{fig:minimum_EDP_velocity_planning}. Also, the vehicle velocity on a downhill or a flat road becomes slower than the maximum velocity since the energy penalty due to drivetrain loss is higher than the delay penalty at a high velocity. The EV accelerates to the minimum-energy velocity (or the minimum velocity constraint, whichever comes first) by the road slope and decelerates at the top of the first hill. Then, the EV drives faster than the minimum-energy velocity on the downhill followed by a  flat road, in preparation for the next hill. Although the minimum-energy velocity on an uphill is higher than that on a flat road, climbing an uphill consumes more energy. So, the EV gradually loses the velocity while it climbs up on an uphill spending less motor torque, which significantly saves energy consumption. In most applications, the deadline is important but not hard. Therefore, we adopt $E^2DP$ for the performance metric to consider both energy and driving time.
+On the other hand, when the square of energy delay product ($E^2DP$) is used as a metric to optimize, the energy penalty contributes more to the cost function. As a result, the driving velocity decreases when driving on an uphill because the energy penalty due to the increased torque is greater than the delay penalty as shown in Figure~\ref{fig:minimum_EDP_velocity_planning}. Also, the $E^2DP$-optimal vehicle velocity becomes slower than the maximum velocity on a downhill or on a flat road since the energy penalty becomes higher than the delay penalty at a high velocity due to the drivetrain loss and increased torque by the aerodynamic resistance. The EV accelerates to the minimum-energy velocity (or the minimum velocity constraint, whichever comes first) by the road slope and decelerates at the top of the first hill. Then, the EV drives faster than the minimum-energy velocity on the downhill followed by a  flat road, in preparation for the next hill. Although the minimum-energy velocity on an uphill is higher than that on a flat road, climbing an uphill consumes more energy. So, the EV gradually loses the velocity while it climbs up on an uphill spending less motor torque, which significantly saves energy consumption. In most applications, the deadline is important but not hard. Therefore, we adopt $E^2DP$ for the performance metric to consider both energy and driving time.
 %The EV applies regenerative braking on the downhill and drives at the minimum-energy velocity on the following flat road until it arrives at the destination.
 
 When it comes to energy-cubic-delay product ($E^3DP$), the effect of energy penalty becomes even more distinct, the average driving velocity becomes lower, and the energy consumption is reduced thanks to regenerative braking. The $E^3DP$ metric can be a proper optimization metric when the battery state of charge is less than 30\% for example.
-
-
 
 Figure~\ref{fig:EDP_bar} shows energy-delay product of the best constant-velocity driving and the velocity planning with $EDP$, $E^2DP$ and $E^3DP$ as a metric on the five road benchmarks. The leftmost bars indicate the constant-velocity driving, which minimizes the energy-delay product not energy consumption in this comparison. The proposed driving planning results in average 9.9\% and up to 20.6\% improvements of energy-delay product. The improvements occur especially when the slope of the uphill is steep. The driving velocity on a flat road is faster than that of the best constant-velocity driving at the expense of relatively little energy to save driving time. Then, the velocity decreases when climbing the following uphill to spends less motor torque, which saves more energy.
 
@@ -355,11 +360,11 @@ The proposed method results in up to a 43.4\% extended range and a  20.6\% impro
 The minimum-energy velocity planning will become more crucial when full autonomous driving is widely deployed.
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\section*{Acknowledgment}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%This research is supported by the Mid-Career Researcher Program and the International Research \& Development Program of the NRF of Korea funded by the MSIP (NRF-2014-023320).
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIP) (No. 2015R1A2A1A09005694.)
 
 \bibliographystyle{ieeetr}
 \bibliography{EV}

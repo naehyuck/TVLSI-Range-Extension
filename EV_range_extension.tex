@@ -279,19 +279,19 @@ where $\Delta t$ is a time to pass a distance step with a given velocity $v$, $d
 
 We compare the simulation results between the best constant-velocity driving and minimum-energy-velocity planning. Figure~\ref{fig:no_deadline_trace}(a) shows the benchmark road including from $-4.5$ to 6.7 degree road slopes. From Figure~\ref{fig:no_deadline_trace}(b) to Figure~\ref{fig:no_deadline_trace}(d) show the minimum-energy-velocity planning, power consumptions and cumulative energy consumptions, respectively. The best constant velocity is 48 km/h in this particular example. The minimum-energy-velocity planning guides to speed up the vehicle before entering an uphill. As a result, the EV consumes less energy consumption compared with the best constant-velocity driving at the top elevation. The minimum-energy-velocity planning also reclaims more energy from the regenerative braking when the EV finishes the drive. The extended range by the minimum-energy-velocity planning is 33.2\% with the same battery capacity.
 
-We summarize the comparison of the driving range and driving time on the six benchmarking roads in Figure~\ref{fig:no_deadline_bar}. The six test roads include various road slope ranges as described in Table~\ref{table:road_bench}; uphills and downhills for Road 1 to Road 3 and uphills for Roads 4 and 5. Y-axis denotes the range and driving time compared with the best constant-velocity driving. Black-colored bars indicate the best constant-velocity driving, which is the baseline. White and gray-colored bars indicate the minimum-energy-velocity planning, respectively.
-
-The range extension is indeed dependent on the given road characteristics. In our benchmark in Table~\ref{table:road_bench}, the extension is from 2.7\% up to 43.4\%. The minimum-energy-velocity planning extends the range for Roads 1, 2 and  3 by increasing velocities before entering steep uphills, which achieves a shorter driving time than that of the best constant-velocity driving for Road 1. So, we enforce the minimum-velocity constraint in the entire optimization process. Range extension for Roads 4 and 5 are relatively smaller than that in Roads 1, 2 and 3 because the velocity is bounded by the minimum-velocity constraint while driving on less steep roads i.e, the minimum-energy velocity is lower than the minimum-velocity constraint.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Energy-Delay Consideration} \label{sec:ed_consideration}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}	 %Figure 8.
 \includegraphics[width=1.0\hsize]{Figures/no_deadline_bar.pdf}
 \caption{Range and time saving by the minimum-energy-velocity planning.}
 \label{fig:no_deadline_bar}
 \end{figure} 
 
+We summarize the comparison of the driving range and driving time on the six benchmarking roads in Figure~\ref{fig:no_deadline_bar}. The six test roads include various road slope ranges as described in Table~\ref{table:road_bench}; uphills and downhills for Road 1 to Road 3 and uphills for Roads 4 and 5. Y-axis denotes the range and driving time compared with the best constant-velocity driving. Blue-colored bars indicate the best constant-velocity driving, which is the baseline. Green-colored bars indicate the minimum-energy-velocity planning, respectively.
+
+The range extension is indeed dependent on the given road characteristics. In our benchmark in Table~\ref{table:road_bench}, the extension is from 2.7\% up to 43.4\%. The minimum-energy-velocity planning extends the range for Roads 1, 2 and  3 by increasing velocities before entering steep uphills, which achieves a shorter driving time than that of the best constant-velocity driving for Road 1. So, we enforce the minimum-velocity constraint in the entire optimization process. Range extension for Roads 4 and 5 are relatively smaller than that in Roads 1, 2 and 3 because the velocity is bounded by the minimum-velocity constraint while driving on less steep roads i.e, the minimum-energy velocity is lower than the minimum-velocity constraint.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Energy-Delay Consideration} \label{sec:ed_consideration}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure} 	%Figure 9
 \centering
@@ -303,8 +303,9 @@ The range extension is indeed dependent on the given road characteristics. In ou
 \begin{figure*} %Figure 10
 \centering
 \includegraphics[width=1.0\hsize]{Figures/EDP_velocity_planning.pdf}
-\caption{Velocity profile comparison with optimization of delay, $EDP$, $E^2DP$, and $E^3DP$.}
+\caption{Velocity profile comparison with cost fuctions of delay, $EDP$, $E^2DP$, and $E^3DP$.}
 \label{fig:EDP_aware_velocity_planning}
+\vspace{10pt}
 \end{figure*} 
 
 
@@ -320,7 +321,7 @@ DP is a method for solving a complex problem by breaking it down into a collecti
  + (\Delta t_{i+1} P_{i+1} + \cdots + \Delta t_n P_n). \nonumber
 \end{align}
 
-However, the minimum-$EDP$-velocity planning problem cannot be divided into partial problems. In other words, the minimum-$EDP$-velocity planning for the interval of $[0, \cdots, n]$ cannot be divided into a subproblem for the interval of $[0, \cdots,  i]$ and that for the interval of $[i+1,\cdots, n]$.
+However, the minimum-$EDP$-velocity planning problem cannot be divided into partial problems. In other words, the minimum-$EDP$-velocity planning for the interval of $[0, \cdots, n]$ cannot be divided into a subproblem for the interval of $[0, \cdots,  i]$ and that for the interval of $[i+1,\cdots, n]$:
 %
 \begin{align}
 &(\Delta t_0 P_0 + \Delta t_1 P_1 + \cdots + \Delta t_n P_n)(\Delta t_0 + \Delta t_1 + \cdots + \Delta t_n) \nonumber \\ 
@@ -337,7 +338,6 @@ The velocity planning attempts to reduce driving time with a constant velocity r
 The $EDP$-aware-velocity planning similarly accelerates to the minimum-energy-velocity (or the minimum-velocity constraint, whichever comes first) by the road slope. However, the planning does not decelerate at the top of the hill to reduce driving time. It only slightly slows down when climbing up an uphill at the maximum velocity since the energy penalty become higher than the delay penalty. The EV keeps driving at the same velocity on the downhill and the following float road until it arrives at the destination. So, if the deadline is tight, we use $EDP$ for the metric.
 
 On the other hand, when the energy-square-delay product ($E^2DP$) is used as a metric to optimize, the energy penalty contributes more to the cost function. As a result, the driving velocity decreases when driving on an uphill because the energy penalty due to the increased torque is greater than the delay penalty as shown in Figure~\ref{fig:EDP_aware_velocity_planning}. Also, the $E^2DP$-aware velocity becomes slower than the maximum velocity on a downhill or on a flat road since the energy penalty becomes higher than the delay penalty at a high velocity due to the drivetrain loss and increased torque by the aerodynamic resistance. The EV accelerates to the minimum-energy-velocity (or the minimum-velocity constraint, whichever comes first) by the road slope and decelerates at the top of the first hill. Then, the EV drives faster than the minimum-energy velocity on the downhill followed by a  flat road, in preparation for the next hill. Although the minimum-energy velocity on an uphill is higher than that on a flat road, climbing an uphill consumes more energy. So, the EV gradually loses the velocity while it climbs up on an uphill spending less motor torque, which significantly saves energy consumption. In most applications, the deadline is important but not hard. Therefore, we adopt $E^2DP$ for the performance metric to consider both energy and driving time.
-%The EV applies regenerative braking on the downhill and drives at the minimum-energy velocity on the following flat road until it arrives at the destination.
 
 When it comes to energy-cubic-delay product ($E^3DP$), the effect of energy penalty becomes even more distinct, the average driving velocity becomes lower, and the energy consumption is reduced thanks to regenerative braking. The $E^3DP$ metric can be a proper optimization metric when the battery state of charge is less than 30\% for example.
 
@@ -366,7 +366,7 @@ Lesson learned from embedded systems power management, it is crucial to extract 
 
 We compare the minimum-energy-velocity planning results with i) a lossless vehicle dynamics model (\ref{eq:dynamics_model}), ii) a vehicle dynamics model with motor loss (\ref{eq:motorloss_model}) and iii) an EV-specific power model (\ref{eq:EV_specific_model}) described in Section~\ref{subsec:opt-cruising}. Inaccurate EV power consumption model causes suboptimal EV driving optimization.
 
-Figure~\ref{fig:energy_by_model} shows the comparison of range extension by the EV power models. The X-axis indicates the types of benchmark road slopes, and y-axis indicates the range; 100\%  range implies the range by the best constant-velocity driving. Black-colored bars indicate the range with the lossless vehicle dynamics model, which does not consider motor loss and vehicle power loss at the drivetrain. White and gray-colored bars indicate the range with the vehicle dynamics with motor loss model and the EV-specific power model, respectively.
+Figure~\ref{fig:energy_by_model} shows the comparison of range extension by the EV power models. The X-axis indicates the types of benchmark road slopes, and y-axis indicates the range; 100\%  range implies the range by the best constant-velocity driving. Blue-colored bars indicate the range with the EV-specific power model. Green and yellow-colored bars indicate the range with the vehicle dynamics with motor loss model and the lossless vehicle dynamics model, which does not consider motor loss and vehicle power loss at the drivetrain.
 
 Driving optimization using more accurate power model shows more extended range. The extended range with the EV-specific power model is average 1.6\% and 32.8\% compared with the minimum-energy-velocity planning with the vehicle dynamics with motor loss model and lossless vehicle dynamics model, respectively. One of main reasons is that the underestimated EV power loss becomes a considerable portion of total energy consumption when the EV drives on low road slope or downhill.
 

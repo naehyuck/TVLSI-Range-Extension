@@ -312,7 +312,7 @@ The energy-delay curves show the merit of the proposed velocity planning compare
 
 However, it is hard to compromise energy and driving time in general. In this paper, we propose to use energy-delay product ($EDP$), energy-square-delay product ($E^2DP$), or energy-cubic-delay product ($E^3DP$) so that a single metric can consider both energy and driving time. 
 %
-DP is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions. This enables the DP solve a complex problem in a polynomial time. DP solves the minimum-energy-velocity planning such that the minimum energy from interval $[0,\cdots,n]$ (the entire path) is divided into a partial problem of finding the minimum-energy-velocity planning for the interval of $[0 \cdots i]$ and that for the interval of  $[i+1 \cdots n]$:
+DP is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions. This enables the DP solve a complex problem in a polynomial time. DP solves the minimum-energy-velocity planning such that the minimum energy from interval $[0,\cdots,n]$ (the entire path) is divided into a partial problem of finding the minimum-energy-velocity planning for the interval of $[0, \cdots, i]$ and that for the interval of  $[i+1, \cdots, n]$:
 %
 \begin{align}
  (\Delta t_0 P_0 + \Delta t_1 P_1 + \cdots + \Delta t_n P_n)
@@ -320,7 +320,7 @@ DP is a method for solving a complex problem by breaking it down into a collecti
  + (\Delta t_{i+1} P_{i+1} + \cdots + \Delta t_n P_n). \nonumber
 \end{align}
 
-However, the minimum-EDP velocity planning problem cannot be divided into partial problems. In other words, the minimum-EDP velocity planning for the interval of $0 \cdots n$ cannot be divided into a subproblem for the interval of $[0 \cdots  i]$ and that for the interval of $[i+1,\cdots, n]$.
+However, the minimum-EDP velocity planning problem cannot be divided into partial problems. In other words, the minimum-EDP velocity planning for the interval of $[0, \cdots, n]$ cannot be divided into a subproblem for the interval of $[0, \cdots,  i]$ and that for the interval of $[i+1,\cdots, n]$.
 %
 \begin{align}
 &(\Delta t_0 P_0 + \Delta t_1 P_1 + \cdots + \Delta t_n P_n)(\Delta t_0 + \Delta t_1 + \cdots + \Delta t_n) \nonumber \\ 

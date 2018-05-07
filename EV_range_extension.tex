@@ -318,7 +318,7 @@ DP is a method for solving a complex problem by breaking it down into a collecti
 \begin{align}
  (\Delta t_0 P_0 + \Delta t_1 P_1 + \cdots + \Delta t_n P_n)
  = (\Delta t_0 P_0 + \Delta t_1 P_1 + \cdots + \Delta t_i P_i) \nonumber \\
- + (\Delta t_{i+1} P_{i+1} + \cdots + \Delta t_n P_n). \nonumber
+ + (\Delta t_{i+1} P_{i+1} + \cdots + \Delta t_n P_n).
 \end{align}
 
 However, the minimum-$EDP$-velocity planning problem cannot be divided into partial problems. In other words, the minimum-$EDP$-velocity planning for the interval of $[0, \cdots, n]$ cannot be divided into a subproblem for the interval of $[0, \cdots,  i]$ and that for the interval of $[i+1,\cdots, n]$:
@@ -326,7 +326,7 @@ However, the minimum-$EDP$-velocity planning problem cannot be divided into part
 \begin{align}
 &(\Delta t_0 P_0 + \Delta t_1 P_1 + \cdots + \Delta t_n P_n)(\Delta t_0 + \Delta t_1 + \cdots + \Delta t_n) \nonumber \\ 
 &\neq (\Delta t_0 P_0 + \Delta t_1 P_1 + \cdots + \Delta t_i P_i)(\Delta t_0 + \Delta t_1 + \cdots + \Delta t_i) \nonumber \\
-&+ (\Delta t_{i+1} P_{i+1} + \cdots + \Delta t_n P_n)(\Delta t_{i+1} + \cdots + \Delta t_n). \nonumber
+&+ (\Delta t_{i+1} P_{i+1} + \cdots + \Delta t_n P_n)(\Delta t_{i+1} + \cdots + \Delta t_n).
 \end{align} 
 
 The same is true for the minimum-$E^2DP$- or the minimum-$E^3DP$-velocity planing problem as well. Therefore, in this paper, we propose a heuristics method that still uses DP for the minimum-$EDP$, $E^2DP$ and $E^3DP$ velocity planning. The heuristics does not explicitly optimize $EDP$, $E^2DP$ or $E^3DP$ but still take into account the awareness of them by the use of $EDP$, $E^2DP$ or $E^3DP$ as a cost function. 

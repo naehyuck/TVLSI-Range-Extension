@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  7 MAY 2018 17:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  8 MAY 2018 16:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -927,21 +927,21 @@ File: Figures/ED_curve.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/ED_curve.pdf used on input line 298.
 (pdftex.def)             Requested size: 252.0pt x 267.39137pt.
 
-<Figures/EDP_velocity_planning.pdf, id=253, 1280.785pt x 720.6925pt>
+<Figures/EDP_velocity_planning.pdf, id=253, 1280.785pt x 771.88374pt>
 File: Figures/EDP_velocity_planning.pdf Graphic file (type pdf)
 
 <use Figures/EDP_velocity_planning.pdf>
 Package pdftex.def Info: Figures/EDP_velocity_planning.pdf used on input line 3
 05.
-(pdftex.def)             Requested size: 516.0pt x 290.3503pt.
+(pdftex.def)             Requested size: 516.0pt x 310.97406pt.
  [6 <./Figures/velocity_planning_road_Z.pdf> <./Figures/no_deadline_bar.pdf>] [
 7 <./Figures/ED_curve.pdf>]
-<Figures/EDP_bar.pdf, id=403, 571.50171pt x 310.05356pt>
+<Figures/EDP_bar.pdf, id=403, 570.87277pt x 310.46088pt>
 File: Figures/EDP_bar.pdf Graphic file (type pdf)
 
 <use Figures/EDP_bar.pdf>
 Package pdftex.def Info: Figures/EDP_bar.pdf used on input line 348.
-(pdftex.def)             Requested size: 252.0pt x 136.71257pt.
+(pdftex.def)             Requested size: 252.0pt x 137.04851pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1005,7 +1005,7 @@ Overfull \hbox (12.2933pt too wide) in paragraph at lines 175--178
 Here is how much of TeX's memory you used:
  5247 strings out of 493089
  73343 string characters out of 6134841
- 156958 words of memory out of 5000000
+ 155958 words of memory out of 5000000
  8539 multiletter control sequences out of 15000+600000
  62398 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1020,10 +1020,10 @@ fb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on EV_range_extension.pdf (10 pages, 1128403 bytes).
+Output written on EV_range_extension.pdf (10 pages, 1128894 bytes).
 PDF statistics:
- 624 PDF objects out of 1000 (max. 8388607)
- 445 compressed objects within 5 object streams
+ 629 PDF objects out of 1000 (max. 8388607)
+ 448 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

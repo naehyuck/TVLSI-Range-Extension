@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  10 MAY 2018 00:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  10 MAY 2018 00:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -895,7 +895,7 @@ e 233.
 File: Figures/Opt_drive_problem.pdf Graphic file (type pdf)
 
 <use Figures/Opt_drive_problem.pdf>
-Package pdftex.def Info: Figures/Opt_drive_problem.pdf used on input line 259.
+Package pdftex.def Info: Figures/Opt_drive_problem.pdf used on input line 260.
 (pdftex.def)             Requested size: 252.0pt x 115.82089pt.
 
 
@@ -906,25 +906,25 @@ File: Figures/velocity_planning_road_Z.pdf Graphic file (type pdf)
 
 <use Figures/velocity_planning_road_Z.pdf>
 Package pdftex.def Info: Figures/velocity_planning_road_Z.pdf used on input lin
-e 275.
+e 276.
 (pdftex.def)             Requested size: 516.0pt x 281.38593pt.
  [5 <./Figures/Design_space_exploration.pdf> <./Figures/Opt_drive_problem.pdf>]
 
-<Figures/no_deadline_bar.pdf, id=251, 488.38712pt x 504.08673pt>
+<Figures/no_deadline_bar.pdf, id=251, 488.38208pt x 505.506pt>
 File: Figures/no_deadline_bar.pdf Graphic file (type pdf)
 
 <use Figures/no_deadline_bar.pdf>
-Package pdftex.def Info: Figures/no_deadline_bar.pdf used on input line 283.
-(pdftex.def)             Requested size: 252.0pt x 260.10368pt.
+Package pdftex.def Info: Figures/no_deadline_bar.pdf used on input line 284.
+(pdftex.def)             Requested size: 252.0pt x 260.836pt.
 
-Underfull \vbox (badness 3354) has occurred while \output is active []
+Underfull \vbox (badness 2707) has occurred while \output is active []
 
 
 <Figures/ED_curve.pdf, id=252, 513.68683pt x 545.04697pt>
 File: Figures/ED_curve.pdf Graphic file (type pdf)
 
 <use Figures/ED_curve.pdf>
-Package pdftex.def Info: Figures/ED_curve.pdf used on input line 298.
+Package pdftex.def Info: Figures/ED_curve.pdf used on input line 299.
 (pdftex.def)             Requested size: 252.0pt x 267.39137pt.
 
 <Figures/EDP_velocity_planning.pdf, id=253, 1280.785pt x 671.50874pt>
@@ -932,16 +932,16 @@ File: Figures/EDP_velocity_planning.pdf Graphic file (type pdf)
 
 <use Figures/EDP_velocity_planning.pdf>
 Package pdftex.def Info: Figures/EDP_velocity_planning.pdf used on input line 3
-05.
+06.
 (pdftex.def)             Requested size: 516.0pt x 270.53531pt.
  [6 <./Figures/velocity_planning_road_Z.pdf> <./Figures/no_deadline_bar.pdf>] [
 7 <./Figures/ED_curve.pdf>]
-<Figures/EDP_bar.pdf, id=403, 574.55595pt x 313.08368pt>
+<Figures/EDP_bar.pdf, id=403, 572.6656pt x 313.9188pt>
 File: Figures/EDP_bar.pdf Graphic file (type pdf)
 
 <use Figures/EDP_bar.pdf>
 Package pdftex.def Info: Figures/EDP_bar.pdf used on input line 353.
-(pdftex.def)             Requested size: 252.0pt x 137.31772pt.
+(pdftex.def)             Requested size: 252.0pt x 138.13905pt.
 
 <Figures/model_fidelity.pdf, id=404, 470.89969pt x 253.2907pt>
 File: Figures/model_fidelity.pdf Graphic file (type pdf)
@@ -1016,7 +1016,7 @@ fb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on EV_range_extension.pdf (10 pages, 1136046 bytes).
+Output written on EV_range_extension.pdf (10 pages, 1137770 bytes).
 PDF statistics:
  629 PDF objects out of 1000 (max. 8388607)
  448 compressed objects within 5 object streams

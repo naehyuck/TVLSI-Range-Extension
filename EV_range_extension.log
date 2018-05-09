@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  10 MAY 2018 00:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  10 MAY 2018 01:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -943,12 +943,12 @@ File: Figures/EDP_bar.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/EDP_bar.pdf used on input line 353.
 (pdftex.def)             Requested size: 252.0pt x 138.13905pt.
 
-<Figures/model_fidelity.pdf, id=404, 470.89969pt x 253.2907pt>
+<Figures/model_fidelity.pdf, id=404, 474.47974pt x 255.2992pt>
 File: Figures/model_fidelity.pdf Graphic file (type pdf)
 
 <use Figures/model_fidelity.pdf>
 Package pdftex.def Info: Figures/model_fidelity.pdf used on input line 367.
-(pdftex.def)             Requested size: 252.0pt x 135.5459pt.
+(pdftex.def)             Requested size: 252.0pt x 135.59229pt.
  [8 <./Figures/EDP_velocity_planning.pdf> <./Figures/EDP_bar.pdf> <./Figures/mo
 del_fidelity.pdf>] (./EV_range_extension.bbl
 Underfull \hbox (badness 2253) in paragraph at lines 157--160
@@ -1016,7 +1016,7 @@ fb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on EV_range_extension.pdf (10 pages, 1137770 bytes).
+Output written on EV_range_extension.pdf (10 pages, 1138824 bytes).
 PDF statistics:
  629 PDF objects out of 1000 (max. 8388607)
  448 compressed objects within 5 object streams

@@ -1,10 +1,15 @@
+<<<<<<< HEAD
 This is BibTeX, Version 0.99d (TeX Live 2016)
+=======
+This is BibTeX, Version 0.99d (TeX Live 2015)
+>>>>>>> 2ece9c457ca9b9696c0e7504d3713ea322c95f9e
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: EV_range_extension.aux
 The style file: ieeetr.bst
 Database file #1: EV.bib
 You've used 37 entries,
             1876 wiz_defined-function locations,
+<<<<<<< HEAD
             664 strings with 11205 characters,
 and the built_in function-call counts, 6228 in all, are:
 = -- 428
@@ -14,25 +19,51 @@ and the built_in function-call counts, 6228 in all, are:
 - -- 122
 * -- 452
 := -- 1023
+=======
+            663 strings with 11201 characters,
+and the built_in function-call counts, 6239 in all, are:
+= -- 428
+> -- 429
+< -- 0
++ -- 158
+- -- 121
+* -- 451
+:= -- 1020
+>>>>>>> 2ece9c457ca9b9696c0e7504d3713ea322c95f9e
 add.period$ -- 38
 call.type$ -- 37
 change.case$ -- 36
 chr.to.int$ -- 0
 cite$ -- 37
+<<<<<<< HEAD
 duplicate$ -- 337
 empty$ -- 693
 format.name$ -- 122
 if$ -- 1436
+=======
+duplicate$ -- 341
+empty$ -- 700
+format.name$ -- 121
+if$ -- 1441
+>>>>>>> 2ece9c457ca9b9696c0e7504d3713ea322c95f9e
 int.to.chr$ -- 0
 int.to.str$ -- 37
 missing$ -- 30
 newline$ -- 115
 num.names$ -- 31
+<<<<<<< HEAD
 pop$ -- 194
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
 skip$ -- 79
+=======
+pop$ -- 198
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 80
+>>>>>>> 2ece9c457ca9b9696c0e7504d3713ea322c95f9e
 stack$ -- 0
 substring$ -- 0
 swap$ -- 31

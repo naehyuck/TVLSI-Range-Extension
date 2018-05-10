@@ -301,10 +301,10 @@ However, it is not an easy problem to consider both driving energy and driving t
 %%%
 %% CAUTION! We have to check this out
 %%%
-Previous work attempts to consider driving time to make a single optimization metric with energy and time as a weighted sum of them \cite{Lin:ICCA14,Mensing:TR13,Dib:IVPPC11}. This method is to deal with tradeoff between the energy and time, but it is not intuitive to determine the weight factors because the weight factors cannot explicitly control tradeoff.
+Previous work attempts to consider driving time to make a single optimization metric with energy and time as a weighted sum of them \cite{Lin:ICCA14,Mensing:TR13,Dib:IVPPC11}. This method is to deal with tradeoff between the energy and time, but it is not intuitive to determine the weight factors because the weight factors cannot explicitly control the tradeoff.
 %%% To mention like this, do you think we have to compare our EDP method with the weighted sum method? I think you have a code to implement the weighted sum of time and energy. My concern is that the gain from this method should not be worse than our EDP optimization as long as the weight factors are well chosen. We may have to claim determination of weight factors is very hard to achieve the minimum EDP or so. 
 %
-The other method used in the previous work is Genetic Algorithm (GA.) GA solves multi-objective optimization problems, and therefore, it provides a good quality solution to take both energy and time into account~\cite{Dovgana:ASC14,Grossard:ISIE12}. However, GA is not for online computation, which is hard to adopt to derive the energy-aware-velocity planning that requires potential frequent online recomputation due unexpected interrupts. 
+The other method used in the previous work is Genetic Algorithm (GA.) GA solves multi-objective optimization problems, and therefore, it provides a good quality solution to take both energy and time into account~\cite{Dovgana:ASC14,Grossard:ISIE12}. However, GA is not for online computation, which is hard to apply for the energy-aware-velocity planning that requires potential frequent online recomputation due unexpected interrupts. 
 %
 
 

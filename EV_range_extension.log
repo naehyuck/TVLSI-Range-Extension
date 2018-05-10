@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 MAY 2018 15:53
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  10 MAY 2018 01:27
->>>>>>> 8111120663766c6bd97fe8cd9a4760da39b15e85
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 MAY 2018 12:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -901,67 +897,62 @@ Package gensymb Info: Using \Omega for \ohm on input line 20.
 
 Package gensymb Warning: Not defining \micro.
 
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 55
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 41
 .
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 55
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 41
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 55
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 41
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 55
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 41
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 60.
  [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 Non-PDF special ignored!
 
-]
-Underfull \hbox (badness 3396) in paragraph at lines 67--69
-[]\OT1/ptm/m/n/10 The minimum-energy-velocity plan-ning is pro-posed for
- []
-
-[2]
+] [2]
 <Figures/ADVISOR_model_validation_result.pdf, id=17, 1261.28539pt x 294.72006pt
 >
 File: Figures/ADVISOR_model_validation_result.pdf Graphic file (type pdf)
  <use Figures/ADVISOR_model_validation_result.pdf>
 Package pdftex.def Info: Figures/ADVISOR_model_validation_result.pdf used on in
-put line 155.
+put line 160.
 (pdftex.def)             Requested size: 516.0pt x 120.57066pt.
 
 <Figures/ICEV_EV_consumption.pdf, id=18, 405.515pt x 212.795pt>
 File: Figures/ICEV_EV_consumption.pdf Graphic file (type pdf)
 
 <use Figures/ICEV_EV_consumption.pdf>
-Package pdftex.def Info: Figures/ICEV_EV_consumption.pdf used on input line 184
+Package pdftex.def Info: Figures/ICEV_EV_consumption.pdf used on input line 189
 .
 (pdftex.def)             Requested size: 252.0pt x 132.23999pt.
  [3]
@@ -969,7 +960,7 @@ Package pdftex.def Info: Figures/ICEV_EV_consumption.pdf used on input line 184
 File: Figures/efficiency_maps.pdf Graphic file (type pdf)
 
 <use Figures/efficiency_maps.pdf>
-Package pdftex.def Info: Figures/efficiency_maps.pdf used on input line 208.
+Package pdftex.def Info: Figures/efficiency_maps.pdf used on input line 213.
 (pdftex.def)             Requested size: 252.0pt x 131.3696pt.
 
 <Figures/const_vel_drive_problem.pdf, id=23, 373.395pt x 223.83624pt>
@@ -977,8 +968,11 @@ File: Figures/const_vel_drive_problem.pdf Graphic file (type pdf)
 
 <use Figures/const_vel_drive_problem.pdf>
 Package pdftex.def Info: Figures/const_vel_drive_problem.pdf used on input line
- 222.
+ 227.
 (pdftex.def)             Requested size: 226.79846pt x 135.95586pt.
+
+Underfull \vbox (badness 1019) has occurred while \output is active []
+
  [4 <./Figures/ADVISOR_model_validation_result.pdf> <./Figures/ICEV_EV_consumpt
 ion.pdf> <./Figures/efficiency_maps.pdf> <./Figures/const_vel_drive_problem.pdf
 >]
@@ -987,14 +981,14 @@ File: Figures/Design_space_exploration.pdf Graphic file (type pdf)
 
 <use Figures/Design_space_exploration.pdf>
 Package pdftex.def Info: Figures/Design_space_exploration.pdf used on input lin
-e 233.
+e 238.
 (pdftex.def)             Requested size: 239.39923pt x 374.09677pt.
 
 <Figures/Opt_drive_problem.pdf, id=189, 397.485pt x 182.6825pt>
 File: Figures/Opt_drive_problem.pdf Graphic file (type pdf)
 
 <use Figures/Opt_drive_problem.pdf>
-Package pdftex.def Info: Figures/Opt_drive_problem.pdf used on input line 260.
+Package pdftex.def Info: Figures/Opt_drive_problem.pdf used on input line 265.
 (pdftex.def)             Requested size: 252.0pt x 115.82089pt.
 
 
@@ -1005,7 +999,7 @@ File: Figures/velocity_planning_road_Z.pdf Graphic file (type pdf)
 
 <use Figures/velocity_planning_road_Z.pdf>
 Package pdftex.def Info: Figures/velocity_planning_road_Z.pdf used on input lin
-e 276.
+e 281.
 (pdftex.def)             Requested size: 516.0pt x 281.38593pt.
  [5 <./Figures/Design_space_exploration.pdf> <./Figures/Opt_drive_problem.pdf>]
 
@@ -1013,43 +1007,42 @@ e 276.
 File: Figures/no_deadline_bar.pdf Graphic file (type pdf)
 
 <use Figures/no_deadline_bar.pdf>
-Package pdftex.def Info: Figures/no_deadline_bar.pdf used on input line 284.
+Package pdftex.def Info: Figures/no_deadline_bar.pdf used on input line 289.
 (pdftex.def)             Requested size: 252.0pt x 260.836pt.
 
 Underfull \vbox (badness 2707) has occurred while \output is active []
 
-
-<Figures/ED_curve.pdf, id=252, 513.68683pt x 545.04697pt>
+ [6 <./Figures/velocity_planning_road_Z.pdf> <./Figures/no_deadline_bar.pdf>]
+<Figures/ED_curve.pdf, id=295, 513.68683pt x 545.04697pt>
 File: Figures/ED_curve.pdf Graphic file (type pdf)
 
 <use Figures/ED_curve.pdf>
-Package pdftex.def Info: Figures/ED_curve.pdf used on input line 299.
+Package pdftex.def Info: Figures/ED_curve.pdf used on input line 317.
 (pdftex.def)             Requested size: 252.0pt x 267.39137pt.
 
-<Figures/EDP_velocity_planning.pdf, id=253, 1280.785pt x 671.50874pt>
+<Figures/EDP_velocity_planning.pdf, id=296, 1280.785pt x 671.50874pt>
 File: Figures/EDP_velocity_planning.pdf Graphic file (type pdf)
 
 <use Figures/EDP_velocity_planning.pdf>
 Package pdftex.def Info: Figures/EDP_velocity_planning.pdf used on input line 3
-06.
+24.
 (pdftex.def)             Requested size: 516.0pt x 270.53531pt.
- [6 <./Figures/velocity_planning_road_Z.pdf> <./Figures/no_deadline_bar.pdf>] [
-7 <./Figures/ED_curve.pdf>]
+ [7 <./Figures/ED_curve.pdf>]
 <Figures/EDP_bar.pdf, id=403, 572.6656pt x 313.9188pt>
 File: Figures/EDP_bar.pdf Graphic file (type pdf)
 
 <use Figures/EDP_bar.pdf>
-Package pdftex.def Info: Figures/EDP_bar.pdf used on input line 353.
+Package pdftex.def Info: Figures/EDP_bar.pdf used on input line 374.
 (pdftex.def)             Requested size: 252.0pt x 138.13905pt.
 
 <Figures/model_fidelity.pdf, id=404, 474.47974pt x 255.2992pt>
 File: Figures/model_fidelity.pdf Graphic file (type pdf)
 
 <use Figures/model_fidelity.pdf>
-Package pdftex.def Info: Figures/model_fidelity.pdf used on input line 367.
+Package pdftex.def Info: Figures/model_fidelity.pdf used on input line 388.
 (pdftex.def)             Requested size: 252.0pt x 135.59229pt.
- [8 <./Figures/EDP_velocity_planning.pdf> <./Figures/EDP_bar.pdf> <./Figures/mo
-del_fidelity.pdf>] (./EV_range_extension.bbl
+ [8 <./Figures/EDP_velocity_planning.pdf> <./Figures/EDP_bar.pdf>] (./EV_range_
+extension.bbl [9 <./Figures/model_fidelity.pdf>]
 Underfull \hbox (badness 2253) in paragraph at lines 157--160
 []\OT1/ptm/m/n/8 ``2018 chevro-let Bolt EV fea-tures and spec-i-fi-ca-tions.'' 
 Chevro-let
@@ -1077,7 +1070,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--173
  . org /
  []
 
-[9]
+
 Underfull \hbox (badness 10000) in paragraph at lines 175--178
 []\OT1/ptm/m/n/8 ``Instrumented test of Chevro-let Bolt -- 190 miles of
  []
@@ -1098,20 +1091,13 @@ Overfull \hbox (12.2933pt too wide) in paragraph at lines 175--178
 
 ] (./EV_range_extension.aux) ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 5348 strings out of 493014
- 74028 string characters out of 6133351
- 157277 words of memory out of 5000000
- 8696 multiletter control sequences out of 15000+600000
-=======
- 5247 strings out of 493089
- 73343 string characters out of 6134841
- 157958 words of memory out of 5000000
- 8539 multiletter control sequences out of 15000+600000
->>>>>>> 8111120663766c6bd97fe8cd9a4760da39b15e85
- 62398 words of font info for 123 fonts, out of 8000000 for 9000
+ 5365 strings out of 493014
+ 74220 string characters out of 6133351
+ 155283 words of memory out of 5000000
+ 8708 multiletter control sequences out of 15000+600000
+ 68894 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,17n,26p,1474b,283s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,17n,26p,1478b,283s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
 ps/base/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cmextra/cmex9.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
@@ -1122,7 +1108,7 @@ fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
 ocal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on EV_range_extension.pdf (10 pages, 1138824 bytes).
+Output written on EV_range_extension.pdf (10 pages, 1142380 bytes).
 PDF statistics:
  629 PDF objects out of 1000 (max. 8388607)
  448 compressed objects within 5 object streams

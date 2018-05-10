@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 MAY 2018 15:53
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  10 MAY 2018 01:27
+>>>>>>> 8111120663766c6bd97fe8cd9a4760da39b15e85
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -990,7 +994,7 @@ e 233.
 File: Figures/Opt_drive_problem.pdf Graphic file (type pdf)
 
 <use Figures/Opt_drive_problem.pdf>
-Package pdftex.def Info: Figures/Opt_drive_problem.pdf used on input line 259.
+Package pdftex.def Info: Figures/Opt_drive_problem.pdf used on input line 260.
 (pdftex.def)             Requested size: 252.0pt x 115.82089pt.
 
 
@@ -1001,55 +1005,51 @@ File: Figures/velocity_planning_road_Z.pdf Graphic file (type pdf)
 
 <use Figures/velocity_planning_road_Z.pdf>
 Package pdftex.def Info: Figures/velocity_planning_road_Z.pdf used on input lin
-e 275.
+e 276.
 (pdftex.def)             Requested size: 516.0pt x 281.38593pt.
  [5 <./Figures/Design_space_exploration.pdf> <./Figures/Opt_drive_problem.pdf>]
 
-<Figures/no_deadline_bar.pdf, id=251, 488.38712pt x 504.08673pt>
+<Figures/no_deadline_bar.pdf, id=251, 488.38208pt x 505.506pt>
 File: Figures/no_deadline_bar.pdf Graphic file (type pdf)
 
 <use Figures/no_deadline_bar.pdf>
-Package pdftex.def Info: Figures/no_deadline_bar.pdf used on input line 283.
-(pdftex.def)             Requested size: 252.0pt x 260.10368pt.
+Package pdftex.def Info: Figures/no_deadline_bar.pdf used on input line 284.
+(pdftex.def)             Requested size: 252.0pt x 260.836pt.
 
-Underfull \vbox (badness 3354) has occurred while \output is active []
+Underfull \vbox (badness 2707) has occurred while \output is active []
 
 
 <Figures/ED_curve.pdf, id=252, 513.68683pt x 545.04697pt>
 File: Figures/ED_curve.pdf Graphic file (type pdf)
 
 <use Figures/ED_curve.pdf>
-Package pdftex.def Info: Figures/ED_curve.pdf used on input line 298.
+Package pdftex.def Info: Figures/ED_curve.pdf used on input line 299.
 (pdftex.def)             Requested size: 252.0pt x 267.39137pt.
 
-<Figures/EDP_velocity_planning.pdf, id=253, 1280.785pt x 771.88374pt>
+<Figures/EDP_velocity_planning.pdf, id=253, 1280.785pt x 671.50874pt>
 File: Figures/EDP_velocity_planning.pdf Graphic file (type pdf)
 
 <use Figures/EDP_velocity_planning.pdf>
 Package pdftex.def Info: Figures/EDP_velocity_planning.pdf used on input line 3
-05.
-(pdftex.def)             Requested size: 516.0pt x 310.97406pt.
+06.
+(pdftex.def)             Requested size: 516.0pt x 270.53531pt.
  [6 <./Figures/velocity_planning_road_Z.pdf> <./Figures/no_deadline_bar.pdf>] [
 7 <./Figures/ED_curve.pdf>]
-<Figures/EDP_bar.pdf, id=403, 570.87277pt x 310.46088pt>
+<Figures/EDP_bar.pdf, id=403, 572.6656pt x 313.9188pt>
 File: Figures/EDP_bar.pdf Graphic file (type pdf)
 
 <use Figures/EDP_bar.pdf>
-Package pdftex.def Info: Figures/EDP_bar.pdf used on input line 348.
-(pdftex.def)             Requested size: 252.0pt x 137.04851pt.
+Package pdftex.def Info: Figures/EDP_bar.pdf used on input line 353.
+(pdftex.def)             Requested size: 252.0pt x 138.13905pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-<Figures/model_fidelity.pdf, id=404, 470.89969pt x 253.2907pt>
+<Figures/model_fidelity.pdf, id=404, 474.47974pt x 255.2992pt>
 File: Figures/model_fidelity.pdf Graphic file (type pdf)
 
 <use Figures/model_fidelity.pdf>
-Package pdftex.def Info: Figures/model_fidelity.pdf used on input line 362.
-(pdftex.def)             Requested size: 252.0pt x 135.5459pt.
+Package pdftex.def Info: Figures/model_fidelity.pdf used on input line 367.
+(pdftex.def)             Requested size: 252.0pt x 135.59229pt.
  [8 <./Figures/EDP_velocity_planning.pdf> <./Figures/EDP_bar.pdf> <./Figures/mo
 del_fidelity.pdf>] (./EV_range_extension.bbl
-[9]
 Underfull \hbox (badness 2253) in paragraph at lines 157--160
 []\OT1/ptm/m/n/8 ``2018 chevro-let Bolt EV fea-tures and spec-i-fi-ca-tions.'' 
 Chevro-let
@@ -1077,7 +1077,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--173
  . org /
  []
 
-
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 175--178
 []\OT1/ptm/m/n/8 ``Instrumented test of Chevro-let Bolt -- 190 miles of
  []
@@ -1098,10 +1098,17 @@ Overfull \hbox (12.2933pt too wide) in paragraph at lines 175--178
 
 ] (./EV_range_extension.aux) ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  5348 strings out of 493014
  74028 string characters out of 6133351
  157277 words of memory out of 5000000
  8696 multiletter control sequences out of 15000+600000
+=======
+ 5247 strings out of 493089
+ 73343 string characters out of 6134841
+ 157958 words of memory out of 5000000
+ 8539 multiletter control sequences out of 15000+600000
+>>>>>>> 8111120663766c6bd97fe8cd9a4760da39b15e85
  62398 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,17n,26p,1474b,283s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1115,7 +1122,7 @@ fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
 ocal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on EV_range_extension.pdf (10 pages, 1128894 bytes).
+Output written on EV_range_extension.pdf (10 pages, 1138824 bytes).
 PDF statistics:
  629 PDF objects out of 1000 (max. 8388607)
  448 compressed objects within 5 object streams

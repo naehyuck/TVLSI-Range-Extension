@@ -148,11 +148,6 @@ T.~Markel, A.~Brooker, T.~Hendricks, V.~Johnson, and K.~Kelly, ``Advisor: a
   systems analysis tool for advanced vehicle modeling,'' {\em Journal of Power
   Sources}, 2002.
 
-\bibitem{Hellstrom:CEP09}
-E.~Hellstrom, M.~Ivarsson, J.~Aslund, and L.~Nielsen, ``Look-ahead control for
-  heavy trucks to minimize trip time and fuel consumption,'' {\em Control
-  Engineering Practice, vol. 17, no. 2}, 2009.
-
 \bibitem{GM_Bolt:official}
 ``2018 chevrolet {B}olt {EV} features and specifications.'' Chevrolet Official
   Website,
@@ -183,5 +178,10 @@ E.~Hellstrom, M.~Ivarsson, J.~Aslund, and L.~Nielsen, ``Look-ahead control for
 \bibitem{Hooker:TR88}
 J.~Hooker, ``Optimal driving for single-vehicle fuel economy,'' {\em
   Transportation Research Part A: General, vol. 22, no. 3, 183 - 201}, 1988.
+
+\bibitem{Grossard:ISIE12}
+M.~Grossard, S.~Kachroudi, and N.~Abroug, ``An optimal energy-based approach
+  for driving guidance of full electric vehicles,'' in {\em IEEE International
+  Symposium on Industrial Electronics}, 2012.
 
 \end{thebibliography}

@@ -1,20 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2018 10:10
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  13 MAY 2018 22:11
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  7 MAY 2018 00:21
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 MAY 2018 21:44
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  10 MAY 2018 14:30
->>>>>>> 808bde997d8ff30ea7b7b755853ead8da6302eef
->>>>>>> 696cd1da9f58b0193724d0b842b538652f816526
->>>>>>> b277623e781a8b7994a3e02dc1c5f86c2ea1466e
->>>>>>> 91dcd7a0df0e91b5c289706c32db4fa64020ee4d
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  14 MAY 2018 21:11
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -786,92 +770,49 @@ Overfull \hbox (12.2933pt too wide) in paragraph at lines 170--173
 ]range-[]at-[]steady-[]75-[]mph/$. 
  []
 
-) <Bio/Donkyu.pdf, id=595, 150.5625pt x 188.705pt>
+)
+<Bio/Donkyu.pdf, id=595, 150.5625pt x 188.705pt>
 File: Bio/Donkyu.pdf Graphic file (type pdf)
- <use Bio/Donkyu.pdf>
-Package pdftex.def Info: Bio/Donkyu.pdf used on input line 417.
-(pdftex.def)             Requested size: 72.07619pt x 90.3355pt.
-File: Bio/Donkyu.pdf Graphic file (type pdf)
-
 <use Bio/Donkyu.pdf>
-Package pdftex.def Info: Bio/Donkyu.pdf used on input line 417.
+Package pdftex.def Info: Bio/Donkyu.pdf  used on input line 417.
 (pdftex.def)             Requested size: 72.07619pt x 90.3355pt.
- <Bio/Naehyuck.pdf, id=598, 614.295pt x 794.97pt>
+File: Bio/Donkyu.pdf Graphic file (type pdf)
+<use Bio/Donkyu.pdf>
+Package pdftex.def Info: Bio/Donkyu.pdf  used on input line 417.
+(pdftex.def)             Requested size: 72.07619pt x 90.3355pt.
+<Bio/Naehyuck.pdf, id=598, 614.295pt x 794.97pt>
 File: Bio/Naehyuck.pdf Graphic file (type pdf)
-
 <use Bio/Naehyuck.pdf>
-Package pdftex.def Info: Bio/Naehyuck.pdf used on input line 423.
+Package pdftex.def Info: Bio/Naehyuck.pdf  used on input line 423.
 (pdftex.def)             Requested size: 69.80351pt x 90.33397pt.
 File: Bio/Naehyuck.pdf Graphic file (type pdf)
- <use Bio/Naehyuck.pdf>
-Package pdftex.def Info: Bio/Naehyuck.pdf used on input line 423.
+<use Bio/Naehyuck.pdf>
+Package pdftex.def Info: Bio/Naehyuck.pdf  used on input line 423.
 (pdftex.def)             Requested size: 69.80351pt x 90.33397pt.
  [10 <./Bio/Donkyu.pdf> <./Bio/Naehyuck.pdf>] (./EV_range_extension.aux) ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 5077 strings out of 492649
- 72359 string characters out of 6129622
- 155314 words of memory out of 5000000
- 8772 multiletter control sequences out of 15000+600000
-=======
-<<<<<<< HEAD
- 5276 strings out of 493089
- 73725 string characters out of 6134841
- 154964 words of memory out of 5000000
- 8559 multiletter control sequences out of 15000+600000
+ 5089 strings out of 492649
+ 72597 string characters out of 6129622
+ 157314 words of memory out of 5000000
+ 8780 multiletter control sequences out of 15000+600000
  70001 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,17n,37p,1476b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,17n,37p,1476b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr
-/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
-/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utm
+/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/
+2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
+2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-d
+ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/
+type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw
+/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on EV_range_extension.pdf (10 pages, 2105196 bytes).
+Output written on EV_range_extension.pdf (10 pages, 2105197 bytes).
 PDF statistics:
  661 PDF objects out of 1000 (max. 8388607)
  465 compressed objects within 5 object streams
-=======
-<<<<<<< HEAD
- 5060 strings out of 492649
- 72167 string characters out of 6129622
- 158308 words of memory out of 5000000
- 8760 multiletter control sequences out of 15000+600000
- 62398 words of font info for 123 fonts, out of 8000000 for 9000
-=======
- 5365 strings out of 493014
- 74220 string characters out of 6133351
- 155283 words of memory out of 5000000
- 8708 multiletter control sequences out of 15000+600000
->>>>>>> 91dcd7a0df0e91b5c289706c32db4fa64020ee4d
- 68894 words of font info for 140 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 41i,17n,27p,1476b,283s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvi
-ps/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
-cmextra/cmex9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.p
-fb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/t
-exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on EV_range_extension.pdf (10 pages, 1141568 bytes).
-PDF statistics:
- 629 PDF objects out of 1000 (max. 8388607)
- 448 compressed objects within 5 object streams
-<<<<<<< HEAD
-=======
->>>>>>> 696cd1da9f58b0193724d0b842b538652f816526
->>>>>>> b277623e781a8b7994a3e02dc1c5f86c2ea1466e
->>>>>>> 91dcd7a0df0e91b5c289706c32db4fa64020ee4d
  0 named destinations out of 1000 (max. 500000)
  95 words of extra memory for PDF output out of 10000 (max. 10000000)
 

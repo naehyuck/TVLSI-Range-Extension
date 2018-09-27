@@ -160,21 +160,6 @@ P_{EV^*} = \frac{P_{trac}}{\eta_{EV^*}}
 \end{equation}	
 where $C_0$, $C_1$, $C_2$, and $C_3$ mean coefficients for constant loss, iron and friction losses, drivetrain loss, and copper loss, respectively. Even if (\ref{eq:EV_specific_model}) has the same form as (\ref{eq:motorloss_model}), the actual coefficients become different if it reflects the characteristics of electric powertrain. 
 
-\begin{figure}   %Figure 1.
-\centering
-	\begin{subfigure}{0.47\textwidth}
-	\includegraphics[width=\hsize]{Figures/Bolt_EV_range.jpg}
-	\caption{}
-	\label{fig:range_speed_exp}
-	\end{subfigure}
-~
-	\begin{subfigure}{0.47\textwidth}
-	\includegraphics[width=\hsize]{Figures/Range-speed_validation.pdf}
-	\caption{}
-	\label{fig:range_speed_valid}
-	\end{subfigure}
-\caption{\textcolor{red}{(a) Range-speed experimental data for Chevrolet Bolt~\cite{GM_Bolt:range_speed} and (b) comparison with simulation results of the proposed EV power model.}}
-\end{figure}
 
 \begin{figure*}	%Figure 2.
 \includegraphics[width=1.0\hsize]{Figures/ADVISOR_model_validation_result.pdf}
@@ -188,8 +173,26 @@ ADVISOR is a vehicle simulator that takes into account various factors of vehicl
 
 We choose Chevrolet Bolt (1,616 kg curb weight) for the target vehicle, but our method does not restrict a particular type of vehicles. \textcolor{red}{Chevrolet Bolt has been produced since November 2016. Total 26,000 units have been  delivered, and Bolt is positioned as the third best-selling EV in the United States.} The top speed of Chevrolet Bolt is a 150 km/h. It is capable of achieving a 6.5 second 0--100 km/h time with a 150 kW electric permanent magnet motor~\cite{GM_Bolt:official}. Chevrolet Bolt is equipped with a 350 V and 57.4 kWh Lithium-ion battery pack with 96-series and 3-parallel of 3.65 V cells~\cite{GM_Bolt:spec}. Chevrolet Bolt battery chemistry is Lithium Nickel Manganese Cobalt Oxide from LG. 
 
-\textcolor{red}{We use ADVISOR to extract the model coefficients of new vehicles starting from known vehicle specifications such as the aerodynamic resistance, rolling resistance, curb weight, and so on. Such data is often published in the users' manual, website and so forth. We further use the vehicle performance data such as the top speed, maximum acceleration, and so on, which are also available on the manuals and website. We iteratively run ADVISOR and derive the model coefficients so that all the known values match among each other. We evaluate the model accuracy with the range-speed real vehicle experiments as shown in Fig.~\ref{fig:range_speed_exp}~\cite{GM_Bolt:range25mph,GM_Bolt:range65mph,GM_Bolt:range75mph,GM_Bolt:range93mph,GM_Bolt:range_speed}. We further refine the coefficients until all the available data values match well. Finally, the derived EV power model well matches with the range-speed experimental data as shown in Fig.~\ref{fig:range_speed_valid} as well as the top speed and maximum acceleration setting the aerodynamic resistance, rolling resistance, curb weight, etc. with the known values. The errors of the range-speed simulation is merely 1.4\%, the time to approach 60 mph at departure is 7.8\%, and the top speed is 3.0\%, respectively.} 
+\begin{figure}   %Figure 1.
+\centering
+	\begin{subfigure}{0.4\textwidth}
+	\includegraphics[width=\hsize]{Figures/Bolt_EV_range.jpg}
+	\caption{}
+	\label{fig:range_speed_exp}
+	\end{subfigure}
+~
+	\begin{subfigure}{0.4\textwidth}
+	\includegraphics[width=\hsize]{Figures/Range-speed_validation.pdf}
+	\caption{}
+	\label{fig:range_speed_valid}
+	\end{subfigure}
+\caption{\textcolor{red}{(a) Range-speed experimental data for Chevrolet Bolt~\cite{GM_Bolt:range_speed} and (b) comparison with simulation results of the proposed EV power model.}}
+\end{figure}
+
+\textcolor{red}{We use ADVISOR to extract the model coefficients of new vehicles starting from known vehicle specifications such as the aerodynamic resistance, rolling resistance, curb weight, and so on. Such data is often published in the users' manual, website and so forth. We further use the vehicle performance data such as the top speed, maximum acceleration, and so on, which are also available on the manuals and website. We iteratively run ADVISOR and derive the model coefficients so that all the known values match among each other.}
 The model coefficient extraction result shows as in Fig.~\ref{fig:ADVISOR_model_validation}. The normalized root-mean-square (RMS) deviation is 5.1\%. Table \ref{table:Coeff_Bolt} summarizes the model coefficients of (\ref{eq:EV_specific_model}) for Chevrolet Bolt. 
+
+\textcolor{red}{We further evaluate the model accuracy with the range-speed real vehicle experiments as shown in Fig.~\ref{fig:range_speed_exp} to confirm the derived power models are close enough to the real vehicle measurement data~\cite{GM_Bolt:range25mph,GM_Bolt:range65mph,GM_Bolt:range75mph,GM_Bolt:range93mph,GM_Bolt:range_speed}. We  refine the coefficients until all the available data values match well. Finally, the derived EV power model well matches with the range-speed experimental data as shown in Fig.~\ref{fig:range_speed_valid} as well as the top speed and maximum acceleration setting the aerodynamic resistance, rolling resistance, curb weight, etc. with the known values. The errors of the range-speed simulation is merely 1.4\%, the time to approach 60 mph at departure is 7.8\%, and the top speed is 3.0\%, respectively.} 
 
 \begin{table}
 \caption{Model coefficients for Chevrolet Bolt.}

@@ -321,7 +321,7 @@ Junipero Serra Blvd.	&1500		&7.46		&-5.48	&0.40		&2.72 	&2.70	\\ \hline
 The minimum-delay-constant velocity is determined by the speed limit of the driving route. The minimum-delay-constant velocity is 65 km/h, which is the maximum speed of the benchmark route.
 The minimum-energy-velocity planning guides to speed up the vehicle before entering an uphill. As a result, the EV consumes less energy consumption compared with the least-energy-constant-velocity driving at the top elevation. The minimum-energy-velocity planning also reclaims more energy from the regenerative braking when the EV finishes the drive. The extended range by the minimum-energy-velocity planning is 17.2\% with the same battery capacity.
 
-\begin{figure}   %Figure 10.
+\begin{figure}   %Figure 9.
 \centering
 	\begin{subfigure}{0.4\textwidth}
 	\includegraphics[width=\hsize]{Figures/range_comp_bar.pdf}
@@ -334,16 +334,16 @@ The minimum-energy-velocity planning guides to speed up the vehicle before enter
 	\caption{}
 	\label{fig:driving_time_comp}
 	\end{subfigure}
-\caption{\textcolor{red}{(a) Range extension and related driving time by the minimum-energy-velocity planning.}}
+\caption{\textcolor{red}{(a) Range extension and (b) related driving time by the minimum-energy-velocity planning.}}
 \label{fig:min_energy_planning_comp}
 \end{figure}
 
-\begin{figure*}[h]
+\begin{figure}[h]
 \centering
-\includegraphics[width=0.85\hsize]{Figures/energy_driving_profile_best.pdf}
+\includegraphics[width=\hsize]{Figures/energy_driving_profile_best.pdf}
 \caption{Results of the minimum-energy-velocity planning.}
 \label{fig:no_deadline_trace}
-\end{figure*} 
+\end{figure} 
 
 Fig.~\ref{fig:min_energy_planning_comp} shows the range extension and related driving time by the proposed minimum-energy-velocity planning on the benchmarking routes. Y-axis denotes the range extension compared with the least-energy-constant-velocity driving. Blue-colored bars indicate the minimum-delay-constant-velocity driving, and green-colored bars indicate the least-energy-constant-velocity driving, which are the baseline. Yellow-colored bars indicate the minimum-energy-velocity planning.
 
@@ -427,26 +427,12 @@ We apply the vehicle acceleration and deceleration constraints so that the veloc
 
 
 %%Description for Fig. 11
-\begin{figure*} %Figure 11
+\begin{figure} %Figure 11 candidate 1
 \centering
-\includegraphics[width=0.9\hsize]{Figures/EDP_comp_profile.pdf}
-\caption{\textcolor{red}{Velocity profile comparison with cost functions of $EDP$, $E^2DP$ and $E^3DP$ on the benchmark Cliff Drive in Santa Barbara.}}
+\includegraphics[width=\hsize]{Figures/EDP_comp_profile.pdf}
+\caption{\textcolor{red}{Velocity profile comparison with cost functions of $EDP$, $E^2DP$ and $E^3DP$ on the benchmark Jones Street in San Francisco.}}
 \label{fig:EDP_aware_velocity_planning}
-\end{figure*} 
-
-\begin{figure*} %Figure 11 candidate 1
-\centering
-\includegraphics[width=0.9\hsize]{Figures/EDP_comp_profile_case1.pdf}
-\caption*{\textcolor{red}{Velocity profile comparison with cost functions of $EDP$, $E^2DP$ and $E^3DP$ on the benchmark Jones Street in San Francisco (candidate 1 of Fig. 11).}}
-\label{fig:EDP_aware_velocity_planning}
-\end{figure*} 
-
-\begin{figure*} %Figure 11 candidate 2
-\centering
-\includegraphics[width=0.9\hsize]{Figures/EDP_comp_profile_case2.pdf}
-\caption*{\textcolor{red}{Velocity profile comparison with cost functions of $EDP$, $E^2DP$ and $E^3DP$ on the benchmark Serrano Avenue between San Fransisco and San Jose (candidate 2 of Fig. 11).}}
-\label{fig:EDP_aware_velocity_planning}
-\end{figure*} 
+\end{figure} 
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  27 SEP 2018 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  27 SEP 2018 15:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -683,7 +683,14 @@ ference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }
 )
 \c@subfigure=\count110
 \c@subtable=\count111
-) (./EV_range_extension.aux)
+) (./EV_range_extension.aux
+
+LaTeX Warning: Label `fig:EDP_aware_velocity_planning' multiply defined.
+
+
+LaTeX Warning: Label `fig:EDP_aware_velocity_planning' multiply defined.
+
+)
 \openout1 = `EV_range_extension.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -765,8 +772,7 @@ LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 21.
 LaTeX Font Info:    Try loading font information for LUC+nanummj on input line 
 21.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/nanumtype1/lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
 LaTeX Font Info:    ... okay on input line 21.
@@ -1027,39 +1033,80 @@ File: Figures/EDP_comp_profile.pdf Graphic file (type pdf)
 <use Figures/EDP_comp_profile.pdf>
 Package pdftex.def Info: Figures/EDP_comp_profile.pdf used on input line 404.
 (pdftex.def)             Requested size: 464.39685pt x 287.84827pt.
- [8 <./Figures/range_comp_bar.pdf> <./Figures/driving_time_comp_bar.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<Figures/EDP_comp_profile_case1.pdf, id=349, 1067.30801pt x 655.44875pt>
+File: Figures/EDP_comp_profile_case1.pdf Graphic file (type pdf)
+
+<use Figures/EDP_comp_profile_case1.pdf>
+Package pdftex.def Info: Figures/EDP_comp_profile_case1.pdf used on input line 
+411.
+(pdftex.def)             Requested size: 464.39685pt x 285.1979pt.
+
+<Figures/EDP_comp_profile_case2.pdf, id=350, 1076.99716pt x 652.4375pt>
+File: Figures/EDP_comp_profile_case2.pdf Graphic file (type pdf)
+
+<use Figures/EDP_comp_profile_case2.pdf>
+Package pdftex.def Info: Figures/EDP_comp_profile_case2.pdf used on input line 
+418.
+(pdftex.def)             Requested size: 464.39685pt x 281.32913pt.
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 421--424
+Package caption Warning: \label without proper \caption on input line 420.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:EDP_aware_velocity_planning' on page 8 undefined 
+on input line 425.
+
+[8 <./Figures/range_comp_bar.pdf> <./Figures/driving_time_comp_bar.pdf>]
+[9 <./Figures/EDP_comp_profile.pdf> <./Figures/EDP_comp_profile_case1.pdf>]
+
+Package caption Warning: \label without proper \caption on input line 420.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:EDP_aware_velocity_planning' on page 10 undefined
+ on input line 431.
+
+
+Underfull \vbox (badness 1642) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 437--440
 \OT1/ptm/m/n/10 driv-ing, the minimum-delay-constant-velocity driv-ing, the
  []
 
-<Figures/EDP_comp_bar.pdf, id=942, 1221.04276pt x 509.16682pt>
+<Figures/EDP_comp_bar.pdf, id=977, 1221.04276pt x 509.16682pt>
 File: Figures/EDP_comp_bar.pdf Graphic file (type pdf)
 
 <use Figures/EDP_comp_bar.pdf>
-Package pdftex.def Info: Figures/EDP_comp_bar.pdf used on input line 430.
+Package pdftex.def Info: Figures/EDP_comp_bar.pdf used on input line 446.
 (pdftex.def)             Requested size: 516.0pt x 215.16937pt.
 
-Underfull \vbox (badness 1005) has occurred while \output is active []
 
- [9 <./Figures/EDP_comp_profile.pdf>]
-<Figures/Histogram.pdf, id=961, 576.00461pt x 789.2121pt>
+Package caption Warning: \label without proper \caption on input line 420.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:EDP_aware_velocity_planning' on page 10 undefined
+ on input line 453.
+
+[10 <./Figures/EDP_comp_profile_case2.pdf>]
+<Figures/Histogram.pdf, id=996, 576.00461pt x 789.2121pt>
 File: Figures/Histogram.pdf Graphic file (type pdf)
 
 <use Figures/Histogram.pdf>
-Package pdftex.def Info: Figures/Histogram.pdf used on input line 441.
+Package pdftex.def Info: Figures/Histogram.pdf used on input line 457.
 (pdftex.def)             Requested size: 252.0pt x 345.27945pt.
 
-<Figures/model_fidelity.pdf, id=962, 474.47974pt x 255.2992pt>
+<Figures/model_fidelity.pdf, id=997, 474.47974pt x 255.2992pt>
 File: Figures/model_fidelity.pdf Graphic file (type pdf)
 
 <use Figures/model_fidelity.pdf>
-Package pdftex.def Info: Figures/model_fidelity.pdf used on input line 456.
+Package pdftex.def Info: Figures/model_fidelity.pdf used on input line 472.
 (pdftex.def)             Requested size: 252.0pt x 135.59229pt.
- [10 <./Figures/EDP_comp_bar.pdf> <./Figures/Histogram.pdf>] (./EV_range_extens
-ion.bbl [11 <./Figures/model_fidelity.pdf>]
+ [11 <./Figures/EDP_comp_bar.pdf> <./Figures/Histogram.pdf>] (./EV_range_extens
+ion.bbl [12 <./Figures/model_fidelity.pdf>]
 Underfull \hbox (badness 2253) in paragraph at lines 152--155
 []\OT1/ptm/m/n/8 ``2018 chevro-let Bolt EV fea-tures and spec-i-fi-ca-tions.'' 
 Chevro-let
@@ -1104,37 +1151,40 @@ Overfull \hbox (12.2933pt too wide) in paragraph at lines 170--173
 ]range-[]at-[]steady-[]75-[]mph/$. 
  []
 
-) <Bio/Donkyu.pdf, id=1676, 150.5625pt x 188.705pt>
+) <Bio/Donkyu.pdf, id=1711, 150.5625pt x 188.705pt>
 File: Bio/Donkyu.pdf Graphic file (type pdf)
  <use Bio/Donkyu.pdf>
-Package pdftex.def Info: Bio/Donkyu.pdf used on input line 484.
+Package pdftex.def Info: Bio/Donkyu.pdf used on input line 500.
 (pdftex.def)             Requested size: 72.07619pt x 90.3355pt.
 File: Bio/Donkyu.pdf Graphic file (type pdf)
 
 <use Bio/Donkyu.pdf>
-Package pdftex.def Info: Bio/Donkyu.pdf used on input line 484.
+Package pdftex.def Info: Bio/Donkyu.pdf used on input line 500.
 (pdftex.def)             Requested size: 72.07619pt x 90.3355pt.
- <Bio/Naehyuck.pdf, id=1679, 614.295pt x 794.97pt>
+ <Bio/Naehyuck.pdf, id=1714, 614.295pt x 794.97pt>
 File: Bio/Naehyuck.pdf Graphic file (type pdf)
 
 <use Bio/Naehyuck.pdf>
-Package pdftex.def Info: Bio/Naehyuck.pdf used on input line 495.
+Package pdftex.def Info: Bio/Naehyuck.pdf used on input line 511.
 (pdftex.def)             Requested size: 69.80351pt x 90.33397pt.
 File: Bio/Naehyuck.pdf Graphic file (type pdf)
  <use Bio/Naehyuck.pdf>
-Package pdftex.def Info: Bio/Naehyuck.pdf used on input line 495.
+Package pdftex.def Info: Bio/Naehyuck.pdf used on input line 511.
 (pdftex.def)             Requested size: 69.80351pt x 90.33397pt.
- [12 <./Bio/Donkyu.pdf> <./Bio/Naehyuck.pdf>] (./EV_range_extension.aux)
+ [13 <./Bio/Donkyu.pdf> <./Bio/Naehyuck.pdf>] (./EV_range_extension.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6399 strings out of 493089
- 94393 string characters out of 6134841
- 177567 words of memory out of 5000000
- 9668 multiletter control sequences out of 15000+600000
- 69355 words of font info for 140 fonts, out of 8000000 for 9000
+ 6410 strings out of 493089
+ 94761 string characters out of 6134841
+ 177659 words of memory out of 5000000
+ 9676 multiletter control sequences out of 15000+600000
+ 70462 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,17n,40p,1482b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1147,10 +1197,10 @@ texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on EV_range_extension.pdf (12 pages, 2460974 bytes).
+Output written on EV_range_extension.pdf (13 pages, 2548024 bytes).
 PDF statistics:
- 1742 PDF objects out of 2073 (max. 8388607)
- 1183 compressed objects within 12 object streams
+ 1779 PDF objects out of 2073 (max. 8388607)
+ 1210 compressed objects within 13 object streams
  0 named destinations out of 1000 (max. 500000)
- 115 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 125 words of extra memory for PDF output out of 10000 (max. 10000000)
 

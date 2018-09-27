@@ -250,7 +250,7 @@ As the road slope becomes higher, the motor RPM would better be increased to ach
 
 \begin{figure} %Figure 5.
 \centering
-\includegraphics[width=0.9\hsize]{Figures/const_vel_drive_problem.pdf}
+\includegraphics[width=0.85\hsize]{Figures/const_vel_drive_problem.pdf}
 \caption{Various constant velocity and acceleration cases for the same distance.}
 \label{fig:const_vel_drive_problem}
 \end{figure} 
@@ -261,7 +261,7 @@ We demonstrate how the cruising velocity, acceleration and deceleration affect E
 
 \begin{figure} %Figure 6
 \centering
-\includegraphics[width=0.95\hsize]{Figures/Design_space_exploration.pdf}
+\includegraphics[width=0.85\hsize]{Figures/Design_space_exploration.pdf}
 \caption{DSE of  the constant-velocity driving on (a) a 0 road slope and (b) a 4 road slope.}
 \label{fig:DSE}
 \end{figure} 
@@ -270,7 +270,8 @@ We demonstrate how the cruising velocity, acceleration and deceleration affect E
 \subsection{The minimum-energy-velocity planning} \label{subsec:variable drive}
 
 \begin{figure} [h]%Figure 7
-\includegraphics[width=1.0\hsize]{Figures/Opt_drive_problem.pdf}
+\center
+\includegraphics[width=0.85\hsize]{Figures/Opt_drive_problem.pdf}
 \caption{Problem formulation to explore the minimum-energy-velocity planning.}
 \label{fig:Opt_drive_problem}
 \end{figure}
@@ -283,31 +284,29 @@ Subject~to ~& \sum_{v=1}^{N}x(d,v) = 1~~where~~x(d,v) = \{0, 1\} ~~~\forall d, v
 \end{align}
 %
 where $\Delta t$ is a time to pass the distance step with a given velocity $v$, $d$ is the distance from the starting point and $P_{d,v}$ is the power consumption for a node with $d$ and $v$. $\Delta t$ varies by the driving velocity and acceleration. We set $x(d,v)=1$ once we accept the node at the distance $d$ and the velocity $v$.
- 
-\textcolor{red}{We assume that the EV should not drive too slow to avoid bothering traffic with the minimum speed of a 25 km/h. Even with the minimum speed constraint as lower than 25 km/h, we exhibit the same amount of gains with the proposed methods.
-%
-After carefully analyzing the acceleration histogram, we newly enforce the minimum acceleration not lower than 0.4 $m/s^2$ when the EV starts from a stop sign or a traffic light until the velocity reaches to 25 km/h not too bother traffic flow. If the EV accelerates at a 0.4 $m/s^2$, it would take 15 seconds to reach a 25 km/h speed. 
-%
-The maximum acceleration is limited by the motor torque: a 4.7 $m/s^2$ on a flat road.  However, such a fast acceleration negatively affects to the  power consumption as well as passenger comfortness. We limit the maximum acceleration to 1.7 $m/s^2$ as shown in Fig.~\ref{fig:histogram}(b), which is the same as the maximum acceleration of compact cars designed to be used primarily used in urban areas (15 seconds of 0 to 100 km/h time).}
 
-\textcolor{red}{We implement six real routes from various locations in California. First three routes consist of road segments in cities (San Francisco and Los Angeles, the two representative city landscapes such as hills and flat roads and Santa Barbara). The second two routes are road segments in mountain areas (Anaheim Hills and San Ysidro Mountain in California.) The last route is a boulevard connecting San Fransisco and San Jose. The details of route data is summarized in Table II, and Fig. 8, which visualize the altitudes of the benchmarking routes.}
+
+\textcolor{red}{\subsection{Real Road Benchmarking Set}} \label{subsec:benchmark}
+
+\textcolor{red}{We implement six real routes from various locations in California. The first three routes consist of road segments in cities. Jones Street in San Francisco and Hoover Street in Los Angeles are two representative city landscapes such as hills and flat roads, and Cliff Drive in Santa Barbara is a mixture of those. The second two routes are road segments in mountain areas: Serrano Avenue in Anaheim Hills and Otay Lakes Road in San Ysidro Mountain in California. The last route is Junipero Serra Boulevard connecting San Fransisco and San Jose. The details of route data is summarized in Table \ref{table:road_bench}, and Fig. \ref{fig:bench_altitude}, which visualize the altitudes of the benchmarking routes.}
 
 \begin{table} 
 \caption{\textcolor{red}{Real road benchmarks.}}
 \centering
 \label{table:road_bench}
 \begin{tabular}{|c|c|c|c|c|c|c|}  \hline
-\multirow{2}{*}{Road} 
+\multirow{2}{*}{Roads} 
 				&Dist.		&\multicolumn{5}{|c|}{Road slope (\%)}  \\ \cline{3-7}
 				&(m)		 	&Max.		&Min. 	&Mean		&RMS 	&Std.	\\ \hline
-Jones St.	in SF		&1257		&29.22		&-15.12	&4.97 		&12.31 	&11.27	\\ \hline
-Hoover St. in LA	&1365		&8.45		&-7.44	&0.44		&1.08 	&0.99	\\ \hline
-Cliff Dr. in SB		&1435		&4.77		&-2.75	&0.58		&1.77 	&1.67	\\ \hline
+Jones St. 	&1257		&29.22		&-15.12	&4.97 		&12.31 	&11.27	\\ \hline
+Hoover St. 	&1365		&8.45		&-7.44	&0.44		&1.08 	&0.99	\\ \hline
+Cliff Dr. 	&1435		&4.77		&-2.75	&0.58		&1.77 	&1.67	\\ \hline
 Serrano Ave.		&1797		&16.63		&-10.56	&1.14 		&4.10 	&3.94	\\ \hline
 Otay Lakes Rd.		&1623		&6.80		&1.12	&3.24		&3.52 	&1.38	\\ \hline
-Junipero Serra Blvd	&1500		&7.46		&-5.48	&0.40		&2.72 	&2.70	\\ \hline
+Junipero Serra Blvd.	&1500		&7.46		&-5.48	&0.40		&2.72 	&2.70	\\ \hline
 \end{tabular}
 \end{table}
+
 
 \begin{figure}	 %Figure 8.
 \includegraphics[width=1.0\hsize]{Figures/Benchmark_altitude.pdf}
@@ -315,37 +314,22 @@ Junipero Serra Blvd	&1500		&7.46		&-5.48	&0.40		&2.72 	&2.70	\\ \hline
 \label{fig:bench_altitude}
 \end{figure} 
 
-%% Description on Figure 9
 
-\begin{figure*}[h!]	%Figure 9
-\centering
-\includegraphics[width=1.0\hsize]{Figures/energy_driving_profile_best.pdf}
-\caption{Results of the minimum-energy-velocity planning.}
-\label{fig:no_deadline_trace}
-\end{figure*} 
+\textcolor{red}{\subsection{Consideration of both energy and time}} \label{subsec:energy_time}
 
-\textcolor{red}{We compare the simulation results among the least-energy-constant-velocity driving, the minimum-delay-constant-velocity driving and the minimum-energy-velocity planning. Fig.~\ref{fig:no_deadline_trace} shows altitude of Serrano Avenue, the velocity planning results and power consumptions by each method, respectively. 
-We perform a design space exploration (DSE) for all feasible vehicle velocities and the acceleration pairs to derive the least-energy-constant-velocity driving. The point at the minimum energy consumption per distance (Wh/km) represents the least-energy-constant-velocity driving. The least-energy-constant velocity is 37 km/h in this example.}
+
 The minimum-delay-constant velocity is determined by the speed limit of the driving route. The minimum-delay-constant velocity is 65 km/h, which is the maximum speed of the benchmark route.
 The minimum-energy-velocity planning guides to speed up the vehicle before entering an uphill. As a result, the EV consumes less energy consumption compared with the least-energy-constant-velocity driving at the top elevation. The minimum-energy-velocity planning also reclaims more energy from the regenerative braking when the EV finishes the drive. The extended range by the minimum-energy-velocity planning is 17.2\% with the same battery capacity.
 
-%% Description on Figure 10
-Fig.~\ref{fig:min_energy_planning_comp} shows the range extension and related driving time by the proposed minimum-energy-velocity planning on the benchmarking routes. Y-axis denotes the range extension compared with the least-energy-constant-velocity driving. Blue-colored bars indicate the minimum-delay-constant-velocity driving, and green-colored bars indicate the least-energy-constant-velocity driving, which are the baseline. Yellow-colored bars indicate the minimum-energy-velocity planning.
-
-The range extension by the minimum-energy-velocity planning is from 2.8\% up to 17.2\% compared with the least-energy-constant-velocity driving. 
-The minimum-energy-velocity planning extends the range on the two routes (Serrano Ave. and Junipero Serra Blvd) Unlike other routes, these two routes have relatively large RMS and small mean values. This means that these routes include both uphill and downhill, and there are many chance to save energy consumption when entering uphill and downhill. 
-On the other hands, routes having small standard deviations show less range extension compared with the least-energy-constant-velocity driving because constant-velocity driving is close to the optimal for the monotonous road slope.
-
-
 \begin{figure}   %Figure 10.
 \centering
-	\begin{subfigure}{0.47\textwidth}
+	\begin{subfigure}{0.4\textwidth}
 	\includegraphics[width=\hsize]{Figures/range_comp_bar.pdf}
 	\caption{}
 	\label{fig:range_comp}
 	\end{subfigure}
 ~
-	\begin{subfigure}{0.47\textwidth}
+	\begin{subfigure}{0.4\textwidth}
 	\includegraphics[width=\hsize]{Figures/driving_time_comp_bar.pdf}
 	\caption{}
 	\label{fig:driving_time_comp}
@@ -354,26 +338,46 @@ On the other hands, routes having small standard deviations show less range exte
 \label{fig:min_energy_planning_comp}
 \end{figure}
 
-%We summarize the comparison of the driving range and driving time on the six benchmarking roads in Fig.~\ref{fig:no_deadline_bar}. Y-axis denotes the range and driving time compared with the least-energy-constant-velocity driving. Blue-colored bars indicate the least-energy-constant-velocity driving, which is the baseline. Green-colored bars indicate the minimum-energy-velocity planning, respectively.
+\begin{figure*}[h]
+\centering
+\includegraphics[width=0.85\hsize]{Figures/energy_driving_profile_best.pdf}
+\caption{Results of the minimum-energy-velocity planning.}
+\label{fig:no_deadline_trace}
+\end{figure*} 
+
+Fig.~\ref{fig:min_energy_planning_comp} shows the range extension and related driving time by the proposed minimum-energy-velocity planning on the benchmarking routes. Y-axis denotes the range extension compared with the least-energy-constant-velocity driving. Blue-colored bars indicate the minimum-delay-constant-velocity driving, and green-colored bars indicate the least-energy-constant-velocity driving, which are the baseline. Yellow-colored bars indicate the minimum-energy-velocity planning.
+
+The range extension by the minimum-energy-velocity planning is from 2.8\% up to 17.2\% compared with the least-energy-constant-velocity driving. 
+The minimum-energy-velocity planning extends the range on the two routes (Serrano Avenue and Junipero Serra Boulevard.) Unlike other routes, these two routes have relatively large RMS (root mean square) values and small mean values. This means that these routes include both uphill and downhill, and there are many chance to save energy consumption when entering uphill and downhill. 
+On the other hands, routes having small standard deviations show less range extension compared with the least-energy-constant-velocity driving because constant-velocity driving is close to the optimal for the monotonous road slope.
+
+\textcolor{red}{Even though the minimum-energy-velocity planning exhibits a significant amount of range extension compared with the minimum-delay-constant-velocity planning, the resultant driving time become too long, i.e., the EV drives too slow. Too slow driving may bother other traffic as well as making the driving too time consuming. So, we assume that the EV should not drive too slow to avoid bothering traffic with the minimum speed of a 25 km/h. %Even with the minimum speed constraint as lower than 25 km/h, we exhibit the same amount of gains with the proposed methods.}
 %
-%The range extension is indeed dependent on the given road characteristics. In our benchmark in Table~\ref{table:road_bench}, the extension is from 2.7\% up to 43.4\%. The minimum-energy-velocity planning extends the range for Roads 1, 2 and  3 by increasing velocities before entering steep uphills, which achieves a shorter driving time than that of the least-energy-constant-velocity driving for Road 1. So, we enforce the minimum-velocity constraint in the entire optimization process. Range extension for Roads 4 and 5 are relatively smaller than that in Roads 1, 2 and 3 because the velocity is bounded by the minimum-velocity constraint while driving on less steep roads i.e, the minimum-energy velocity is lower than the minimum-velocity constraint.
+We enforce the minimum acceleration not lower than 0.4 $m/s^2$ when the EV starts from a stop sign or a traffic light until the velocity reaches to 25 km/h not too bother traffic flow. If the EV accelerates at a 0.4 $m/s^2$, it would take 15 seconds to reach a 25 km/h speed. 
+%
+The maximum acceleration is limited by the motor torque: a 4.7 $m/s^2$ on a flat road.  However, such a fast acceleration negatively affects to the  power consumption as well as passenger comfortness. We limit the maximum acceleration to 1.7 $m/s^2$ as shown in Fig.~\ref{fig:histogram}(b), which is the same as the maximum acceleration of compact cars designed to be used primarily used in urban areas (15 seconds of 0 to 100 km/h time).}\\
+
+
+\textcolor{red}{We compare the simulation results among the least-energy-constant-velocity driving, the minimum-delay-constant-velocity driving and the minimum-energy-velocity planning. Fig.~\ref{fig:no_deadline_trace} shows altitude of Serrano Avenue, the velocity planning results and power consumptions by each method, respectively. 
+We perform a design space exploration (DSE) for all feasible vehicle velocities and the acceleration pairs to derive the least-energy-constant-velocity driving. The point at the minimum energy consumption per distance (Wh/km) represents the least-energy-constant-velocity driving. The least-energy-constant velocity is 37 km/h in this example.}
 
 The minimum-energy-velocity planning solely considers the energy consumption, which may make the vehicle velocity impractically slower in many cases. 
 %This phenomenon becomes more distinct when the road is flat. 
 In fact, most production EVs exhibits the longest range when the vehicle velocity is around 30 km/h on a flat road \textcolor{red}{as shown in Fig.~\ref{fig:range_speed_exp}.} Nevertheless, energy for cruising is much lower than energy for acceleration and diving uphills while the cruising velocity significantly affects the driving time. \textcolor{red}{For example, the minimum-delay-constant-velocity driving reduces driving time considerably by sacrificing range for routes having small standard deviation (Hoover Street, Cliff Drive and Otray Lakes Road).}
 
-However, it is not an easy problem to consider both driving energy and driving time. Previous work attempts to consider driving time to make a single optimization metric with energy and time as a weighted sum of them \cite{Lin:ICCA14,Mensing:TR13,Dib:IVPPC11}. This method is to deal with tradeoff between the energy and time, but it is not intuitive to determine the weight factors because the weight factors cannot explicitly control the tradeoff.
-The other method used in the previous work is Genetic Algorithm (GA.) GA solves multi-objective optimization problems, and therefore, it provides a good quality solution to take both energy and time into account~\cite{Dovgana:ASC14,Grossard:ISIE12}. However, GA is not for online computation, which is hard to apply for the energy-aware-velocity planning that requires potential frequent online recomputation due to unexpected interrupts. 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Considering driving time -- $EDP$-aware-velocity planning} \label{sec:ed_consideration}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\subsection{$EDP$-aware-velocity planning} \label{sec:ed_consideration}
 
 % Energy-delay curve 
 %This subsection introduces energy-delay characteristics of EV to combat the energy consumption and driving time tradeoff more systematically. 
 %The energy-delay curves show the merit of the proposed velocity planning compared with the least-energy-constant-velocity driving with a deadline. 
 %We plot the relationship between driving energy and driving time with deadline constraints in Fig.~\ref{fig:energy_delay_curve}. X-axis and y-axis denote the EV driving time and energy under given deadlines, respectively. The energy-delay plot is useful to figure out the Pareto optimal velocity profiles. The energy-delay curves of the minimum-energy-velocity planning are located under the least-energy-constant-velocity driving curves, which implies that the minimum-energy-velocity planning is better than that of the least-energy-constant-velocity driving in terms of energy consumption under the same deadline. The same is true for the driving time under the same energy budget.
+
+It is not an easy problem to consider both driving energy and driving time. Previous work attempts to consider driving time to make a single optimization metric with energy and time as a weighted sum of them \cite{Lin:ICCA14,Mensing:TR13,Dib:IVPPC11}. This method is to deal with tradeoff between the energy and time, but it is not intuitive to determine the weight factors because the weight factors cannot explicitly control the tradeoff.
+The other method used in the previous work is Genetic Algorithm (GA.) GA solves multi-objective optimization problems, and therefore, it provides a good quality solution to take both energy and time into account~\cite{Dovgana:ASC14,Grossard:ISIE12}. However, GA is not for online computation, which is hard to apply for the energy-aware-velocity planning that requires potential frequent online recomputation due to unexpected interrupts. 
 
 In this paper, we propose to use energy-delay product ($EDP$), energy-square-delay product ($E^2DP$), or energy-cubic-delay product ($E^3DP$) so that a single metric can consider both energy and driving time while we are able to explicitly manipulate $EDP$.
 
@@ -397,9 +401,30 @@ The same is true for the minimum-$E^2DP$- or the minimum-$E^3DP$-velocity planni
 
 \textcolor{red}{DP solves the velocity planning in a polynomial time. The number of velocity states is a product of the number of selectable velocities in each distance $N$ and the number of steps to the endpoint $M$ as mentioned in Section IV-B. Also, the number of calculation to get the optimal velocity planning until the distance is $M$. Therefore, the complexity is $O(NM^2)$ for the minimum-energy-velocity planning and the proposed $EDP$-, $E^2DP$- and $E^3DP$-aware-velocity planning.} 
 
-\textcolor{red}{We perform additional validation how close the proposed heuristics method is to the true optimal, comparing with the results of GA. GA can hardly be used for a practical solution method as its time complexity is not suitable for real applications. We use the GA results as a golden reference to evaluate the optimality of the proposed heuristics.\\
-%
-We divide a given driving route into multiple segments so that the solution of GA indicates a set of velocity values for each segment. We evaluate the GA solutions and choose one of the solutions. We apply the vehicle acceleration and deceleration constraints so that the velocity difference at the boundary of two adjacent segments becomes close enough to avoid a jerky motion. We update the solution through crossover and mutation processes until the solution converges.} 
+\textcolor{red}{As the proposed solutions for  $EDP$-, $E^2DP$- and $E^3DP$-aware-velocity planning are not optimal, we perform  validation how close the proposed heuristics method is to the true optimal, comparing with the results of GA. GA can hardly be used for a practical solution method as its time complexity is not suitable for real applications. %
+We divide a given driving route into multiple segments so that the solution of GA indicates a set of velocity values for each segment. %We evaluate the GA solutions and choose one of the solutions. 
+We apply the vehicle acceleration and deceleration constraints so that the velocity difference at the boundary of two adjacent segments becomes close enough to avoid a jerky motion. We update the solution through crossover and mutation processes until the solution converges. We use the GA results as a golden reference to evaluate the optimality of the proposed heuristics.\\
+} 
+
+
+
+
+\textcolor{red}{\section{Experiments}\label{sec:experiment}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 %%Description for Fig. 11
 \begin{figure*} %Figure 11

@@ -405,9 +405,25 @@ We divide a given driving route into multiple segments so that the solution of G
 \begin{figure*} %Figure 11
 \centering
 \includegraphics[width=0.9\hsize]{Figures/EDP_comp_profile.pdf}
-\caption{Velocity profile comparison with cost functions of $EDP$, $E^2DP$ and $E^3DP$.}
+\caption{\textcolor{red}{Velocity profile comparison with cost functions of $EDP$, $E^2DP$ and $E^3DP$ on the benchmark Cliff Drive in Santa Barbara.}}
 \label{fig:EDP_aware_velocity_planning}
 \end{figure*} 
+
+\begin{figure*} %Figure 11 candidate 1
+\centering
+\includegraphics[width=0.9\hsize]{Figures/EDP_comp_profile_case1.pdf}
+\caption*{\textcolor{red}{Velocity profile comparison with cost functions of $EDP$, $E^2DP$ and $E^3DP$ on the benchmark Jones Street in San Francisco (candidate 1 of Fig. 11).}}
+\label{fig:EDP_aware_velocity_planning}
+\end{figure*} 
+
+\begin{figure*} %Figure 11 candidate 2
+\centering
+\includegraphics[width=0.9\hsize]{Figures/EDP_comp_profile_case2.pdf}
+\caption*{\textcolor{red}{Velocity profile comparison with cost functions of $EDP$, $E^2DP$ and $E^3DP$ on the benchmark Serrano Avenue between San Fransisco and San Jose (candidate 2 of Fig. 11).}}
+\label{fig:EDP_aware_velocity_planning}
+\end{figure*} 
+
+
 
 \textcolor{red}{Fig.~\ref{fig:EDP_aware_velocity_planning} shows the $EDP$-aware-velocity planning result on road segments in a city (Cliff drive in Santa Barbara). We use the minimum-delay-constant-velocity driving and the least-energy-constant-velocity driving as baselines obtained by DSE. The minimum-energy-velocity planning and minimum-EDP-velocity planning by Genetic algorithm are used as golden references minimizing energy consumption and EDP, respectively.}
 %
@@ -436,15 +452,13 @@ The driving velocity on a flat road is faster than that of the least-energy-cons
 \end{figure*} 
 
 
-%%Histogram analysis
-%\textcolor{red}{We quantize the velocity and acceleration values and make a histogram as shown in Fig.~\ref{fig:histogram} to analyze population of velocity and acceleration for various energy-aware-velocity planning methods. For the EDP-aware-velocity planning, it is used when the deadline is the most important concern. Therefore, it is guided to drive at a speed of 75-130 km/h mainly for all road slope. The $E^2DP$- and $E^3DP$-aware-velocity planning methods are used when the remaining battery state of charge is more concerned than the deadline. It is guided to drive at an energy-efficient speed along a road slope. Particularly, the $E^3DP$-aware-velocity planning method is used when the state of charge is more concerned, and the driver should find the nearby charging station. It is guided to decelerate to 25-40 km/h when climbing hills to further reduce energy consumption.}
+%Histogram analysis
+\textcolor{red}{We quantize the velocity and acceleration values and make a histogram to analyze population of velocity and acceleration for various energy-aware-velocity planning methods. Fig.~\ref{fig:histogram} shows histogram of the driving schemes in Fig.~\ref{fig:EDP_aware_velocity_planning}. The minimum-delay-constant-velocity driving guides to accelerate to speed limit of the route benchmark (60 km/h). For the EDP-aware-velocity planning, it is used when the deadline is the most important concern. Therefore, it is also guided to drive near speed limit. The $E^2DP$- and $E^3DP$-aware-velocity planning methods are used when the remaining battery state of charge is more concerned than the deadline. It is guided to drive at an energy-efficient speed along a road slope. Particularly, the $E^3DP$-aware-velocity planning method is used when the state of charge is more concerned, and the driver should find the nearby charging station. It is guided to decelerate to 35-40 km/h.}
 
-%% Should be updated.
 \begin{figure}	%Figure 13.
 \centering
 \includegraphics[width=\hsize]{Figures/Histogram.pdf}
-%\caption{\textcolor{red}{Histogram of (a) velocity and (b) acceleration for various energy-aware-velocity planning methods.}}
-\caption{\textcolor{red}{Should be updated.}}
+\caption{\textcolor{red}{Histogram of (a) velocity and (b) acceleration for various energy-aware-velocity planning methods.}}
 \label{fig:histogram}
 \end{figure} 
 

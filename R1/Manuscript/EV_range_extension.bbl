@@ -1,0 +1,191 @@
+\begin{thebibliography}{10}
+
+\bibitem{Hong:ASPDAC16}
+J.~Hong, S.~Park, and N.~Chang, ``Accurate remaining range estimation for
+  electric vehicles,'' in {\em Proceedings of Asia and South Pacific Design
+  Automation and Conference (ASP-DAC)}, 2016.
+
+\bibitem{Chang:ICCAD14}
+N.~Chang, D.~Baek, and J.~Hong, ``Power consumption characterization, modeling
+  and estimation of electric vehicles,'' in {\em Proceedings of IEEE/ACM
+  International Conference on Computer-Aided Design (ICCAD)}, 2014.
+
+\bibitem{Seraens:thesis12}
+B.~Saerens, {\em Optimal control based eco-driving}.
+\newblock PhD thesis, Katholieke Universities Leuven, 2012.
+
+\bibitem{Kamal:TITS11}
+M.~A.~S. Kamal, M.~Mukai, J.~Murata, and T.~Kawabe, ``Ecological vehicle
+  control on roads with up-down slopes,'' {\em IEEE Transactions on Intelligent
+  Transportation Systems, vol. 12, no. 3, Sept.}, 2011.
+
+\bibitem{Ozatay:TITS14}
+E.~Ozatay, S.~Onori, J.~Wollaeger, U.~Ozguner, G.~Rizzoni, D.~Filev,
+  J.~Michelini, and S.~Cairano, ``Cloud-based velocity profile optimization for
+  everyday driving: a dynamic-programming-based solution,'' {\em IEEE
+  Transactions on Intelligent Transportation Systems, vol. 15, no. 6}, 2014.
+
+\bibitem{Dovgana:ASC14}
+E.~Dovgana, M.~Javorskib, T.~Tusara, M.~Gamsa, and B.~Filipica, ``Discovering
+  driving strategies with a multiobjective optimization algorithm,'' {\em
+  Applied Soft computing}, 2014.
+
+\bibitem{Ozatay:IFAC14}
+E.~Ozatay, U.~Ozguner, J.~Michelini, and D.~Filev, ``Analytical solution to the
+  minimum energy consumption based velocity profile optimization problem with
+  variable road grade,'' in {\em Proceedings of IFAC world congress}, 2014.
+
+\bibitem{Khayyam:ESA12}
+H.~Khayyam, S.~Nahavandi, and S.~Davis, ``Adaptive cruise control look-ahead
+  system for energy management of vehicles,'' {\em Expert Systems with
+  Applications}, 2012.
+
+\bibitem{Yan:NAPS14}
+Q.~Yan, B.~Zhang, and M.~Kezunovic, ``Optimization of electric vehicle movement
+  for efficient energy consumption,'' in {\em North American Power Symposium
+  (NAPS)}, 2014.
+
+\bibitem{Lin:ICCA14}
+X.~Lin, D.~Gorges, and S.~Liu, ``Eco-driving assistance system for electric
+  vehicles based on speed profile optimization,'' in {\em Proceedings of IEEE
+  Conference on Control Applications}, 2014.
+
+\bibitem{Wu:ITS15}
+X.~Wu, X.~He, and G.~Yu, ``Energy-optimal speed control for electric vehicles
+  on signalized arterials,'' {\em Transactions on Intelligent Transportation
+  Systems, vol. 16, no. 5}, 2015.
+
+\bibitem{Dib:IVPPC11}
+W.~Dib, L.~Serrao, and A.~Sciarretta, ``Optimal control to minimize trip time
+  and energy consumption in electric vehicles,'' in {\em Proceedings of IEEE
+  Vehicle Power and Propulsion Conference}, 2011.
+
+\bibitem{Dib:OGST12}
+W.~Dib, A.~Chasse, D.~di~Domenico, P.~Moulin, and A.~Sciarretta, ``Evaluation
+  of the energy efficiency of a fleet of electric vehicle for eco-driving
+  application,'' {\em Oil Gas Science and Technology}, 2012.
+
+\bibitem{Mensing:TR13}
+F.~Mensing, E.~Bideaux, R.~Trigui, and H.~Tattegrain, ``Trajectory optimization
+  for eco-driving taking into account traffic constraints,'' {\em
+  Transportation Research Part D: Transport and Environment}, 2013.
+
+\bibitem{Dib:CEP14}
+W.~Dib, A.~Chasse, P.~Moulin, A.~Sciarretta, and G.~Corde, ``Optimal energy
+  management for an electric vehicle in eco-driving applications,'' {\em
+  Control Engineering Practice}, 2014.
+
+\bibitem{Seshia:TCAD17}
+S.~A. Seshia, S.~Hu, W.~Li, and Q.~Zhu, ``Design automation of cyber-physical
+  systems: Challenges, advances, and opportunities,'' {\em IEEE Transactions on
+  Computer-Aided Design of Integrated Circuits and Systems}, 2017.
+
+\bibitem{Vatanparvar:TSG18}
+K.~Vatanparvar, S.~Faezi, I.~Burago, M.~Levorato, and M.~A.~A. Faruque,
+  ``Extended range electric vehicle with driving behavior estimation in energy
+  management,'' {\em IEEE Transaction on Smart Grid}, 2018.
+
+\bibitem{Vatanparvar:TODAES17}
+K.~Vatanparvar and M.~A.~A. Faruque, ``Electric vehicle optimized charge and
+  drive management,'' {\em ACM Transaction on Design Automation of Electronic
+  Systems}, 2017.
+
+\bibitem{Wu:TCAD13}
+J.~Wu, J.~Wang, K.~Li, H.~Zhou, Q.~Lv, L.~Shang, and Y.~Sun, ``Large-scale
+  energy storage system design and optimization for emerging electric-drive
+  vehicles,'' {\em Transactions on Computer-Aided Design of Integrated Circuits
+  and Systems (TCAD)}, 2013.
+
+\bibitem{Shaheer:RTCSA17}
+S.~Muhammad, N.~Guan, S.~Li, Q.~Wang, and Z.~Shao, ``Efficient and balanced
+  charging of reconfigurable battery with variable power supply,'' in {\em 2017
+  IEEE 23rd International Conference on Embedded and Real-Time Computing
+  Systems and Applications (RTCSA)}, 2017.
+
+\bibitem{Shin:TCAD15}
+D.~Shin, M.~Poncino, E.~Macii, and N.~Chang, ``A statistical model-based
+  cell-to-cell variability management of li-ion battery pack,'' {\em
+  Transactions on Computer-Aided Design of Integrated Circuits and Systems
+  (TCAD)}, 2015.
+
+\bibitem{Zhao:ICCAD15}
+H.~Zhao, D.~Quach, S.~Wang, H.~Chen, X.~Li, and S.~Tan, ``Learning based
+  compact thermal modeling for energy-efficient smart building management,'' in
+  {\em Proceedings of International Conference on Computer-Aided Design
+  (ICCAD)}, 2015.
+
+\bibitem{Vatanparvar:TECS18}
+K.~Vatanparvar and M.~A.~A. Faruque, ``Design and analysis of battery-aware
+  automotive climate control for electric vehicles,'' {\em ACM Transaction on
+  Embedded Computing Systems}, 2018.
+
+\bibitem{Liu:TPDS17}
+Y.~Liu and S.~Hu, ``Renewable energy pricing driven scheduling in distributed
+  smart community systems,'' {\em IEEE Transactions on Parallel and Distributed
+  Systems}, 2017.
+
+\bibitem{Xie:TCAD13}
+Q.~Xie, Y.~Wang, Y.~Kim, M.~Pedram, and N.~Chang, ``Charge allocation in hybrid
+  electrical energy storage systems,'' {\em Transactions on Computer-Aided
+  Design of Integrated Circuits and Systems}, 2013.
+
+\bibitem{Kim:JPS14}
+Y.~Kim, J.~Koh, Q.~Xie, Y.~Wang, N.~Chang, and M.~Pedram, ``A scalable and
+  flexible hybrid energy storage system design and implementation,'' {\em
+  Journal of Power Sources}, 2014.
+
+\bibitem{Park:DAC13}
+S.~Park, Y.~Kim, and N.~Chang, ``Hybrid energy storage systems and battery
+  management for electric vehicles,'' in {\em Proceedings of DAC}, 2013.
+
+\bibitem{Wu:TR15}
+X.~Wu, D.~Freese, A.~Cabrera, and W.~A. Kitch, ``Electric vehicles’ energy
+  consumption measurement and estimation,'' {\em Transportation Research Part
+  D: Transport and Environment, vol. 34}, 2015.
+
+\bibitem{Markel:JPS02}
+T.~Markel, A.~Brooker, T.~Hendricks, V.~Johnson, and K.~Kelly, ``Advisor: a
+  systems analysis tool for advanced vehicle modeling,'' {\em Journal of Power
+  Sources}, 2002.
+
+\bibitem{GM_Bolt:official}
+``2018 chevrolet {B}olt {EV} features and specifications.'' Chevrolet Official
+  Website,
+  \url{http://www.chevrolet.ca/bolt-ev-electric-vehicle/specs/trims.html}.
+
+\bibitem{GM_Bolt:spec}
+``{D}eep {D}ive: {C}hevrolet {B}olt battery pack, motor and more.'' Inside EVs,
+  \url{https://insideevs.com/deep-dive-chevrolet-bolt-battery-pack-motor-and-more/}.
+
+\bibitem{GM_Bolt:range25mph}
+``Opel {A}mpera-{E} ({B}olt {EV}) goes 387 miles on single charge -- videos.''
+  Inside EVs, \url{https://insideevs.com/opel-ampera-e-goes-387-miles/}.
+
+\bibitem{GM_Bolt:range65mph}
+``Chevrolet {B}olt sets consumer reports' electric-vehicle range record.''
+  Customer Reports,
+  \url{https://www.consumerreports.org/2017-chevrolet-bolt/chevrolet-bolt-sets-electric-vehicle-range-record/}.
+
+\bibitem{GM_Bolt:range75mph}
+``Instrumented test of {C}hevrolet {B}olt -- 190 miles of range at steady 75
+  mph.'' Inside EVs,
+  \url{https://insideevs.com/instrumented-test-of-chevrolet-bolt-190-miles-of-range-at-steady-75-mph/}.
+
+\bibitem{GM_Bolt:range93mph}
+``160-mile top-speed range.'' Motor Trend,
+  \url{http://www.motortrend.com/news/chevrolet-bolt-ev-engineers-reveal-11-cool-facts-car-year/}.
+
+\bibitem{GM_Bolt:range_speed}
+``Chevrolet bolt ev.'' Genealogy Web Page of L. David Roper,
+  \url{http://www.roperld.com/science/chevybolt.htm}.
+
+\bibitem{Hooker:TR88}
+J.~Hooker, ``Optimal driving for single-vehicle fuel economy,'' {\em
+  Transportation Research Part A: General, vol. 22, no. 3, 183 - 201}, 1988.
+
+\bibitem{Grossard:ISIE12}
+M.~Grossard, S.~Kachroudi, and N.~Abroug, ``An optimal energy-based approach
+  for driving guidance of full electric vehicles,'' in {\em IEEE International
+  Symposium on Industrial Electronics}, 2012.
+
+\end{thebibliography}

@@ -177,13 +177,13 @@ We choose Chevrolet Bolt (1,616 kg curb weight) for the target vehicle, but our 
 \centering
 	\begin{subfigure}{0.4\textwidth}
 	\includegraphics[width=\hsize]{Figures/Bolt_EV_range.jpg}
-	\caption{}
+	\caption{Range-speed experimental data}
 	\label{fig:range_speed_exp}
 	\end{subfigure}
 ~
 	\begin{subfigure}{0.4\textwidth}
 	\includegraphics[width=\hsize]{Figures/Range-speed_validation.pdf}
-	\caption{}
+	\caption{Range comparison with simulation results}
 	\label{fig:range_speed_valid}
 	\end{subfigure}
 \caption{\textcolor{red}{(a) Range-speed experimental data for Chevrolet Bolt~\cite{GM_Bolt:range_speed} and (b) comparison with simulation results of the proposed EV power model.}}
@@ -257,14 +257,25 @@ As the road slope becomes higher, the motor RPM would better be increased to ach
 
 A constant-velocity driving is not always impractical and actually  useful to ensure a steady traffic flow and safety. Drivers often drive their vehicles up to the speed limit or slightly over the speed limit following the flow mainly aiming at the shortest possible driving time. However, when it comes to the energy-aware-velocity planning, a constant-velocity driving should be set to the least-energy velocity. 
 
-We demonstrate how the cruising velocity, acceleration and deceleration affect EV energy consumption. We perform a design space exploration (DSE) for all feasible vehicle velocities and the acceleration pairs. We obtain the minimum-energy velocity and the initial and final acceleration for a given driving distance  as shown in Fig.~\ref{fig:const_vel_drive_problem}. The results of DSE on a flat road (0 degree road slope) and a 4 degree road slope are shown in Fig.~\ref{fig:DSE}(a) and \ref{fig:DSE}(b), respectively. The point at the minimum energy consumption per distance (Wh/km) represents the least-energy-constant-velocity driving. Surprisingly, the same distance driving requires significantly different amount of energy by the cruising velocity and acceleration as shown in Fig.~\ref{fig:const_vel_drive_problem}. The energy consumption by the cruising velocity and acceleration pairs also completely changes by the road slopes. These examples indeed show a great potential to save energy consumption of EV with the proposed energy-aware-velocity planning.
+We demonstrate how the cruising velocity, acceleration and deceleration affect EV energy consumption. We perform a design space exploration (DSE) for all feasible vehicle velocities and the acceleration pairs. We obtain the minimum-energy velocity and the initial and final acceleration for a given driving distance  as shown in Fig.~\ref{fig:const_vel_drive_problem}. The results of DSE on a flat road (0 degree road slope) and a 4 degree road slope are shown in Fig.~\ref{fig:DSE_0_slope} and \ref{fig:DSE_4_slope}, respectively. The point at the minimum energy consumption per distance (Wh/km) represents the least-energy-constant-velocity driving. Surprisingly, the same distance driving requires significantly different amount of energy by the cruising velocity and acceleration as shown in Fig.~\ref{fig:const_vel_drive_problem}. The energy consumption by the cruising velocity and acceleration pairs also completely changes by the road slopes. These examples indeed show a great potential to save energy consumption of EV with the proposed energy-aware-velocity planning.
 
-\begin{figure} %Figure 6
+\begin{figure}   %Figure 6.
 \centering
-\includegraphics[width=0.85\hsize]{Figures/Design_space_exploration.pdf}
+	\begin{subfigure}{0.5\textwidth}
+	\includegraphics[width=\hsize]{Figures/Design_space_exploration_top.pdf}
+	\caption{DSE on a 0 road slope}
+	\label{fig:DSE_0_slope}
+	\end{subfigure}
+~
+	\begin{subfigure}{0.5\textwidth}
+	\includegraphics[width=\hsize]{Figures/Design_space_exploration_bottom.pdf}
+	\caption{DSE on a 4 road slope}
+	\label{fig:DSE_4_slope}
+	\end{subfigure}
 \caption{DSE of  the constant-velocity driving on (a) a 0 road slope and (b) a 4 road slope.}
-\label{fig:DSE}
-\end{figure} 
+\end{figure}
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{The minimum-energy-velocity planning} \label{subsec:variable drive}
@@ -323,18 +334,18 @@ The minimum-energy-velocity planning guides to speed up the vehicle before enter
 
 \begin{figure}   %Figure 9.
 \centering
-	\begin{subfigure}{0.4\textwidth}
+	\begin{subfigure}{0.49\textwidth}
 	\includegraphics[width=\hsize]{Figures/range_comp_bar.pdf}
-	\caption{}
+	\caption{Range extension}
 	\label{fig:range_comp}
 	\end{subfigure}
 ~
-	\begin{subfigure}{0.4\textwidth}
+	\begin{subfigure}{0.49\textwidth}
 	\includegraphics[width=\hsize]{Figures/driving_time_comp_bar.pdf}
-	\caption{}
+	\caption{Driving time}
 	\label{fig:driving_time_comp}
 	\end{subfigure}
-\caption{\textcolor{red}{(a) Range extension and (b) related driving time by the minimum-energy-velocity planning.}}
+\caption{\textcolor{red}{Range extension and driving time by the minimum-energy-velocity planning.}}
 \label{fig:min_energy_planning_comp}
 \end{figure}
 
@@ -430,17 +441,16 @@ On the other hand, when the $E^2DP$ is used as a metric to optimize, the energy 
 When it comes to $E^3DP$, the effect of energy penalty becomes even more distinct, and the average driving velocity becomes lower. 
 The $E^3DP$ metric can be a proper optimization metric when the battery state of charge is less than 30\% for example.
 
-
-\begin{figure*}	 %Figure 12.
+%%Description for Fig. 12
+\begin{figure}	 %Figure 12.
 \centering
-\includegraphics[width=0.85\hsize]{Figures/EDP_comp_bar.pdf}
+\includegraphics[width=\hsize]{Figures/EDP_comp_bar.pdf}
 \caption{\textcolor{red}{Comparison of $EDP$ for various energy-aware-velocity planning methods.}}
 \label{fig:EDP_bar}
-\end{figure*} 
+\end{figure} 
 
 \textcolor{red}{\subsection{Comparison of EDP}}
 
-%%Description for Fig. 12
 Fig.~\ref{fig:EDP_bar} summarizes $EDP$ of the least-energy-constant-velocity driving, the minimum-delay-constant-velocity driving, the minimum-energy-velocity planning, the velocity planning with $EDP$, $E^2DP$ and $E^3DP$ as a metric on various road benchmarks \textcolor{red}{and the minimum-EDP-velocity planning with GA}. The proposed velocity planning results in up to 46.2\% improvements of $EDP$ compared with the least-energy-constant-velocity driving. 
 %The improvements occur especially when the slope of the uphill is steep.
 The driving velocity on a flat road is faster than that of the least-energy-constant-velocity driving at the expense of relatively little energy to save driving time. Then, the velocity decreases when climbing the following uphill to spend less motor torque, which saves more energy.
@@ -454,13 +464,13 @@ The driving velocity on a flat road is faster than that of the least-energy-cons
 \begin{figure}	%Figure 13.
 \centering
 \includegraphics[width=\hsize]{Figures/Histogram.pdf}
-\caption{\textcolor{red}{Histogram of (a) velocity and (b) acceleration for various energy-aware-velocity planning methods.}}
+\caption{\textcolor{red}{Histograms of (a) velocity and (b) acceleration for various energy-aware-velocity planning methods.}}
 \label{fig:histogram}
 \end{figure}
 
 
 %Histogram analysis
-\textcolor{red}{We quantize the velocity and acceleration values and make a histogram to analyze population of velocity and acceleration for various energy-aware-velocity planning methods. Fig.~\ref{fig:histogram} shows histogram of the driving schemes in Fig.~\ref{fig:EDP_aware_velocity_planning}. The minimum-delay-constant-velocity driving guides to accelerate to speed limit of the route benchmark (60 km/h). For the EDP-aware-velocity planning, it is used when the deadline is the most important concern. Therefore, it is also guided to drive near speed limit. The $E^2DP$- and $E^3DP$-aware-velocity planning methods are used when the remaining battery state of charge is more concerned than the deadline. It is guided to drive at an energy-efficient speed along a road slope. Particularly, the $E^3DP$-aware-velocity planning method is used when the state of charge is more concerned, and the driver should find the nearby charging station. It is guided to decelerate to 35-40 km/h.}\\
+\textcolor{red}{We quantize the velocity and acceleration values and make a histogram to analyze population of velocity and acceleration for various energy-aware-velocity planning methods. Fig.~\ref{fig:histogram} shows two histograms of the driving schemes in Fig.~\ref{fig:EDP_aware_velocity_planning}. The minimum-delay-constant-velocity driving guides to accelerate to speed limit of the route benchmark (64 km/h). For the EDP-aware-velocity planning, it is used when the deadline is the most important concern. Therefore, it is also guided to drive near speed limit. The $E^2DP$- and $E^3DP$-aware-velocity planning methods are used when the remaining battery state of charge is more concerned than the deadline. It is guided to drive at an energy-efficient speed along a road slope. Particularly, the $E^3DP$-aware-velocity planning method is used when the state of charge is more concerned, and the driver should find the nearby charging station. It is guided to decelerate to 35-45 km/h.}\\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Impact of the EV power model fidelity} \label{sec:impact_EV_power model}
@@ -472,8 +482,7 @@ Lesson learned from embedded systems power management, it is crucial to extract 
 \begin{figure}	 %Figure 14.
 \centering
 \includegraphics[width=\hsize]{Figures/model_fidelity.pdf}
-%\caption{Range comparison by EV power consumption models.}
-\caption{\textcolor{red}{Should be updated.}}
+\caption{\textcolor{red}{Range comparison by EV power consumption models.}}
 \label{fig:energy_by_model}
 \end{figure} 
 
@@ -481,7 +490,7 @@ We compare the energy-aware-velocity planning results with i) a lossless vehicle
 
 Fig.~\ref{fig:energy_by_model} shows the comparison of range extension by the EV power models. The X-axis indicates the types of benchmark road slopes, and y-axis indicates the range; 100\%  range implies the range by the least-energy-constant-velocity driving. Blue-colored bars indicate the range with the EV-specific power model. Green and yellow-colored bars indicate the range with the vehicle dynamics with motor loss model and the lossless vehicle dynamics model, which does not consider motor loss and vehicle power loss at the drivetrain.
 
-Driving optimization using more accurate power model shows more extended range. The extended range with the EV-specific power model is up to 4.0\% and 33.4\% compared with the minimum-energy-velocity planning with the vehicle dynamics with motor loss model and lossless vehicle dynamics model, respectively. One of the main reasons is that the underestimated EV power loss becomes a considerable portion of total energy consumption when the EV drives on low road slope or downhill.
+Driving optimization using more accurate power model shows more extended range. The extended range with the EV-specific power model is up to 6.6\% and 49.2\% compared with the minimum-energy-velocity planning with the vehicle dynamics with motor loss model and lossless vehicle dynamics model, respectively. One of the main reasons is that the underestimated EV power loss becomes a considerable portion of total energy consumption when the EV drives on low road slope or downhill.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Conclusions} \label{sec:conclusions}

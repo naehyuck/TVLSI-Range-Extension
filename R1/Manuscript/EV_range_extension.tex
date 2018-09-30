@@ -468,13 +468,47 @@ The driving velocity on a flat road is faster than that of the least-energy-cons
 
 \textcolor{red}{\subsection{Analysis of the Velocity and Acceleration Changes}}
 
-
-\begin{figure}	%Figure 13.
+\begin{figure}   %Figure 13.
 \centering
-\includegraphics[width=\hsize]{Figures/Histogram.pdf}
-\caption{\textcolor{red}{Histograms of (a) velocity and (b) acceleration for various energy-aware-velocity planning methods.}}
+	\begin{subfigure}{0.45\textwidth}
+	\includegraphics[width=\hsize]{Figures/Histogram_legend.pdf}
+%	\caption{Range extension}
+%	\label{fig:range_comp}
+	\end{subfigure}
+~
+	\begin{subfigure}{0.45\textwidth}
+	\includegraphics[width=\hsize]{Figures/Histogram_noconst_vel.pdf}
+	\caption{Velocity without the acceleration constraint}
+	\label{fig:histogram_noconst_vel}
+	\end{subfigure}
+~\\
+	\begin{subfigure}{0.45\textwidth}
+	\includegraphics[width=\hsize]{Figures/Histogram_noconst_acc.pdf}
+	\caption{Acceleration without the acceleration constraint}
+	\label{fig:histogram_noconst_acc}
+	\end{subfigure}
+~
+	\begin{subfigure}{0.45\textwidth}
+	\includegraphics[width=\hsize]{Figures/Histogram_vel.pdf}
+	\caption{Velocity with the acceleration constraint}
+	\label{fig:histogram_vel}
+	\end{subfigure}
+~
+	\begin{subfigure}{0.45\textwidth}
+	\includegraphics[width=\hsize]{Figures/Histogram_acc.pdf}
+	\caption{Acceleration without the acceleration constraint}
+	\label{fig:histogram_acc}
+	\end{subfigure}
+\caption{\textcolor{red}{Histograms of velocity and acceleration for various energy-aware-velocity planning methods without an acceleration constraint (a) and (b) and with an acceleration constraint (c) and (d), respectively.}}
 \label{fig:histogram}
 \end{figure}
+
+%\begin{figure}	%Figure 13.
+%\centering
+%\includegraphics[width=\hsize]{Figures/Histogram.pdf}
+%\caption{\textcolor{red}{Histograms of (a) velocity and (b) acceleration for various energy-aware-velocity planning methods with the acceleration constraint.}}
+%\label{fig:histogram}
+%\end{figure}
 
 
 %Histogram analysis

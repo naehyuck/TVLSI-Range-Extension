@@ -59,13 +59,13 @@ As a result, the derived EV power model well matches with the range-speed experi
 \centering
 	\begin{subfigure}{0.47\textwidth}
 	\includegraphics[width=\hsize]{Figures/Bolt_EV_range.jpg}
-	\caption{Range-speed experimental data}
+	\caption{Range-speed experimental data.}
 	\label{fig:range_speed_exp}
 	\end{subfigure}
-~
+%~
 	\begin{subfigure}{0.47\textwidth}
 	\includegraphics[width=\hsize]{Figures/Range-speed_validation.pdf}
-	\caption{Range comparison with simulation results}
+	\caption{Range comparison with simulation results.}
 	\label{fig:range_speed_valid}
 	\end{subfigure}
 \caption{\textcolor{red}{(a) Range-speed experimental data for Chevrolet Bolt~[36] and (b) comparison with simulation results of the proposed EV power model.}}
@@ -99,28 +99,25 @@ The driving velocity on a flat road is faster than that of the least-energy-cons
 
 We also updated Fig. 12 and Fig. 13:
 
-\begin{figure} [h!]
+\begin{figure}
 \centering
- \renewcommand\thefigure{12}
-\includegraphics[width=0.65\hsize]{Figures/EDP_comp_profile.pdf}
-\caption{\textcolor{red}{Velocity profile comparison with $EDP$, $E^2DP$ and $E^3DP$ on  Jones Street in San Francisco.}}
+\renewcommand\thefigure{12}
+\includegraphics[width=0.6\hsize]{Figures/EDP_comp_profile.pdf}
+\caption{\textcolor{red}{Velocity profile comparison with $EDP$, $E^2DP$ and $E^3DP$ on  Serrano Avenue in Anaheim Hills.}}
 \label{fig:EDP_aware_velocity_planning}
 \end{figure} 
 
-
-
-\begin{figure}[h!]
+\begin{figure}
 \centering
- \renewcommand\thefigure{13}
-\includegraphics[width=0.55\hsize]{Figures/EDP_comp_bar.pdf}
-\caption{\textcolor{red}{Comparison of $EDP$ for various energy-aware-velocity planning methods.}}
+\renewcommand\thefigure{13}
+\includegraphics[width=0.6\hsize]{Figures/EDP_comp_bar.pdf}
+\caption{\textcolor{red}{Comparison of $EDP$ for the proposed energy-aware-velocity planning methods.}}
 \label{fig:EDP_bar}
 \end{figure} 
 
 \end{description}
 \newpage
 ~
-\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \textbf{[REVIEWER 2]}
@@ -164,25 +161,25 @@ Fig.~\ref{fig:histogram}(c) and (d) shows the velocity and acceleration histogra
 ~\\
 	\begin{subfigure}{0.45\textwidth}
 	\includegraphics[width=\hsize]{Figures/Histogram_noconst_vel.pdf}
-	\caption{A velocity histogram without constraints}
+	\caption{A velocity histogram without constraints.}
 	\label{fig:histogram_noconst_vel}
 	\end{subfigure}
 %~\\
 	\begin{subfigure}{0.45\textwidth}
 	\includegraphics[width=\hsize]{Figures/Histogram_noconst_acc.pdf}
-	\caption{An acceleration histogram without constraints}
+	\caption{An acceleration histogram without constraints.}
 	\label{fig:histogram_noconst_acc}
 	\end{subfigure}
 %~
 	\begin{subfigure}{0.45\textwidth}
 	\includegraphics[width=\hsize]{Figures/Histogram_vel.pdf}
-	\caption{A velocity histogram with constraints}
+	\caption{A velocity histogram with constraints.}
 	\label{fig:histogram_vel}
 	\end{subfigure}
 %~
 	\begin{subfigure}{0.45\textwidth}
 	\includegraphics[width=\hsize]{Figures/Histogram_acc.pdf}
-	\caption{An acceleration without constraints}
+	\caption{An acceleration without constraints.}
 	\label{fig:histogram_acc}
 	\end{subfigure}
 \caption{\textcolor{red}{Histograms of velocity and acceleration for the proposed energy-aware-velocity planning methods without an acceleration constraint (a) and (b) and with an acceleration constraint (c) and (d), respectively.}}
@@ -239,22 +236,22 @@ However, the segmented-least-energy-constant-velocity planning have two major sh
 
 \item [R2-C6] The paper is easy to follow. There are some minor issues/typos. For instance,
 \begin{itemize}
-\item Abstract, “… from the vehicle dynamics, … , and consideration of regenerative braking.” -> “with the consideration of vehicle dynamics, … , and regenerative braking.”
-\item Abstract, “… (or at each time instant.) The major …” -> “… (or at each time instant). The major …”.
-\item Page 1, column 2, “but higher daily …” -> “ but also higher daily…”.
-\item Page 1, column 2, “weight not to degrade …” -> “weight, and not to degrade…”.
-\item Page 1, column 2, “Such conventional ways … ownership.” -> “These conventional ways of extending EV range may have a negative impact on the cost of ownership.”
-\item Page 1, column 2, “difference between that of ICEV” -> “differences from that of ICEV”.
-\item Page 2, column 1, “ICEVS” -> “ICEVs”.
-\item Page 3, column 1, “a sort of a fast vehicle simulator …” -> “a fast simulator”.
-\item Page 3, column 2, “demonstrates s …” -> “demonstrates …”.
-\item Page 5, column 2, “As total number of steps …” -> “As the total number of steps …”.
-\item Page 5, column 2, “total number of nodes and edges …” -> “the total number of nodes and edges …”.
-\item Page 5, column 2, “a distance” -> “the distance”.
-\item Page 5, column 2, “a power consumption” -> “the power consumption”.
-\item Page 7, column 1, “due unexpected interrupts.” -> “due to unexpected interrupts.”
-\item Conclusion, “legacy system-level …”. “classic” might be a better word than “legacy”.
-\item Conclusion, “a tight deadline constraint.” -> “a tight energy constraint?”.
+\item Abstract, ``… from the vehicle dynamics, … , and consideration of regenerative braking.'' -> ``with the consideration of vehicle dynamics, … , and regenerative braking.''
+\item Abstract, ``… (or at each time instant.) The major …'' -> ``… (or at each time instant). The major …''.
+\item Page 1, column 2, ``but higher daily …'' -> `` but also higher daily…''.
+\item Page 1, column 2, ``weight not to degrade …'' -> ``weight, and not to degrade…''.
+\item Page 1, column 2, ``Such conventional ways … ownership.” -> ``These conventional ways of extending EV range may have a negative impact on the cost of ownership.”
+\item Page 1, column 2, ``difference between that of ICEV” -> “differences from that of ICEV”.
+\item Page 2, column 1, ``ICEVS” -> “ICEVs”.
+\item Page 3, column 1, ``a sort of a fast vehicle simulator …” -> “a fast simulator”.
+\item Page 3, column 2, ``demonstrates s …” -> “demonstrates …”.
+\item Page 5, column 2, ``As total number of steps …” -> “As the total number of steps …”.
+\item Page 5, column 2, ``total number of nodes and edges …” -> “the total number of nodes and edges …”.
+\item Page 5, column 2, ``a distance” -> “the distance”.
+\item Page 5, column 2, ``a power consumption” -> “the power consumption”.
+\item Page 7, column 1, ``due unexpected interrupts.” -> “due to unexpected interrupts.”
+\item Conclusion, ``legacy system-level …”. “classic” might be a better word than “legacy”.
+\item Conclusion, ``a tight deadline constraint.” -> “a tight energy constraint?”.
 \end{itemize}
 
 \item [R2-A6] We sincerely appreciate such kind comments, and we also apologize typos. Thank you for helping us improve the revised  manuscript. We made all the corrections accordingly. 

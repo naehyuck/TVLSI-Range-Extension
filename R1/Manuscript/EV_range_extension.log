@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.28)  30 SEP 2018 10:44
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  30 SEP 2018 11:14
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.28)  30 SEP 2018 10:43
->>>>>>> 2c7473f092c3e421554130aa34793da61b89fd98
->>>>>>> a6c1d00f79ad6bee09ecab143aa0a55180a18d45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.28)  30 SEP 2018 11:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -815,33 +807,16 @@ File: Figures/Histogram_noconst_acc.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/Histogram_noconst_acc.pdf  used on input line 
 443.
 (pdftex.def)             Requested size: 258.0pt x 115.7869pt.
-<<<<<<< HEAD
-
 <Figures/Histogram_vel.pdf, id=985, 562.91162pt x 254.67416pt>
-=======
-<Figures/Histogram_vel.pdf, id=985, 568.0349pt x 256.5828pt>
->>>>>>> 2c7473f092c3e421554130aa34793da61b89fd98
 File: Figures/Histogram_vel.pdf Graphic file (type pdf)
 <use Figures/Histogram_vel.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: Figures/Histogram_vel.pdf used on input line 449.
-(pdftex.def)             Requested size: 258.0pt x 116.72406pt.
-
-<Figures/Histogram_acc.pdf, id=986, 562.91162pt x 254.67416pt>
-=======
 Package pdftex.def Info: Figures/Histogram_vel.pdf  used on input line 449.
-(pdftex.def)             Requested size: 258.0pt x 116.53784pt.
-<Figures/Histogram_acc.pdf, id=986, 568.0349pt x 256.5828pt>
->>>>>>> 2c7473f092c3e421554130aa34793da61b89fd98
+(pdftex.def)             Requested size: 258.0pt x 116.72406pt.
+<Figures/Histogram_acc.pdf, id=986, 562.91162pt x 254.67416pt>
 File: Figures/Histogram_acc.pdf Graphic file (type pdf)
 <use Figures/Histogram_acc.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: Figures/Histogram_acc.pdf used on input line 455.
-(pdftex.def)             Requested size: 258.0pt x 116.72406pt.
-=======
 Package pdftex.def Info: Figures/Histogram_acc.pdf  used on input line 455.
-(pdftex.def)             Requested size: 258.0pt x 116.53784pt.
->>>>>>> 2c7473f092c3e421554130aa34793da61b89fd98
+(pdftex.def)             Requested size: 258.0pt x 116.72406pt.
 
 Overfull \hbox (6.0pt too wide) in paragraph at lines 430--459
  []$ 
@@ -876,12 +851,7 @@ File: Figures/EDP_comp_profile.pdf Graphic file (type pdf)
 <use Figures/EDP_comp_profile.pdf>
 Package pdftex.def Info: Figures/EDP_comp_profile.pdf  used on input line 497.
 (pdftex.def)             Requested size: 252.0pt x 252.18352pt.
-<<<<<<< HEAD
-
 <Figures/EDP_comp_bar.pdf, id=2663, 576.03708pt x 547.89882pt>
-=======
-<Figures/EDP_comp_bar.pdf, id=2796, 576.03708pt x 547.89882pt>
->>>>>>> 2c7473f092c3e421554130aa34793da61b89fd98
 File: Figures/EDP_comp_bar.pdf Graphic file (type pdf)
 <use Figures/EDP_comp_bar.pdf>
 Package pdftex.def Info: Figures/EDP_comp_bar.pdf  used on input line 509.
@@ -901,15 +871,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 521--522
 
  []
 
-<<<<<<< HEAD
-
-Underfull \vbox (badness 2951) has occurred while \output is active []
-
- [9 <./Figures/EDP_comp_profile.pdf>]
-<Figures/model_fidelity.pdf, id=2682, 567.44327pt x 434.59535pt>
-=======
-<Figures/model_fidelity.pdf, id=3118, 567.44327pt x 434.59535pt>
->>>>>>> 2c7473f092c3e421554130aa34793da61b89fd98
+<Figures/model_fidelity.pdf, id=2985, 567.44327pt x 434.59535pt>
 File: Figures/model_fidelity.pdf Graphic file (type pdf)
 <use Figures/model_fidelity.pdf>
 Package pdftex.def Info: Figures/model_fidelity.pdf  used on input line 533.
@@ -959,12 +921,8 @@ Overfull \hbox (12.2933pt too wide) in paragraph at lines 170--173
 ]range-[]at-[]steady-[]75-[]mph/$. 
  []
 
-<<<<<<< HEAD
-) <Bio/Donkyu.pdf, id=3086, 150.5625pt x 188.705pt>
-=======
 )
-<Bio/Donkyu.pdf, id=3219, 150.5625pt x 188.705pt>
->>>>>>> 2c7473f092c3e421554130aa34793da61b89fd98
+<Bio/Donkyu.pdf, id=3086, 150.5625pt x 188.705pt>
 File: Bio/Donkyu.pdf Graphic file (type pdf)
 <use Bio/Donkyu.pdf>
 Package pdftex.def Info: Bio/Donkyu.pdf  used on input line 560.
@@ -973,11 +931,7 @@ File: Bio/Donkyu.pdf Graphic file (type pdf)
 <use Bio/Donkyu.pdf>
 Package pdftex.def Info: Bio/Donkyu.pdf  used on input line 560.
 (pdftex.def)             Requested size: 72.07619pt x 90.3355pt.
-<<<<<<< HEAD
- <Bio/Naehyuck.pdf, id=3089, 614.295pt x 794.97pt>
-=======
-<Bio/Naehyuck.pdf, id=3222, 614.295pt x 794.97pt>
->>>>>>> 2c7473f092c3e421554130aa34793da61b89fd98
+<Bio/Naehyuck.pdf, id=3089, 614.295pt x 794.97pt>
 File: Bio/Naehyuck.pdf Graphic file (type pdf)
 <use Bio/Naehyuck.pdf>
 Package pdftex.def Info: Bio/Naehyuck.pdf  used on input line 571.
@@ -1006,11 +960,7 @@ ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/
 type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-<<<<<<< HEAD
-Output written on EV_range_extension.pdf (11 pages, 2920919 bytes).
-=======
-Output written on EV_range_extension.pdf (11 pages, 2936274 bytes).
->>>>>>> 2c7473f092c3e421554130aa34793da61b89fd98
+Output written on EV_range_extension.pdf (11 pages, 2921014 bytes).
 PDF statistics:
  3153 PDF objects out of 3580 (max. 8388607)
  2119 compressed objects within 22 object streams

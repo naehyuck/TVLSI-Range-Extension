@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.28)  30 SEP 2018 12:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.28)  30 SEP 2018 13:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -634,43 +634,43 @@ Package gensymb Warning: Not defining \micro.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 43
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 44
 .
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 43
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 44
 .
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 43
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 44
 .
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 43
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 44
 .
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 43.
+LaTeX Font Info:    Try loading font information for U+msa on input line 44.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 43.
+LaTeX Font Info:    Try loading font information for U+msb on input line 44.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
  [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -683,56 +683,56 @@ Non-PDF special ignored!
 File: Figures/ADVISOR_model_validation_result.pdf Graphic file (type pdf)
 <use Figures/ADVISOR_model_validation_result.pdf>
 Package pdftex.def Info: Figures/ADVISOR_model_validation_result.pdf  used on i
-nput line 166.
+nput line 167.
 (pdftex.def)             Requested size: 438.60315pt x 102.48349pt.
 <Figures/Bolt_EV_range.jpg, id=18, 497.86pt x 328.22626pt>
 File: Figures/Bolt_EV_range.jpg Graphic file (type jpg)
 <use Figures/Bolt_EV_range.jpg>
-Package pdftex.def Info: Figures/Bolt_EV_range.jpg  used on input line 180.
+Package pdftex.def Info: Figures/Bolt_EV_range.jpg  used on input line 181.
 (pdftex.def)             Requested size: 206.39685pt x 136.07613pt.
 <Figures/Range-speed_validation.pdf, id=19, 361.65984pt x 260.3597pt>
 File: Figures/Range-speed_validation.pdf Graphic file (type pdf)
 <use Figures/Range-speed_validation.pdf>
 Package pdftex.def Info: Figures/Range-speed_validation.pdf  used on input line
- 186.
+ 187.
 (pdftex.def)             Requested size: 206.39685pt x 148.58533pt.
  [3]
 <Figures/ICEV_EV_consumption.pdf, id=23, 405.515pt x 212.795pt>
 File: Figures/ICEV_EV_consumption.pdf Graphic file (type pdf)
 <use Figures/ICEV_EV_consumption.pdf>
 Package pdftex.def Info: Figures/ICEV_EV_consumption.pdf  used on input line 21
-7.
+8.
 (pdftex.def)             Requested size: 252.0pt x 132.23999pt.
  [4 <./Figures/ADVISOR_model_validation_result.pdf> <./Figures/Bolt_EV_range.jp
 g> <./Figures/Range-speed_validation.pdf> <./Figures/ICEV_EV_consumption.pdf>]
 <Figures/efficiency_maps.pdf, id=113, 400.49625pt x 208.78pt>
 File: Figures/efficiency_maps.pdf Graphic file (type pdf)
 <use Figures/efficiency_maps.pdf>
-Package pdftex.def Info: Figures/efficiency_maps.pdf  used on input line 241.
+Package pdftex.def Info: Figures/efficiency_maps.pdf  used on input line 242.
 (pdftex.def)             Requested size: 252.0pt x 131.3696pt.
 <Figures/const_vel_drive_problem.pdf, id=114, 373.395pt x 223.83624pt>
 File: Figures/const_vel_drive_problem.pdf Graphic file (type pdf)
 <use Figures/const_vel_drive_problem.pdf>
 Package pdftex.def Info: Figures/const_vel_drive_problem.pdf  used on input lin
-e 255.
+e 256.
 (pdftex.def)             Requested size: 214.20154pt x 128.40427pt.
 <Figures/Design_space_exploration_top.pdf, id=115, 424.58624pt x 291.36723pt>
 File: Figures/Design_space_exploration_top.pdf Graphic file (type pdf)
 <use Figures/Design_space_exploration_top.pdf>
 Package pdftex.def Info: Figures/Design_space_exploration_top.pdf  used on inpu
-t line 267.
+t line 268.
 (pdftex.def)             Requested size: 232.19843pt x 159.3455pt.
 <Figures/Design_space_exploration_bottom.pdf, id=116, 423.21262pt x 289.17413pt
 >
 File: Figures/Design_space_exploration_bottom.pdf Graphic file (type pdf)
 <use Figures/Design_space_exploration_bottom.pdf>
 Package pdftex.def Info: Figures/Design_space_exploration_bottom.pdf  used on i
-nput line 273.
+nput line 274.
 (pdftex.def)             Requested size: 232.19843pt x 158.65796pt.
 <Figures/Opt_drive_problem.pdf, id=117, 397.485pt x 182.6825pt>
 File: Figures/Opt_drive_problem.pdf Graphic file (type pdf)
 <use Figures/Opt_drive_problem.pdf>
-Package pdftex.def Info: Figures/Opt_drive_problem.pdf  used on input line 287.
+Package pdftex.def Info: Figures/Opt_drive_problem.pdf  used on input line 288.
 
 (pdftex.def)             Requested size: 214.20154pt x 98.44916pt.
 
@@ -740,32 +740,32 @@ Package pdftex.def Info: Figures/Opt_drive_problem.pdf  used on input line 287.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5 <./Figures/efficiency_maps.pdf> <./Figures/const_vel_drive_problem.pdf>]
-Overfull \hbox (8.47134pt too wide) in paragraph at lines 312--323
+Overfull \hbox (8.47134pt too wide) in paragraph at lines 313--324
  [][] 
  []
 
 <Figures/Benchmark_altitude.pdf, id=240, 631.31998pt x 333.62881pt>
 File: Figures/Benchmark_altitude.pdf Graphic file (type pdf)
 <use Figures/Benchmark_altitude.pdf>
-Package pdftex.def Info: Figures/Benchmark_altitude.pdf  used on input line 327
+Package pdftex.def Info: Figures/Benchmark_altitude.pdf  used on input line 328
 .
 (pdftex.def)             Requested size: 252.0pt x 133.16916pt.
 <Figures/range_comp_bar.pdf, id=241, 575.67905pt x 435.85776pt>
 File: Figures/range_comp_bar.pdf Graphic file (type pdf)
 <use Figures/range_comp_bar.pdf>
-Package pdftex.def Info: Figures/range_comp_bar.pdf  used on input line 342.
+Package pdftex.def Info: Figures/range_comp_bar.pdf  used on input line 343.
 (pdftex.def)             Requested size: 216.71906pt x 164.07806pt.
 <Figures/driving_time_comp_bar.pdf, id=242, 575.67905pt x 369.233pt>
 File: Figures/driving_time_comp_bar.pdf Graphic file (type pdf)
 <use Figures/driving_time_comp_bar.pdf>
 Package pdftex.def Info: Figures/driving_time_comp_bar.pdf  used on input line 
-348.
+349.
 (pdftex.def)             Requested size: 216.71906pt x 138.99725pt.
 <Figures/energy_driving_profile_best.pdf, id=243, 661.94385pt x 652.97896pt>
 File: Figures/energy_driving_profile_best.pdf Graphic file (type pdf)
 <use Figures/energy_driving_profile_best.pdf>
 Package pdftex.def Info: Figures/energy_driving_profile_best.pdf  used on input
- line 358.
+ line 359.
 (pdftex.def)             Requested size: 252.0pt x 248.58295pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -773,18 +773,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [6 <./Figures/Design_space_exploration_top.pdf> <./Figures/Design_space_explora
 tion_bottom.pdf> <./Figures/Opt_drive_problem.pdf> <./Figures/Benchmark_altitud
 e.pdf>]
-Underfull \hbox (badness 1953) in paragraph at lines 383--384
+Underfull \hbox (badness 1953) in paragraph at lines 384--385
 \OT1/ptm/m/n/10 sig-nif-i-cantly af-fects the driv-ing time. []For ex-am-ple, t
 he
  []
 
 
-Underfull \hbox (badness 6110) in paragraph at lines 383--384
+Underfull \hbox (badness 6110) in paragraph at lines 384--385
 \OT1/ptm/m/n/10 minimum-delay-constant-velocity driv-ing re-duces driv-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--384
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
 
  []
 
@@ -793,52 +793,52 @@ res/energy_driving_profile_best.pdf>]
 <Figures/Histogram_legend.pdf, id=678, 564.93971pt x 174.48207pt>
 File: Figures/Histogram_legend.pdf Graphic file (type pdf)
 <use Figures/Histogram_legend.pdf>
-Package pdftex.def Info: Figures/Histogram_legend.pdf  used on input line 431.
+Package pdftex.def Info: Figures/Histogram_legend.pdf  used on input line 432.
 (pdftex.def)             Requested size: 232.19843pt x 71.71382pt.
 <Figures/Histogram_noconst_vel.pdf, id=679, 573.38165pt x 257.32407pt>
 File: Figures/Histogram_noconst_vel.pdf Graphic file (type pdf)
 <use Figures/Histogram_noconst_vel.pdf>
 Package pdftex.def Info: Figures/Histogram_noconst_vel.pdf  used on input line 
-437.
+438.
 (pdftex.def)             Requested size: 258.0pt x 115.7869pt.
 <Figures/Histogram_noconst_acc.pdf, id=680, 573.38165pt x 257.32407pt>
 File: Figures/Histogram_noconst_acc.pdf Graphic file (type pdf)
 <use Figures/Histogram_noconst_acc.pdf>
 Package pdftex.def Info: Figures/Histogram_noconst_acc.pdf  used on input line 
-443.
+444.
 (pdftex.def)             Requested size: 258.0pt x 115.7869pt.
 <Figures/Histogram_vel.pdf, id=681, 563.83188pt x 254.44249pt>
 File: Figures/Histogram_vel.pdf Graphic file (type pdf)
 <use Figures/Histogram_vel.pdf>
-Package pdftex.def Info: Figures/Histogram_vel.pdf  used on input line 449.
+Package pdftex.def Info: Figures/Histogram_vel.pdf  used on input line 450.
 (pdftex.def)             Requested size: 258.0pt x 116.43153pt.
 <Figures/Histogram_acc.pdf, id=682, 562.91162pt x 254.67416pt>
 File: Figures/Histogram_acc.pdf Graphic file (type pdf)
 <use Figures/Histogram_acc.pdf>
-Package pdftex.def Info: Figures/Histogram_acc.pdf  used on input line 455.
+Package pdftex.def Info: Figures/Histogram_acc.pdf  used on input line 456.
 (pdftex.def)             Requested size: 258.0pt x 116.72406pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 430--459
+Overfull \hbox (6.0pt too wide) in paragraph at lines 431--460
  []$ 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 430--459
+Overfull \hbox (6.0pt too wide) in paragraph at lines 431--460
  []$ 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 430--459
+Overfull \hbox (6.0pt too wide) in paragraph at lines 431--460
  []$ 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 430--459
+Overfull \hbox (6.0pt too wide) in paragraph at lines 431--460
  []$ 
  []
 
 
-Underfull \hbox (badness 3657) in paragraph at lines 467--469
+Underfull \hbox (badness 3657) in paragraph at lines 468--470
 [][]\OT1/ptm/m/n/10 Like the minimum-energy-velocity-planning, $\OML/ptmcm/m/it
 /10 E[]DP$\OT1/ptm/m/n/10 - and
  []
@@ -849,32 +849,32 @@ gram_acc.pdf>]
 <Figures/EDP_comp_profile.pdf, id=2358, 669.36426pt x 655.44875pt>
 File: Figures/EDP_comp_profile.pdf Graphic file (type pdf)
 <use Figures/EDP_comp_profile.pdf>
-Package pdftex.def Info: Figures/EDP_comp_profile.pdf  used on input line 497.
+Package pdftex.def Info: Figures/EDP_comp_profile.pdf  used on input line 498.
 (pdftex.def)             Requested size: 252.0pt x 246.75279pt.
 <Figures/EDP_comp_bar.pdf, id=2359, 576.03708pt x 547.89882pt>
 File: Figures/EDP_comp_bar.pdf Graphic file (type pdf)
 <use Figures/EDP_comp_bar.pdf>
-Package pdftex.def Info: Figures/EDP_comp_bar.pdf  used on input line 509.
+Package pdftex.def Info: Figures/EDP_comp_bar.pdf  used on input line 510.
 (pdftex.def)             Requested size: 252.0pt x 239.68842pt.
  [9 <./Figures/EDP_comp_profile.pdf> <./Figures/EDP_comp_bar.pdf>]
-Underfull \hbox (badness 1661) in paragraph at lines 517--520
+Underfull \hbox (badness 1661) in paragraph at lines 518--521
 \OT1/ptm/m/n/10 driv-ing, the minimum-delay-constant-velocity driv-ing, the
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 521--522
+Underfull \hbox (badness 3713) in paragraph at lines 522--523
 [][]\OT1/ptm/m/n/10 In ad-di-tion, EDP of the pro-posed EDP-aware-velocity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--522
+Underfull \hbox (badness 10000) in paragraph at lines 522--523
 
  []
 
 <Figures/model_fidelity.pdf, id=2681, 567.44327pt x 434.59535pt>
 File: Figures/model_fidelity.pdf Graphic file (type pdf)
 <use Figures/model_fidelity.pdf>
-Package pdftex.def Info: Figures/model_fidelity.pdf  used on input line 533.
+Package pdftex.def Info: Figures/model_fidelity.pdf  used on input line 534.
 (pdftex.def)             Requested size: 214.20154pt x 164.05376pt.
 (./EV_range_extension.bbl [10 <./Figures/model_fidelity.pdf>]
 Underfull \hbox (badness 2253) in paragraph at lines 152--155
@@ -925,20 +925,20 @@ Overfull \hbox (12.2933pt too wide) in paragraph at lines 170--173
 <Bio/Donkyu.pdf, id=2782, 150.5625pt x 188.705pt>
 File: Bio/Donkyu.pdf Graphic file (type pdf)
 <use Bio/Donkyu.pdf>
-Package pdftex.def Info: Bio/Donkyu.pdf  used on input line 560.
+Package pdftex.def Info: Bio/Donkyu.pdf  used on input line 561.
 (pdftex.def)             Requested size: 72.07619pt x 90.3355pt.
 File: Bio/Donkyu.pdf Graphic file (type pdf)
 <use Bio/Donkyu.pdf>
-Package pdftex.def Info: Bio/Donkyu.pdf  used on input line 560.
+Package pdftex.def Info: Bio/Donkyu.pdf  used on input line 561.
 (pdftex.def)             Requested size: 72.07619pt x 90.3355pt.
 <Bio/Naehyuck.pdf, id=2785, 614.295pt x 794.97pt>
 File: Bio/Naehyuck.pdf Graphic file (type pdf)
 <use Bio/Naehyuck.pdf>
-Package pdftex.def Info: Bio/Naehyuck.pdf  used on input line 571.
+Package pdftex.def Info: Bio/Naehyuck.pdf  used on input line 572.
 (pdftex.def)             Requested size: 69.80351pt x 90.33397pt.
 File: Bio/Naehyuck.pdf Graphic file (type pdf)
 <use Bio/Naehyuck.pdf>
-Package pdftex.def Info: Bio/Naehyuck.pdf  used on input line 571.
+Package pdftex.def Info: Bio/Naehyuck.pdf  used on input line 572.
 (pdftex.def)             Requested size: 69.80351pt x 90.33397pt.
  [11 <./Bio/Donkyu.pdf> <./Bio/Naehyuck.pdf>] (./EV_range_extension.aux) ) 
 Here is how much of TeX's memory you used:
@@ -960,7 +960,7 @@ ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/
 type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on EV_range_extension.pdf (11 pages, 2828883 bytes).
+Output written on EV_range_extension.pdf (11 pages, 2828854 bytes).
 PDF statistics:
  2849 PDF objects out of 2984 (max. 8388607)
  1917 compressed objects within 20 object streams

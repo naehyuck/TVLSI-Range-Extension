@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  30 SEP 2018 10:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  30 SEP 2018 11:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1041,19 +1041,19 @@ Package pdftex.def Info: Figures/Histogram_noconst_acc.pdf used on input line 4
 43.
 (pdftex.def)             Requested size: 258.0pt x 115.7869pt.
 
-<Figures/Histogram_vel.pdf, id=985, 568.0349pt x 256.5828pt>
+<Figures/Histogram_vel.pdf, id=985, 562.91162pt x 254.67416pt>
 File: Figures/Histogram_vel.pdf Graphic file (type pdf)
 
 <use Figures/Histogram_vel.pdf>
 Package pdftex.def Info: Figures/Histogram_vel.pdf used on input line 449.
-(pdftex.def)             Requested size: 258.0pt x 116.53784pt.
+(pdftex.def)             Requested size: 258.0pt x 116.72406pt.
 
-<Figures/Histogram_acc.pdf, id=986, 568.0349pt x 256.5828pt>
+<Figures/Histogram_acc.pdf, id=986, 562.91162pt x 254.67416pt>
 File: Figures/Histogram_acc.pdf Graphic file (type pdf)
 
 <use Figures/Histogram_acc.pdf>
 Package pdftex.def Info: Figures/Histogram_acc.pdf used on input line 455.
-(pdftex.def)             Requested size: 258.0pt x 116.53784pt.
+(pdftex.def)             Requested size: 258.0pt x 116.72406pt.
 
 Overfull \hbox (6.0pt too wide) in paragraph at lines 430--459
  []$ 
@@ -1083,14 +1083,14 @@ Underfull \hbox (badness 3657) in paragraph at lines 467--469
 [8 <./Figures/Histogram_legend.pdf> <./Figures/Histogram_noconst_vel.pdf> <./Fi
 gures/Histogram_noconst_acc.pdf> <./Figures/Histogram_vel.pdf> <./Figures/Histo
 gram_acc.pdf>]
-<Figures/EDP_comp_profile.pdf, id=2795, 654.9587pt x 655.44875pt>
+<Figures/EDP_comp_profile.pdf, id=2662, 654.9587pt x 655.44875pt>
 File: Figures/EDP_comp_profile.pdf Graphic file (type pdf)
 
 <use Figures/EDP_comp_profile.pdf>
 Package pdftex.def Info: Figures/EDP_comp_profile.pdf used on input line 496.
 (pdftex.def)             Requested size: 252.0pt x 252.18352pt.
 
-<Figures/EDP_comp_bar.pdf, id=2796, 576.03708pt x 547.89882pt>
+<Figures/EDP_comp_bar.pdf, id=2663, 576.03708pt x 547.89882pt>
 File: Figures/EDP_comp_bar.pdf Graphic file (type pdf)
 
 <use Figures/EDP_comp_bar.pdf>
@@ -1115,7 +1115,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 520--521
 Underfull \vbox (badness 2951) has occurred while \output is active []
 
  [9 <./Figures/EDP_comp_profile.pdf>]
-<Figures/model_fidelity.pdf, id=2815, 567.44327pt x 434.59535pt>
+<Figures/model_fidelity.pdf, id=2682, 567.44327pt x 434.59535pt>
 File: Figures/model_fidelity.pdf Graphic file (type pdf)
 
 <use Figures/model_fidelity.pdf>
@@ -1167,7 +1167,7 @@ Overfull \hbox (12.2933pt too wide) in paragraph at lines 170--173
 ]range-[]at-[]steady-[]75-[]mph/$. 
  []
 
-) <Bio/Donkyu.pdf, id=3219, 150.5625pt x 188.705pt>
+) <Bio/Donkyu.pdf, id=3086, 150.5625pt x 188.705pt>
 File: Bio/Donkyu.pdf Graphic file (type pdf)
  <use Bio/Donkyu.pdf>
 Package pdftex.def Info: Bio/Donkyu.pdf used on input line 559.
@@ -1177,7 +1177,7 @@ File: Bio/Donkyu.pdf Graphic file (type pdf)
 <use Bio/Donkyu.pdf>
 Package pdftex.def Info: Bio/Donkyu.pdf used on input line 559.
 (pdftex.def)             Requested size: 72.07619pt x 90.3355pt.
- <Bio/Naehyuck.pdf, id=3222, 614.295pt x 794.97pt>
+ <Bio/Naehyuck.pdf, id=3089, 614.295pt x 794.97pt>
 File: Bio/Naehyuck.pdf Graphic file (type pdf)
 
 <use Bio/Naehyuck.pdf>
@@ -1207,10 +1207,10 @@ ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/urw/times/utmbi8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on EV_range_extension.pdf (11 pages, 2936254 bytes).
+Output written on EV_range_extension.pdf (11 pages, 2920919 bytes).
 PDF statistics:
- 3286 PDF objects out of 3580 (max. 8388607)
- 2207 compressed objects within 23 object streams
+ 3153 PDF objects out of 3580 (max. 8388607)
+ 2119 compressed objects within 22 object streams
  0 named destinations out of 1000 (max. 500000)
  140 words of extra memory for PDF output out of 10000 (max. 10000000)
 

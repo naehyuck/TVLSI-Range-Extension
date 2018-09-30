@@ -162,16 +162,17 @@ where $C_0$, $C_1$, $C_2$, and $C_3$ mean coefficients for constant loss, iron a
 
 
 \begin{figure*}	%Figure 2.
-\includegraphics[width=1.0\hsize]{Figures/ADVISOR_model_validation_result.pdf}
+\centering
+\includegraphics[width=0.85\hsize]{Figures/ADVISOR_model_validation_result.pdf}
 \caption{Validation of the model coefficient extraction.}
 \label{fig:ADVISOR_model_validation}
 \end{figure*} 
 
 ADVISOR is a vehicle simulator that takes into account various factors of vehicles including engines, electric traction motors, types of drivetrains, shape of chassis, etc.~\cite{Markel:JPS02}. ADVISOR is a fast simulator as it simulates a 700 second vehicle driving in one second. DP is commonly used to derive the energy-aware-velocity planning of vehicles~\cite{Lin:ICCA14,Dib:IVPPC11}. The DP optimization repeatedly computes the vehicle energy in each distance, velocity and acceleration step, and thus it is not proper to run ADVISOR in the inner loop of the DP optimization. For instance, it takes 15 minutes of computation to derive a 10 minute driving velocity planning profile with a 30-step velocity resolution. This is absolutely not acceptable for online recomputation that can be caused by unexpected interrupts while driving. So, instead of using ADVISOR for the speed optimization, we use ADVISOR for the model coefficient extraction. In other words, we use the same form of polynomial as~\eqref{eq:EV_specific_model} but derive the coefficients by running ADVISOR. 
 
-\textcolor{red}{We can produce a new solution in a reasonable amount of time if an unexpected interrupt occurs. For example, if a vehicle accident occurs, a GPS navigator may perform rerouting to detour the accident area. The proposed velocity planning should be ``recomputed'' for the modified route. After detouring, the new route will be merged to the original route, and we can still reuse the previously computed  velocity planning for the rest of travel. While the proposed methods can perform such online ``recomputation,'' the previous method that uses ADVISOR in the inner loop can hardly meet such requirement.}
+\textcolor{red}{The proposed methods allows us to produce an updated solution in a reasonable amount of time if an unexpected interrupt occurs. For example, if a vehicle accident occurs, a GPS navigator may perform rerouting to detour the accident area. The proposed velocity planning should be ``recomputed'' for the modified route. After detouring, the new route will be merged to the original route, and we can still reuse the previously computed  velocity planning for the rest of travel. While the proposed methods can perform such online ``recomputation,'' the previous method that uses ADVISOR in the inner loop can hardly meet such requirement.}
 
-We choose Chevrolet Bolt (1,616 kg curb weight) for the target vehicle, but our method does not restrict a particular type of vehicles. \textcolor{red}{Chevrolet Bolt has been produced since November 2016. Total 26,000 units have been  delivered, and Bolt is positioned as the third best-selling EV in the United States.} The top speed of Chevrolet Bolt is a 150 km/h. It is capable of achieving a 6.5 second 0--100 km/h time with a 150 kW electric permanent magnet motor~\cite{GM_Bolt:official}. Chevrolet Bolt is equipped with a 350 V and 57.4 kWh Lithium-ion battery pack with 96-series and 3-parallel of 3.65 V cells~\cite{GM_Bolt:spec}. Chevrolet Bolt battery chemistry is Lithium Nickel Manganese Cobalt Oxide from LG. 
+We choose Chevrolet Bolt (1,616 kg curb weight) for the target vehicle, but our method does not restrict a particular type of vehicles. \textcolor{red}{Chevrolet Bolt has been produced since November 2016. Total 26,000 cars have been  delivered, and Bolt is positioned as the third best-selling EV in the United States.} The top speed of Chevrolet Bolt is a 150 km/h. It is capable of achieving a 6.5 second 0--100 km/h time with a 150 kW electric permanent magnet motor~\cite{GM_Bolt:official}. Chevrolet Bolt is equipped with a 350 V and 57.4 kWh Lithium-ion battery pack with 96-series and 3-parallel of 3.65 V cells~\cite{GM_Bolt:spec}. Chevrolet Bolt battery chemistry is Lithium Nickel Manganese Cobalt Oxide from LG. 
 
 \begin{figure}   %Figure 1.
 \centering
@@ -189,10 +190,11 @@ We choose Chevrolet Bolt (1,616 kg curb weight) for the target vehicle, but our 
 \caption{\textcolor{red}{(a) Range-speed experimental data for Chevrolet Bolt~\cite{GM_Bolt:range_speed} and (b) comparison with simulation results of the proposed EV power model.}}
 \end{figure}
 
-\textcolor{red}{We use ADVISOR to extract the model coefficients of new vehicles starting from known vehicle specifications such as the aerodynamic resistance, rolling resistance, curb weight, and so on. Such data is often published in the users' manual, website and so forth. We further use the vehicle performance data such as the top speed, maximum acceleration, and so on, which are also available on the manuals and website. We iteratively run ADVISOR and derive the model coefficients so that all the known values match among each other.}
+\textcolor{red}{We use ADVISOR to extract the model coefficients of new vehicles starting from known vehicle specifications such as the aerodynamic resistance, rolling resistance, curb weight, and so on. Such data is often published in the users' manual, website and so forth. We further use the vehicle performance data such as the top speed, maximum acceleration, and so on, which are also available on the manuals, commercials and websites. We iteratively run ADVISOR and derive the model coefficients so that all the known data values match among each other.}
 The model coefficient extraction result shows as in Fig.~\ref{fig:ADVISOR_model_validation}. The normalized root-mean-square (RMS) deviation is 5.1\%. Table \ref{table:Coeff_Bolt} summarizes the model coefficients of (\ref{eq:EV_specific_model}) for Chevrolet Bolt. 
 
-\textcolor{red}{We further evaluate the model accuracy with the range-speed real vehicle experiments as shown in Fig.~\ref{fig:range_speed_exp} to confirm the derived power models are close enough to the real vehicle measurement data~\cite{GM_Bolt:range25mph,GM_Bolt:range65mph,GM_Bolt:range75mph,GM_Bolt:range93mph,GM_Bolt:range_speed}. We  refine the coefficients until all the available data values match well. Finally, the derived EV power model well matches with the range-speed experimental data as shown in Fig.~\ref{fig:range_speed_valid} as well as the top speed and maximum acceleration setting the aerodynamic resistance, rolling resistance, curb weight, etc. with the known values. The errors of the range-speed simulation is merely 1.4\%, the time to approach 60 mph at departure is 7.8\%, and the top speed is 3.0\%, respectively.} 
+\textcolor{red}{We further evaluate the model accuracy with the range-speed real vehicle experiments as shown in Fig.~\ref{fig:range_speed_exp} to confirm the derived power models are close enough to the real vehicle measurement data~\cite{GM_Bolt:range25mph,GM_Bolt:range65mph,GM_Bolt:range75mph,GM_Bolt:range93mph,GM_Bolt:range_speed}. We  refine the coefficients until all the available data values match well. \\
+As a result, the derived EV power model well matches with the range-speed experimental data as shown in Fig.~\ref{fig:range_speed_valid} as well as the top speed and maximum acceleration setting the aerodynamic resistance, rolling resistance, curb weight, etc. with the known values. The errors in the range-speed simulation is merely 1.4\%, the time for 0-to-60 mph error is 7.8\%, and the top speed error is 3.0\%, respectively.} 
 
 \begin{table}
 \caption{Model coefficients for Chevrolet Bolt.}
@@ -261,15 +263,15 @@ We demonstrate how the cruising velocity, acceleration and deceleration affect E
 
 \begin{figure}   %Figure 6.
 \centering
-	\begin{subfigure}{0.5\textwidth}
+	\begin{subfigure}{0.45\textwidth}
 	\includegraphics[width=\hsize]{Figures/Design_space_exploration_top.pdf}
-	\caption{DSE on a 0 degree road slope}
+	\caption{DSE on a 0-degree slope road.}
 	\label{fig:DSE_0_slope}
 	\end{subfigure}
 ~
-	\begin{subfigure}{0.5\textwidth}
+	\begin{subfigure}{0.45\textwidth}
 	\includegraphics[width=\hsize]{Figures/Design_space_exploration_bottom.pdf}
-	\caption{DSE on a 4 degree road slope}
+	\caption{DSE on a 4-degree slope road.}
 	\label{fig:DSE_4_slope}
 	\end{subfigure}
 \caption{DSE of  the constant-velocity driving on (a) a 0 road slope and (b) a 4 road slope.}
@@ -301,7 +303,7 @@ where $\Delta t$ is a time to pass the distance step with a given velocity $v$, 
 \textcolor{red}{\subsection{Real Road Benchmarks}} \label{subsec:benchmarks}
 
 %% Description of benchmarks
-\textcolor{red}{We implement six real roads from various locations in California. The first three roads consist of road segments in cities. Jones Street in San Francisco and Hoover Street in Los Angeles are two representative city landscapes such as hills and flat roads, and Cliff Drive in Santa Barbara is a mixture of those. The second two roads are road segments in mountain areas: Serrano Avenue in Anaheim Hills and Otay Lakes Road in San Ysidro Mountain in California. The last road is Junipero Serra Boulevard connecting San Fransisco and San Jose. The details of road data is summarized in Table \ref{table:road_bench}, and Fig. \ref{fig:bench_altitude}, which visualize the altitudes of the benchmarking roads.}
+\textcolor{red}{We choose six  roads from various locations in California and make real road benchmarks. The first three roads are in cities. Jones Street in San Francisco and Hoover Street in Los Angeles are two representative city landscapes such as hills and flat roads, respectively, and Cliff Drive in Santa Barbara is a mixture of those. The second two roads are in mountain areas: Serrano Avenue in Anaheim Hills and Otay Lakes Road in San Ysidro Mountain in California. The last road is Junipero Serra Boulevard connecting San Fransisco and San Jose. The details of road data is summarized in Table~\ref{table:road_bench}, and Fig.~\ref{fig:bench_altitude}, which visualize the altitudes of the road benchmarks.}
 
 \begin{table} 
 \caption{\textcolor{red}{Real road benchmarks.}}
@@ -332,25 +334,25 @@ Junipero Serra Blvd.	&1500		&7.46		&-5.48	&0.40		&2.72 	&2.70	\\ \hline
 \textcolor{red}{\subsection{Consideration of both Energy and Time}} \label{subsec:energy_time}
 
 %% Description of driving constraints
-\textcolor{red}{We enforce the minimum acceleration not lower than 0.4 $m/s^2$ when the EV starts from a stop sign or a traffic light until the velocity reaches to 25 km/h not too bother traffic flow. If the EV accelerates at a 0.4 $m/s^2$, it would take 15 seconds to reach a 25 km/h speed. The maximum speed is bounded by speed limit of the benchmark roads. Speed limit in our benchmarks is from 56 km/h to 64 km/h by the road type.
+\textcolor{blue}{We enforce the minimum acceleration not lower than 0.4 $m/s^2$ when the EV starts from a stop sign or a traffic light until the velocity reaches to 25 km/h not too bother traffic flow. If the EV accelerates at a 0.4 $m/s^2$, it would take 15 seconds to reach a 25 km/h speed. The maximum speed is bounded by speed limit of the benchmark roads. Speed limit in our benchmarks is from 56 km/h to 64 km/h by the road type.
 %
 The maximum acceleration is limited by the motor torque: a 4.7 $m/s^2$ on a flat road.  However, such a fast acceleration negatively affects to the  power consumption as well as passenger comfortness. We limit the maximum acceleration to 1.7 $m/s^2$ as shown in Fig.~\ref{fig:histogram}(b), which is the same as the maximum acceleration of compact cars designed to be used primarily used in urban areas (15 seconds of 0 to 100 km/h time).}
 
 
 \begin{figure}   %Figure 9.
 \centering
-	\begin{subfigure}{0.45\textwidth}
+	\begin{subfigure}{0.42\textwidth}
 	\includegraphics[width=\hsize]{Figures/range_comp_bar.pdf}
 	\caption{Range extension}
 	\label{fig:range_comp}
 	\end{subfigure}
 ~
-	\begin{subfigure}{0.45\textwidth}
+	\begin{subfigure}{0.42\textwidth}
 	\includegraphics[width=\hsize]{Figures/driving_time_comp_bar.pdf}
 	\caption{Driving time}
 	\label{fig:driving_time_comp}
 	\end{subfigure}
-\caption{\textcolor{red}{Range extension and driving time by the minimum-energy-velocity planning.}}
+\caption{\textcolor{red}{Range extension and driving time by the minimum-energy-velocity planning, Least-energy-constant-velocity driving and Minimum-delay-constant-velocity driving.}}
 \label{fig:min_energy_planning_comp}
 \end{figure}
 
@@ -365,18 +367,23 @@ The maximum acceleration is limited by the motor torque: a 4.7 $m/s^2$ on a flat
 \textcolor{red}{Fig.~\ref{fig:min_energy_planning_comp} shows the range extension and driving time by the minimum-energy-velocity planning on the benchmarking roads. Y-axis denotes the range extension compared with the least-energy-constant-velocity driving. Blue-colored bars indicate the minimum-delay-constant-velocity driving, and green-colored bars indicate the least-energy-constant-velocity driving. Yellow-colored bars indicate the minimum-energy-velocity planning.}
 
 \textcolor{red}{The range extension by the minimum-energy-velocity planning is from 2.8\% up to 17.2\% compared with the least-energy-constant-velocity driving. 
-The minimum-energy-velocity planning extends the range on the two roads (Serrano Avenue and Junipero Serra Boulevard.) Unlike other roads, these two roads have relatively large RMS (root mean square) values and small mean values. These roads include both uphill and downhill, and there are many chances to save energy consumption when entering uphill and downhill.
-On the other hands, roads having small standard deviations show less range extension compared with the least-energy-constant-velocity driving because the least-energy-constant-velocity driving is close to the optimal for the monotonous road slope.}
+The minimum-energy-velocity planning extends the range on Serrano Avenue and Junipero Serra Boulevard. Unlike other roads, these two roads have relatively large RMS (root mean square) and small mean values in the altitude. These roads include both uphills and downhills, which give more chances to save energy consumption.
+On the other hands, roads having small standard deviations show less range extension compared with the least-energy-constant-velocity driving. This is because the least-energy-constant-velocity driving is already close enough to the optimal when it comes to a monotonous road slope.}
 
-\textcolor{red}{Even though the minimum-energy-velocity planning exhibits a significant amount of range extension compared with the minimum-delay-constant-velocity planning, the resultant driving time become too long, i.e., the EV drives too slow. Too slow driving may bother other traffic as well as making the driving too time consuming. So, we assume that the EV should not drive too slow to avoid bothering traffic with the minimum speed of a 25 km/h.}
+\textcolor{red}{Even though the minimum-energy-velocity planning exhibits a significant amount of range extension compared with the minimum-delay-constant-velocity planning, the resultant driving time usually become too long, i.e., the EV drives too slow. Too slow driving may bother other traffic as well as making the driving too time-consuming.}
+\textcolor{blue}{So, we assume that the EV should not drive too slow to avoid bothering traffic with the minimum speed of a 25 km/h.}
 
 %% description of Fig. 10 (velocity profile)
-\textcolor{red}{We compare the simulation results among the least-energy-constant-velocity driving, the minimum-delay-constant-velocity driving and the minimum-energy-velocity planning. Fig.~\ref{fig:no_deadline_trace} shows altitude of Serrano Avenue, the velocity planning results and power consumptions by each method, respectively. We perform a design space exploration (DSE) for all feasible vehicle velocities and the acceleration pairs to derive the least-energy-constant-velocity driving. The point at the minimum energy consumption per distance (Wh/km) represents the least-energy-constant-velocity driving. The least-energy-constant velocity is 37 km/h in this example. The minimum-delay-constant velocity is determined by 64 km/h, which is the speed limit of this benchmark road.}
+\textcolor{red}{
+%We compare the simulation results among the least-energy-constant-velocity driving, the minimum-delay-constant-velocity driving and the minimum-energy-velocity planning. 
+Fig.~\ref{fig:no_deadline_trace} visualizes a more detailed picture how each driving method behaves on Serrano Avenue, for example. 
+%We perform a design space exploration (DSE) for all feasible vehicle velocities and the acceleration pairs to derive the least-energy-constant-velocity driving. 
+The point at the minimum energy consumption per distance (Wh/km) represents the least-energy-constant-velocity driving. The least-energy-constant velocity is 37 km/h in this example, which is achieved by a design space exploration (DSE). The minimum-delay-constant velocity is determined by 64 km/h, which is the speed limit of Serrano Avenue.}
 
-The minimum-energy-velocity planning guides to speed up the vehicle before entering an uphill. As a result, the EV consumes less energy consumption compared with the least-energy-constant-velocity driving at the top elevation. The minimum-energy-velocity planning also reclaims more energy by accelerating speed while driving on a downhill for the following climbing of the second uphill. 
+The minimum-energy-velocity planning speeds up the vehicle before entering an uphill. As a result, the EV consumes less energy consumption compared with the least-energy-constant-velocity driving at the top elevation. The minimum-energy-velocity planning also reclaims more energy by accelerating speed while driving on a downhill for the following climbing of the second uphill. 
 
 %% Need for another metric considering both delay and energy
-The minimum-energy-velocity planning solely considers the energy consumption, which may make the vehicle velocity impractically slower in many cases. In fact, most production EVs exhibits the longest range when the vehicle velocity is around 30 km/h on a flat road \textcolor{red}{as shown in Fig.~\ref{fig:range_speed_exp}.} Nevertheless, energy for cruising is much lower than energy for acceleration and diving uphills while the cruising velocity significantly affects the driving time. \textcolor{red}{For example, the minimum-delay-constant-velocity driving reduces driving time considerably by sacrificing range for roads having small standard deviation (Hoover Street, Cliff Drive and Otray Lakes Road).}
+The minimum-energy-velocity planning solely considers the energy consumption, which may make the vehicle velocity impractically slower in many cases. In fact, most production EVs exhibits the longest range when the vehicle velocity is around 30 km/h on a flat road \textcolor{red}{as shown in Fig.~\ref{fig:range_speed_exp}.} Nevertheless, energy for cruising is much lower than energy for acceleration and diving uphills while the cruising velocity significantly affects the driving time. \textcolor{red}{For example, the minimum-delay-constant-velocity driving reduces driving time considerably by sacrificing range for roads having small standard deviation (Hoover Street, Cliff Drive and Otray Lakes Road).}\\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

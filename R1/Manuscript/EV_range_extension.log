@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.28)  29 SEP 2018 08:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.28)  30 SEP 2018 09:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -683,101 +683,89 @@ Non-PDF special ignored!
 File: Figures/ADVISOR_model_validation_result.pdf Graphic file (type pdf)
 <use Figures/ADVISOR_model_validation_result.pdf>
 Package pdftex.def Info: Figures/ADVISOR_model_validation_result.pdf  used on i
-nput line 165.
-(pdftex.def)             Requested size: 516.0pt x 120.57066pt.
+nput line 166.
+(pdftex.def)             Requested size: 438.60315pt x 102.48349pt.
 <Figures/Bolt_EV_range.jpg, id=18, 497.86pt x 328.22626pt>
 File: Figures/Bolt_EV_range.jpg Graphic file (type jpg)
 <use Figures/Bolt_EV_range.jpg>
-Package pdftex.def Info: Figures/Bolt_EV_range.jpg  used on input line 179.
+Package pdftex.def Info: Figures/Bolt_EV_range.jpg  used on input line 180.
 (pdftex.def)             Requested size: 206.39685pt x 136.07613pt.
 <Figures/Range-speed_validation.pdf, id=19, 361.65984pt x 260.3597pt>
 File: Figures/Range-speed_validation.pdf Graphic file (type pdf)
 <use Figures/Range-speed_validation.pdf>
 Package pdftex.def Info: Figures/Range-speed_validation.pdf  used on input line
- 185.
+ 186.
 (pdftex.def)             Requested size: 206.39685pt x 148.58533pt.
  [3]
 <Figures/ICEV_EV_consumption.pdf, id=23, 405.515pt x 212.795pt>
 File: Figures/ICEV_EV_consumption.pdf Graphic file (type pdf)
 <use Figures/ICEV_EV_consumption.pdf>
 Package pdftex.def Info: Figures/ICEV_EV_consumption.pdf  used on input line 21
-5.
+7.
 (pdftex.def)             Requested size: 252.0pt x 132.23999pt.
  [4 <./Figures/ADVISOR_model_validation_result.pdf> <./Figures/Bolt_EV_range.jp
 g> <./Figures/Range-speed_validation.pdf> <./Figures/ICEV_EV_consumption.pdf>]
 <Figures/efficiency_maps.pdf, id=113, 400.49625pt x 208.78pt>
 File: Figures/efficiency_maps.pdf Graphic file (type pdf)
 <use Figures/efficiency_maps.pdf>
-Package pdftex.def Info: Figures/efficiency_maps.pdf  used on input line 239.
+Package pdftex.def Info: Figures/efficiency_maps.pdf  used on input line 241.
 (pdftex.def)             Requested size: 252.0pt x 131.3696pt.
 <Figures/const_vel_drive_problem.pdf, id=114, 373.395pt x 223.83624pt>
 File: Figures/const_vel_drive_problem.pdf Graphic file (type pdf)
 <use Figures/const_vel_drive_problem.pdf>
 Package pdftex.def Info: Figures/const_vel_drive_problem.pdf  used on input lin
-e 253.
+e 255.
 (pdftex.def)             Requested size: 214.20154pt x 128.40427pt.
 <Figures/Design_space_exploration_top.pdf, id=115, 424.58624pt x 291.36723pt>
 File: Figures/Design_space_exploration_top.pdf Graphic file (type pdf)
 <use Figures/Design_space_exploration_top.pdf>
 Package pdftex.def Info: Figures/Design_space_exploration_top.pdf  used on inpu
-t line 265.
-(pdftex.def)             Requested size: 258.0pt x 177.05797pt.
+t line 267.
+(pdftex.def)             Requested size: 232.19843pt x 159.3455pt.
 <Figures/Design_space_exploration_bottom.pdf, id=116, 423.21262pt x 289.17413pt
 >
 File: Figures/Design_space_exploration_bottom.pdf Graphic file (type pdf)
 <use Figures/Design_space_exploration_bottom.pdf>
 Package pdftex.def Info: Figures/Design_space_exploration_bottom.pdf  used on i
-nput line 271.
-(pdftex.def)             Requested size: 258.0pt x 176.29446pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 264--275
- []$[]$ 
- []
-
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 264--275
- []$ 
- []
-
+nput line 273.
+(pdftex.def)             Requested size: 232.19843pt x 158.65796pt.
 <Figures/Opt_drive_problem.pdf, id=117, 397.485pt x 182.6825pt>
 File: Figures/Opt_drive_problem.pdf Graphic file (type pdf)
 <use Figures/Opt_drive_problem.pdf>
-Package pdftex.def Info: Figures/Opt_drive_problem.pdf  used on input line 285.
+Package pdftex.def Info: Figures/Opt_drive_problem.pdf  used on input line 287.
 
 (pdftex.def)             Requested size: 214.20154pt x 98.44916pt.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 1005) has occurred while \output is active []
-
- [5 <./Figures/efficiency_maps.pdf> <./Figures/const_vel_drive_problem.pdf>]
-Overfull \hbox (8.47134pt too wide) in paragraph at lines 310--321
+[5 <./Figures/efficiency_maps.pdf> <./Figures/const_vel_drive_problem.pdf>]
+Overfull \hbox (8.47134pt too wide) in paragraph at lines 312--323
  [][] 
  []
 
 <Figures/Benchmark_altitude.pdf, id=240, 631.31998pt x 333.62881pt>
 File: Figures/Benchmark_altitude.pdf Graphic file (type pdf)
 <use Figures/Benchmark_altitude.pdf>
-Package pdftex.def Info: Figures/Benchmark_altitude.pdf  used on input line 325
+Package pdftex.def Info: Figures/Benchmark_altitude.pdf  used on input line 327
 .
 (pdftex.def)             Requested size: 252.0pt x 133.16916pt.
 <Figures/range_comp_bar.pdf, id=241, 586.03139pt x 463.54178pt>
 File: Figures/range_comp_bar.pdf Graphic file (type pdf)
 <use Figures/range_comp_bar.pdf>
-Package pdftex.def Info: Figures/range_comp_bar.pdf  used on input line 343.
-(pdftex.def)             Requested size: 232.19843pt x 183.66638pt.
+Package pdftex.def Info: Figures/range_comp_bar.pdf  used on input line 345.
+(pdftex.def)             Requested size: 216.71906pt x 171.4229pt.
 <Figures/driving_time_comp_bar.pdf, id=242, 587.22787pt x 402.68243pt>
 File: Figures/driving_time_comp_bar.pdf Graphic file (type pdf)
 <use Figures/driving_time_comp_bar.pdf>
 Package pdftex.def Info: Figures/driving_time_comp_bar.pdf  used on input line 
-349.
-(pdftex.def)             Requested size: 232.19843pt x 159.22678pt.
+351.
+(pdftex.def)             Requested size: 216.71906pt x 148.6092pt.
 <Figures/energy_driving_profile_best.pdf, id=243, 654.65073pt x 655.44875pt>
 File: Figures/energy_driving_profile_best.pdf Graphic file (type pdf)
 <use Figures/energy_driving_profile_best.pdf>
 Package pdftex.def Info: Figures/energy_driving_profile_best.pdf  used on input
- line 359.
+ line 361.
 (pdftex.def)             Requested size: 252.0pt x 252.30354pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -785,60 +773,65 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [6 <./Figures/Design_space_exploration_top.pdf> <./Figures/Design_space_explora
 tion_bottom.pdf> <./Figures/Opt_drive_problem.pdf> <./Figures/Benchmark_altitud
 e.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
-\OT1/ptm/m/n/10 constant-velocity driv-ing, the minimum-delay-constant-
+Underfull \hbox (badness 1953) in paragraph at lines 386--387
+\OT1/ptm/m/n/10 sig-nif-i-cantly af-fects the driv-ing time. []For ex-am-ple, t
+he
  []
 
 
-Underfull \hbox (badness 2591) in paragraph at lines 374--375
-\OT1/ptm/m/n/10 rep-re-sents the least-energy-constant-velocity driv-ing. The
+Underfull \hbox (badness 6110) in paragraph at lines 386--387
+\OT1/ptm/m/n/10 minimum-delay-constant-velocity driv-ing re-duces driv-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
+
  []
 
 [7 <./Figures/range_comp_bar.pdf> <./Figures/driving_time_comp_bar.pdf> <./Figu
 res/energy_driving_profile_best.pdf>]
-Underfull \hbox (badness 1910) in paragraph at lines 429--432
+Underfull \hbox (badness 1910) in paragraph at lines 436--439
 [][]\OT1/ptm/m/n/10 The minimum-energy-velocity plan-ning, the least-energy-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--432
+Underfull \hbox (badness 10000) in paragraph at lines 436--439
 \OT1/ptm/m/n/10 constant-velocity driv-ing and minimum-delay-constant-
  []
 
 <Figures/EDP_comp_profile.pdf, id=1232, 654.9587pt x 655.44875pt>
 File: Figures/EDP_comp_profile.pdf Graphic file (type pdf)
 <use Figures/EDP_comp_profile.pdf>
-Package pdftex.def Info: Figures/EDP_comp_profile.pdf  used on input line 435.
+Package pdftex.def Info: Figures/EDP_comp_profile.pdf  used on input line 442.
 (pdftex.def)             Requested size: 252.0pt x 252.18352pt.
-[8]
-<Figures/EDP_comp_bar.pdf, id=1236, 576.68648pt x 581.00485pt>
+<Figures/EDP_comp_bar.pdf, id=1233, 576.68648pt x 581.00485pt>
 File: Figures/EDP_comp_bar.pdf Graphic file (type pdf)
 <use Figures/EDP_comp_bar.pdf>
-Package pdftex.def Info: Figures/EDP_comp_bar.pdf  used on input line 447.
+Package pdftex.def Info: Figures/EDP_comp_bar.pdf  used on input line 454.
 (pdftex.def)             Requested size: 252.0pt x 253.88756pt.
-
-Underfull \hbox (badness 1661) in paragraph at lines 455--458
+[8]
+Underfull \hbox (badness 1661) in paragraph at lines 462--465
 \OT1/ptm/m/n/10 driv-ing, the minimum-delay-constant-velocity driv-ing, the
  []
 
 <Figures/Histogram.pdf, id=1237, 570.5532pt x 768.80443pt>
 File: Figures/Histogram.pdf Graphic file (type pdf)
 <use Figures/Histogram.pdf>
-Package pdftex.def Info: Figures/Histogram.pdf  used on input line 467.
+Package pdftex.def Info: Figures/Histogram.pdf  used on input line 474.
 (pdftex.def)             Requested size: 252.0pt x 339.5654pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--475
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
 
  []
 
-<Figures/model_fidelity.pdf, id=1238, 572.05148pt x 463.88376pt>
+[9 <./Figures/EDP_comp_profile.pdf> <./Figures/EDP_comp_bar.pdf> <./Figures/His
+togram.pdf>]
+<Figures/model_fidelity.pdf, id=2118, 572.05148pt x 463.88376pt>
 File: Figures/model_fidelity.pdf Graphic file (type pdf)
 <use Figures/model_fidelity.pdf>
-Package pdftex.def Info: Figures/model_fidelity.pdf  used on input line 485.
+Package pdftex.def Info: Figures/model_fidelity.pdf  used on input line 492.
 (pdftex.def)             Requested size: 226.79846pt x 183.90805pt.
-[9 <./Figures/EDP_comp_profile.pdf> <./Figures/EDP_comp_bar.pdf>]
-(./EV_range_extension.bbl [10 <./Figures/Histogram.pdf> <./Figures/model_fideli
-ty.pdf>]
+ (./EV_range_extension.bbl [10 <./Figures/model_fidelity.pdf>]
 Underfull \hbox (badness 2253) in paragraph at lines 152--155
 []\OT1/ptm/m/n/8 ``2018 chevro-let Bolt EV fea-tures and spec-i-fi-ca-tions.'' 
 Chevro-let
@@ -887,42 +880,45 @@ Overfull \hbox (12.2933pt too wide) in paragraph at lines 170--173
 <Bio/Donkyu.pdf, id=2214, 150.5625pt x 188.705pt>
 File: Bio/Donkyu.pdf Graphic file (type pdf)
 <use Bio/Donkyu.pdf>
-Package pdftex.def Info: Bio/Donkyu.pdf  used on input line 512.
+Package pdftex.def Info: Bio/Donkyu.pdf  used on input line 519.
 (pdftex.def)             Requested size: 72.07619pt x 90.3355pt.
 File: Bio/Donkyu.pdf Graphic file (type pdf)
 <use Bio/Donkyu.pdf>
-Package pdftex.def Info: Bio/Donkyu.pdf  used on input line 512.
+Package pdftex.def Info: Bio/Donkyu.pdf  used on input line 519.
 (pdftex.def)             Requested size: 72.07619pt x 90.3355pt.
 <Bio/Naehyuck.pdf, id=2217, 614.295pt x 794.97pt>
 File: Bio/Naehyuck.pdf Graphic file (type pdf)
 <use Bio/Naehyuck.pdf>
-Package pdftex.def Info: Bio/Naehyuck.pdf  used on input line 523.
+Package pdftex.def Info: Bio/Naehyuck.pdf  used on input line 530.
 (pdftex.def)             Requested size: 69.80351pt x 90.33397pt.
 File: Bio/Naehyuck.pdf Graphic file (type pdf)
 <use Bio/Naehyuck.pdf>
-Package pdftex.def Info: Bio/Naehyuck.pdf  used on input line 523.
+Package pdftex.def Info: Bio/Naehyuck.pdf  used on input line 530.
 (pdftex.def)             Requested size: 69.80351pt x 90.33397pt.
- [11 <./Bio/Donkyu.pdf> <./Bio/Naehyuck.pdf>] (./EV_range_extension.aux) ) 
+ [11 <./Bio/Donkyu.pdf> <./Bio/Naehyuck.pdf>] (./EV_range_extension.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  6245 strings out of 492649
  94148 string characters out of 6129622
- 183720 words of memory out of 5000000
+ 182720 words of memory out of 5000000
  9921 multiletter control sequences out of 15000+600000
  69355 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,17n,40p,1482b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr
-/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/
-2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texliv
-e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
-2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/texmf-d
-ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/
-type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw
-/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utm
-ri8a.pfb>
-Output written on EV_range_extension.pdf (11 pages, 2704951 bytes).
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/loca
+l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2018/
+texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist
+/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
+pe1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on EV_range_extension.pdf (11 pages, 2704821 bytes).
 PDF statistics:
  2281 PDF objects out of 2487 (max. 8388607)
  1540 compressed objects within 16 object streams

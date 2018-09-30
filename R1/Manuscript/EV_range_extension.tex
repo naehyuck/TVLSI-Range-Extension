@@ -421,6 +421,8 @@ The same is true for the minimum-$E^2DP$- or the minimum-$E^3DP$-velocity planni
 We divide a given driving route into multiple segments so that the solution of GA indicates a set of velocity values for each segment. %We evaluate the GA solutions and choose one of the solutions. 
 We apply the vehicle acceleration and deceleration constraints so that the velocity difference at the boundary of two adjacent segments becomes close enough to avoid a jerky motion. We update the solution through crossover and mutation processes until the solution converges. } 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \textcolor{red}{\subsection{Adding the Velocity and Acceleration Constraints}\label{subsec:constraints}}
 
 \begin{figure}   %Figure 13.
@@ -460,7 +462,7 @@ We apply the vehicle acceleration and deceleration constraints so that the veloc
 
 
 %Histogram analysis
-\textcolor{red}{We quantize the velocity and acceleration values and make a histogram to analyze population of velocity and acceleration for various energy-aware-velocity planning methods. Fig.~\ref{fig:histogram} shows two histograms of the driving schemes in Fig.~\ref{fig:EDP_aware_velocity_planning}. The minimum-delay-constant-velocity driving guides to accelerate to speed limit of the road benchmark (64 km/h). For the EDP-aware-velocity planning, it is used when the deadline is the most important concern. Therefore, it is also guided to drive near speed limit. The $E^2DP$- and $E^3DP$-aware-velocity planning methods are used when the remaining battery state of charge is more concerned than the deadline. It is guided to drive at an energy-efficient speed along a road slope. Particularly, the $E^3DP$-aware-velocity planning method is used when the state of charge is more concerned, and the driver should find the nearby charging station. It is guided to decelerate to 35-45 km/h.}\\
+\textcolor{red}{We quantize the velocity and acceleration values and make a histogram to analyze population of velocity and acceleration for various energy-aware-velocity planning methods. Fig.~\ref{fig:histogram}(a) and (b) show histograms of the driving schemes in Fig.~\ref{fig:EDP_aware_velocity_planning}. The minimum-delay-constant-velocity driving guides to accelerate to speed limit of the road benchmark (64 km/h). For the EDP-aware-velocity planning, it is used when the deadline is the most important concern. Therefore, it is also guided to drive near speed limit. The $E^2DP$- and $E^3DP$-aware-velocity planning methods are used when the remaining battery state of charge is more concerned than the deadline. It is guided to drive at an energy-efficient speed along a road slope. Particularly, the $E^3DP$-aware-velocity planning method is used when the state of charge is more concerned, and the driver should find the nearby charging station. It is guided to decelerate to 35-45 km/h.}\\
 
 %% Description of driving constraints
 \textcolor{blue}{We enforce the minimum acceleration not lower than 0.4 $m/s^2$ when the EV starts from a stop sign or a traffic light until the velocity reaches to 25 km/h not too bother traffic flow. If the EV accelerates at a 0.4 $m/s^2$, it would take 15 seconds to reach a 25 km/h speed. The maximum speed is bounded by speed limit of the benchmark roads. Speed limit in our benchmarks is from 56 km/h to 64 km/h by the road type.

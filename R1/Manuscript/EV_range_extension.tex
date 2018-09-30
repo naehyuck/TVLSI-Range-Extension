@@ -333,10 +333,7 @@ Junipero Serra Blvd.	&1500		&7.46		&-5.48	&0.40		&2.72 	&2.70	\\ \hline
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \textcolor{red}{\subsection{Consideration of both Energy and Time}} \label{subsec:energy_time}
 
-%% Description of driving constraints
-\textcolor{blue}{We enforce the minimum acceleration not lower than 0.4 $m/s^2$ when the EV starts from a stop sign or a traffic light until the velocity reaches to 25 km/h not too bother traffic flow. If the EV accelerates at a 0.4 $m/s^2$, it would take 15 seconds to reach a 25 km/h speed. The maximum speed is bounded by speed limit of the benchmark roads. Speed limit in our benchmarks is from 56 km/h to 64 km/h by the road type.
-%
-The maximum acceleration is limited by the motor torque: a 4.7 $m/s^2$ on a flat road.  However, such a fast acceleration negatively affects to the  power consumption as well as passenger comfortness. We limit the maximum acceleration to 1.7 $m/s^2$ as shown in Fig.~\ref{fig:histogram}(b), which is the same as the maximum acceleration of compact cars designed to be used primarily used in urban areas (15 seconds of 0 to 100 km/h time).}
+
 
 
 \begin{figure}   %Figure 9.
@@ -371,7 +368,7 @@ The minimum-energy-velocity planning extends the range on Serrano Avenue and Jun
 On the other hands, roads having small standard deviations show less range extension compared with the least-energy-constant-velocity driving. This is because the least-energy-constant-velocity driving is already close enough to the optimal when it comes to a monotonous road slope.}
 
 \textcolor{red}{Even though the minimum-energy-velocity planning exhibits a significant amount of range extension compared with the minimum-delay-constant-velocity planning, the resultant driving time usually become too long, i.e., the EV drives too slow. Too slow driving may bother other traffic as well as making the driving too time-consuming.}
-\textcolor{blue}{So, we assume that the EV should not drive too slow to avoid bothering traffic with the minimum speed of a 25 km/h.}
+
 
 %% description of Fig. 10 (velocity profile)
 \textcolor{red}{
@@ -419,54 +416,12 @@ The same is true for the minimum-$E^2DP$- or the minimum-$E^3DP$-velocity planni
 
 \textcolor{red}{DP solves the velocity planning in a polynomial time. The number of velocity states is a product of the number of selectable velocities in each distance $N$ and the number of steps to the endpoint $M$ as mentioned in Section IV-B. Also, the number of calculation to get the optimal velocity planning until the distance is $M$. Therefore, the complexity is $O(NM^2)$ for the minimum-energy-velocity planning and the proposed $EDP$-, $E^2DP$- and $E^3DP$-aware-velocity planning.} 
 
-\textcolor{red}{As the proposed solutions for  $EDP$-, $E^2DP$- and $E^3DP$-aware-velocity planning are not optimal, we perform  validation how close the proposed heuristics method is to the true optimal, comparing with the results of GA. GA can hardly be used for a practical solution method as its time complexity is not suitable for real applications. %
+\textcolor{red}{As the proposed solutions for  $EDP$-, $E^2DP$- and $E^3DP$-aware-velocity planning are not optimal, we perform  validation how close the proposed heuristics method is to the true optimal, comparing with the results of GA. We use the GA results as a golden reference to evaluate the optimality of the proposed heuristics.
+%GA can hardly be used for a practical solution method as its time complexity is not suitable for real applications. %
 We divide a given driving route into multiple segments so that the solution of GA indicates a set of velocity values for each segment. %We evaluate the GA solutions and choose one of the solutions. 
-We apply the vehicle acceleration and deceleration constraints so that the velocity difference at the boundary of two adjacent segments becomes close enough to avoid a jerky motion. We update the solution through crossover and mutation processes until the solution converges. We use the GA results as a golden reference to evaluate the optimality of the proposed heuristics.} 
+We apply the vehicle acceleration and deceleration constraints so that the velocity difference at the boundary of two adjacent segments becomes close enough to avoid a jerky motion. We update the solution through crossover and mutation processes until the solution converges. } 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\textcolor{red}{\section{Experiments}\label{sec:experiment}}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\textcolor{red}{\subsection{Comparison of the Velocity Profiles}}
-
-\textcolor{red}{Fig.~\ref{fig:EDP_aware_velocity_planning} shows the $EDP$-aware-velocity planning result of Serrano Avenue. We use the minimum-delay-constant-velocity driving and the least-energy-constant-velocity driving as baselines obtained by DSE. The minimum-energy-velocity planning and minimum-EDP-velocity planning by Genetic algorithm are used as golden references minimizing energy consumption and EDP, respectively.}
-
-\textcolor{red}{The minimum-energy-velocity planning, the least-energy-constant-velocity driving and minimum-delay-constant-velocity driving do reduce the $EDP$ but cannot explicitly minimize $EDP$.} However, the $EDP$-aware-velocity planning often overrides the least-energy-velocity because the delay penalty due to the reduced velocity is greater than the energy penalty due to the increased torque. Therefore, this policy can be used when the deadline is tight. Chances for energy saving by the energy-aware-velocity planning decrease as the deadline becomes tighter. 
-%
-The $EDP$-aware-velocity planning maintains the EV velocity to the least-energy velocity or the minimum-velocity constraint (not to bother traffic), whichever comes first. However, it does not appreciably decelerate the EV at the top of the hill to reduce driving time. So, we use $EDP$ for the metric when the deadline is tight. 
-
-\begin{figure} %Figure 11
-\centering
-\includegraphics[width=\hsize]{Figures/EDP_comp_profile.pdf}
-\caption{\textcolor{red}{Velocity profile comparison with cost functions of $EDP$, $E^2DP$ and $E^3DP$ on the benchmark Jones Street in San Francisco.}}
-\label{fig:EDP_aware_velocity_planning}
-\end{figure} 
-
-On the other hand, when the $E^2DP$ is used as a metric to optimize, the energy penalty contributes more to the cost function. As a result, the driving velocity decreases when driving on an uphill because the energy penalty due to the increased torque is greater than the delay penalty as shown in Fig.~\ref{fig:EDP_aware_velocity_planning}. Also, the $E^2DP$-aware velocity becomes slower than the maximum velocity on a downhill or on a flat road since the energy penalty becomes higher than the delay penalty at a high velocity due to the drivetrain loss and increased torque by the aerodynamic resistance. The EV accelerates to the least-energy velocity or the minimum-velocity constraint, whichever comes first, by the road slope and decelerates at the top of the first hill. Then, the EV drives faster than the least-energy velocity on the downhill followed by a  flat road, in preparation for the next hill. Although the least-energy velocity on an uphill is higher than that on a flat road, climbing an uphill consumes more energy. So, the EV gradually loses the velocity while it climbs up on an uphill spending less motor torque, which significantly saves energy consumption. In most applications, the deadline is important but not truly hard. Therefore, we adopt $E^2DP$ for the performance metric to consider both energy and driving time.
-
-When it comes to $E^3DP$, the effect of energy penalty becomes even more distinct, and the average driving velocity becomes lower. 
-The $E^3DP$ metric can be a proper optimization metric when the battery state of charge is less than 30\% for example.
-
-\begin{figure}	 %Figure 12.
-\centering
-\includegraphics[width=\hsize]{Figures/EDP_comp_bar.pdf}
-\caption{\textcolor{red}{Comparison of $EDP$ for various energy-aware-velocity planning methods.}}
-\label{fig:EDP_bar}
-\end{figure} 
-
-\textcolor{red}{\subsection{Comparison of EDP}}
-
-%%Description for Fig. 12
-Fig.~\ref{fig:EDP_bar} summarizes $EDP$ of the least-energy-constant-velocity driving, the minimum-delay-constant-velocity driving, the minimum-energy-velocity planning, the velocity planning with $EDP$, $E^2DP$ and $E^3DP$ as a metric on various road benchmarks \textcolor{red}{and the minimum-EDP-velocity planning with GA}. The proposed velocity planning results in up to 46.2\% improvements of $EDP$ compared with the least-energy-constant-velocity driving. 
-%The improvements occur especially when the slope of the uphill is steep.
-The driving velocity on a flat road is faster than that of the least-energy-constant-velocity driving at the expense of relatively little energy to save driving time. Then, the velocity decreases when climbing the following uphill to spend less motor torque, which saves more energy.
-
-\textcolor{red}{In addition, EDP of the proposed EDP-aware-velocity planning is merely 4.3\% higher than that of the true EDP-minimum-velocity planning on average. Through this results, we confirm that the results of the proposed heuristics are close enough to the true optimal solutions.}
-
-
-\textcolor{red}{\subsection{Analysis of the Velocity and Acceleration Changes}}
+\textcolor{red}{\subsection{Adding the Velocity and Acceleration Constraints}\label{subsec:constraints}}
 
 \begin{figure}   %Figure 13.
 \centering
@@ -503,16 +458,60 @@ The driving velocity on a flat road is faster than that of the least-energy-cons
 \label{fig:histogram}
 \end{figure}
 
-%\begin{figure}	%Figure 13.
-%\centering
-%\includegraphics[width=\hsize]{Figures/Histogram.pdf}
-%\caption{\textcolor{red}{Histograms of (a) velocity and (b) acceleration for various energy-aware-velocity planning methods with the acceleration constraint.}}
-%\label{fig:histogram}
-%\end{figure}
-
 
 %Histogram analysis
 \textcolor{red}{We quantize the velocity and acceleration values and make a histogram to analyze population of velocity and acceleration for various energy-aware-velocity planning methods. Fig.~\ref{fig:histogram} shows two histograms of the driving schemes in Fig.~\ref{fig:EDP_aware_velocity_planning}. The minimum-delay-constant-velocity driving guides to accelerate to speed limit of the road benchmark (64 km/h). For the EDP-aware-velocity planning, it is used when the deadline is the most important concern. Therefore, it is also guided to drive near speed limit. The $E^2DP$- and $E^3DP$-aware-velocity planning methods are used when the remaining battery state of charge is more concerned than the deadline. It is guided to drive at an energy-efficient speed along a road slope. Particularly, the $E^3DP$-aware-velocity planning method is used when the state of charge is more concerned, and the driver should find the nearby charging station. It is guided to decelerate to 35-45 km/h.}\\
+
+%% Description of driving constraints
+\textcolor{blue}{We enforce the minimum acceleration not lower than 0.4 $m/s^2$ when the EV starts from a stop sign or a traffic light until the velocity reaches to 25 km/h not too bother traffic flow. If the EV accelerates at a 0.4 $m/s^2$, it would take 15 seconds to reach a 25 km/h speed. The maximum speed is bounded by speed limit of the benchmark roads. Speed limit in our benchmarks is from 56 km/h to 64 km/h by the road type.
+%
+The maximum acceleration is limited by the motor torque: a 4.7 $m/s^2$ on a flat road.  However, such a fast acceleration negatively affects to the  power consumption as well as passenger comfortness. We limit the maximum acceleration to 1.7 $m/s^2$ as shown in Fig.~\ref{fig:histogram}(b), which is the same as the maximum acceleration of compact cars designed to be used primarily used in urban areas (15 seconds of 0 to 100 km/h time).}
+
+\textcolor{blue}{So, we assume that the EV should not drive too slow to avoid bothering traffic with the minimum speed of a 25 km/h.}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textcolor{red}{\section{Experiments}\label{sec:experiment}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textcolor{red}{\subsection{Comparison of the Velocity Profiles}}
+
+\textcolor{red}{Fig.~\ref{fig:EDP_aware_velocity_planning} shows the $EDP$-aware-velocity planning result of Serrano Avenue. We use the minimum-delay-constant-velocity driving and the least-energy-constant-velocity driving as baselines obtained by DSE. The minimum-energy-velocity planning and minimum-EDP-velocity planning by Genetic algorithm are used as golden references minimizing energy consumption and EDP, respectively.}
+
+\textcolor{red}{The minimum-energy-velocity planning, the least-energy-constant-velocity driving and minimum-delay-constant-velocity driving do reduce the $EDP$ but cannot explicitly minimize $EDP$.} However, the $EDP$-aware-velocity planning often overrides the least-energy-velocity because the delay penalty due to the reduced velocity is greater than the energy penalty due to the increased torque. Therefore, this policy can be used when the deadline is tight. Chances for energy saving by the energy-aware-velocity planning decrease as the deadline becomes tighter. 
+%
+The $EDP$-aware-velocity planning maintains the EV velocity to the least-energy velocity or the minimum-velocity constraint (not to bother traffic), whichever comes first. However, it does not appreciably decelerate the EV at the top of the hill to reduce driving time. So, we use $EDP$ for the metric when the deadline is tight. 
+
+\begin{figure} %Figure 11
+\centering
+\includegraphics[width=\hsize]{Figures/EDP_comp_profile.pdf}
+\caption{\textcolor{red}{Velocity profile comparison with $EDP$, $E^2DP$ and $E^3DP$ on  Jones Street in San Francisco.}}
+\label{fig:EDP_aware_velocity_planning}
+\end{figure} 
+
+On the other hand, when the $E^2DP$ is used as a metric to optimize, the energy penalty contributes more to the cost function. As a result, the driving velocity decreases when driving on an uphill because the energy penalty due to the increased torque is greater than the delay penalty as shown in Fig.~\ref{fig:EDP_aware_velocity_planning}. Also, the $E^2DP$-aware velocity becomes slower than the maximum velocity on a downhill or on a flat road since the energy penalty becomes higher than the delay penalty at a high velocity due to the drivetrain loss and increased torque by the aerodynamic resistance. The EV accelerates to the least-energy velocity or the minimum-velocity constraint, whichever comes first, by the road slope and decelerates at the top of the first hill. Then, the EV drives faster than the least-energy velocity on the downhill followed by a  flat road, in preparation for the next hill. Although the least-energy velocity on an uphill is higher than that on a flat road, climbing an uphill consumes more energy. So, the EV gradually loses the velocity while it climbs up on an uphill spending less motor torque, which significantly saves energy consumption. In most applications, the deadline is important but not truly hard. Therefore, we adopt $E^2DP$ for the performance metric to consider both energy and driving time.
+
+When it comes to $E^3DP$, the effect of energy penalty becomes even more distinct, and the average driving velocity becomes lower. 
+The $E^3DP$ metric can be a proper optimization metric when the battery state of charge is less than 30\% for example.
+
+\begin{figure}	 %Figure 12.
+\centering
+\includegraphics[width=\hsize]{Figures/EDP_comp_bar.pdf}
+\caption{\textcolor{red}{Comparison of $EDP$ for various energy-aware-velocity planning methods.}}
+\label{fig:EDP_bar}
+\end{figure} 
+
+\textcolor{red}{\subsection{Comparison of EDP}}
+
+%%Description for Fig. 12
+Fig.~\ref{fig:EDP_bar} summarizes $EDP$ of the least-energy-constant-velocity driving, the minimum-delay-constant-velocity driving, the minimum-energy-velocity planning, the velocity planning with $EDP$, $E^2DP$ and $E^3DP$ as a metric on various road benchmarks \textcolor{red}{and the minimum-EDP-velocity planning with GA}. The proposed velocity planning results in up to 46.2\% improvements of $EDP$ compared with the least-energy-constant-velocity driving. 
+%The improvements occur especially when the slope of the uphill is steep.
+The driving velocity on a flat road is faster than that of the least-energy-constant-velocity driving at the expense of relatively little energy to save driving time. Then, the velocity decreases when climbing the following uphill to spend less motor torque, which saves more energy.
+
+\textcolor{red}{In addition, EDP of the proposed EDP-aware-velocity planning is merely 4.3\% higher than that of the true EDP-minimum-velocity planning on average. Through this results, we confirm that the results of the proposed heuristics are close enough to the true optimal solutions.}\\
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Impact of the EV power model fidelity} \label{sec:impact_EV_power model}

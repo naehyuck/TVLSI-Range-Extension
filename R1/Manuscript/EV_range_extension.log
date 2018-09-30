@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.28)  30 SEP 2018 12:23
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  30 SEP 2018 12:25
+>>>>>>> 0684aaa1cabc7516b6f4c8f39aa2f2416c4e3bc0
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -750,17 +754,36 @@ File: Figures/Benchmark_altitude.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/Benchmark_altitude.pdf  used on input line 327
 .
 (pdftex.def)             Requested size: 252.0pt x 133.16916pt.
+<<<<<<< HEAD
 <Figures/range_comp_bar.pdf, id=241, 576.03708pt x 434.2644pt>
+=======
+
+<Figures/range_comp_bar.pdf, id=241, 575.67905pt x 435.85776pt>
+>>>>>>> 0684aaa1cabc7516b6f4c8f39aa2f2416c4e3bc0
 File: Figures/range_comp_bar.pdf Graphic file (type pdf)
 <use Figures/range_comp_bar.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: Figures/range_comp_bar.pdf  used on input line 342.
 (pdftex.def)             Requested size: 216.71906pt x 163.37885pt.
 <Figures/driving_time_comp_bar.pdf, id=242, 576.03708pt x 379.69362pt>
+=======
+Package pdftex.def Info: Figures/range_comp_bar.pdf used on input line 342.
+(pdftex.def)             Requested size: 216.71906pt x 164.07806pt.
+
+<Figures/driving_time_comp_bar.pdf, id=242, 575.67905pt x 369.233pt>
+>>>>>>> 0684aaa1cabc7516b6f4c8f39aa2f2416c4e3bc0
 File: Figures/driving_time_comp_bar.pdf Graphic file (type pdf)
 <use Figures/driving_time_comp_bar.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: Figures/driving_time_comp_bar.pdf  used on input line 
 348.
 (pdftex.def)             Requested size: 216.71906pt x 142.84824pt.
+=======
+Package pdftex.def Info: Figures/driving_time_comp_bar.pdf used on input line 3
+48.
+(pdftex.def)             Requested size: 216.71906pt x 138.99725pt.
+
+>>>>>>> 0684aaa1cabc7516b6f4c8f39aa2f2416c4e3bc0
 <Figures/energy_driving_profile_best.pdf, id=243, 661.94385pt x 652.97896pt>
 File: Figures/energy_driving_profile_best.pdf Graphic file (type pdf)
 <use Figures/energy_driving_profile_best.pdf>
@@ -790,29 +813,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
 [7 <./Figures/range_comp_bar.pdf> <./Figures/driving_time_comp_bar.pdf> <./Figu
 res/energy_driving_profile_best.pdf>]
-<Figures/Histogram_legend.pdf, id=982, 564.93971pt x 174.48207pt>
+<Figures/Histogram_legend.pdf, id=678, 564.93971pt x 174.48207pt>
 File: Figures/Histogram_legend.pdf Graphic file (type pdf)
 <use Figures/Histogram_legend.pdf>
 Package pdftex.def Info: Figures/Histogram_legend.pdf  used on input line 431.
 (pdftex.def)             Requested size: 232.19843pt x 71.71382pt.
+<<<<<<< HEAD
 <Figures/Histogram_noconst_vel.pdf, id=983, 573.38165pt x 257.32407pt>
+=======
+
+<Figures/Histogram_noconst_vel.pdf, id=679, 573.38165pt x 257.32407pt>
+>>>>>>> 0684aaa1cabc7516b6f4c8f39aa2f2416c4e3bc0
 File: Figures/Histogram_noconst_vel.pdf Graphic file (type pdf)
 <use Figures/Histogram_noconst_vel.pdf>
 Package pdftex.def Info: Figures/Histogram_noconst_vel.pdf  used on input line 
 437.
 (pdftex.def)             Requested size: 258.0pt x 115.7869pt.
+<<<<<<< HEAD
 <Figures/Histogram_noconst_acc.pdf, id=984, 573.38165pt x 257.32407pt>
+=======
+
+<Figures/Histogram_noconst_acc.pdf, id=680, 573.38165pt x 257.32407pt>
+>>>>>>> 0684aaa1cabc7516b6f4c8f39aa2f2416c4e3bc0
 File: Figures/Histogram_noconst_acc.pdf Graphic file (type pdf)
 <use Figures/Histogram_noconst_acc.pdf>
 Package pdftex.def Info: Figures/Histogram_noconst_acc.pdf  used on input line 
 443.
 (pdftex.def)             Requested size: 258.0pt x 115.7869pt.
+<<<<<<< HEAD
 <Figures/Histogram_vel.pdf, id=985, 563.83188pt x 254.44249pt>
+=======
+
+<Figures/Histogram_vel.pdf, id=681, 563.83188pt x 254.44249pt>
+>>>>>>> 0684aaa1cabc7516b6f4c8f39aa2f2416c4e3bc0
 File: Figures/Histogram_vel.pdf Graphic file (type pdf)
 <use Figures/Histogram_vel.pdf>
 Package pdftex.def Info: Figures/Histogram_vel.pdf  used on input line 449.
 (pdftex.def)             Requested size: 258.0pt x 116.43153pt.
+<<<<<<< HEAD
 <Figures/Histogram_acc.pdf, id=986, 562.91162pt x 254.67416pt>
+=======
+
+<Figures/Histogram_acc.pdf, id=682, 562.91162pt x 254.67416pt>
+>>>>>>> 0684aaa1cabc7516b6f4c8f39aa2f2416c4e3bc0
 File: Figures/Histogram_acc.pdf Graphic file (type pdf)
 <use Figures/Histogram_acc.pdf>
 Package pdftex.def Info: Figures/Histogram_acc.pdf  used on input line 455.
@@ -846,12 +889,17 @@ Underfull \hbox (badness 3657) in paragraph at lines 467--469
 [8 <./Figures/Histogram_legend.pdf> <./Figures/Histogram_noconst_vel.pdf> <./Fi
 gures/Histogram_noconst_acc.pdf> <./Figures/Histogram_vel.pdf> <./Figures/Histo
 gram_acc.pdf>]
-<Figures/EDP_comp_profile.pdf, id=2662, 669.36426pt x 655.44875pt>
+<Figures/EDP_comp_profile.pdf, id=2358, 669.36426pt x 655.44875pt>
 File: Figures/EDP_comp_profile.pdf Graphic file (type pdf)
 <use Figures/EDP_comp_profile.pdf>
 Package pdftex.def Info: Figures/EDP_comp_profile.pdf  used on input line 497.
 (pdftex.def)             Requested size: 252.0pt x 246.75279pt.
+<<<<<<< HEAD
 <Figures/EDP_comp_bar.pdf, id=2663, 576.03708pt x 547.89882pt>
+=======
+
+<Figures/EDP_comp_bar.pdf, id=2359, 576.03708pt x 547.89882pt>
+>>>>>>> 0684aaa1cabc7516b6f4c8f39aa2f2416c4e3bc0
 File: Figures/EDP_comp_bar.pdf Graphic file (type pdf)
 <use Figures/EDP_comp_bar.pdf>
 Package pdftex.def Info: Figures/EDP_comp_bar.pdf  used on input line 509.
@@ -871,7 +919,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 521--522
 
  []
 
-<Figures/model_fidelity.pdf, id=2985, 567.44327pt x 434.59535pt>
+<Figures/model_fidelity.pdf, id=2681, 567.44327pt x 434.59535pt>
 File: Figures/model_fidelity.pdf Graphic file (type pdf)
 <use Figures/model_fidelity.pdf>
 Package pdftex.def Info: Figures/model_fidelity.pdf  used on input line 533.
@@ -921,8 +969,12 @@ Overfull \hbox (12.2933pt too wide) in paragraph at lines 170--173
 ]range-[]at-[]steady-[]75-[]mph/$. 
  []
 
+<<<<<<< HEAD
 )
 <Bio/Donkyu.pdf, id=3086, 150.5625pt x 188.705pt>
+=======
+) <Bio/Donkyu.pdf, id=2782, 150.5625pt x 188.705pt>
+>>>>>>> 0684aaa1cabc7516b6f4c8f39aa2f2416c4e3bc0
 File: Bio/Donkyu.pdf Graphic file (type pdf)
 <use Bio/Donkyu.pdf>
 Package pdftex.def Info: Bio/Donkyu.pdf  used on input line 560.
@@ -931,7 +983,11 @@ File: Bio/Donkyu.pdf Graphic file (type pdf)
 <use Bio/Donkyu.pdf>
 Package pdftex.def Info: Bio/Donkyu.pdf  used on input line 560.
 (pdftex.def)             Requested size: 72.07619pt x 90.3355pt.
+<<<<<<< HEAD
 <Bio/Naehyuck.pdf, id=3089, 614.295pt x 794.97pt>
+=======
+ <Bio/Naehyuck.pdf, id=2785, 614.295pt x 794.97pt>
+>>>>>>> 0684aaa1cabc7516b6f4c8f39aa2f2416c4e3bc0
 File: Bio/Naehyuck.pdf Graphic file (type pdf)
 <use Bio/Naehyuck.pdf>
 Package pdftex.def Info: Bio/Naehyuck.pdf  used on input line 571.
@@ -960,10 +1016,10 @@ ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/
 type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on EV_range_extension.pdf (11 pages, 2921640 bytes).
+Output written on EV_range_extension.pdf (11 pages, 2828880 bytes).
 PDF statistics:
- 3153 PDF objects out of 3580 (max. 8388607)
- 2119 compressed objects within 22 object streams
+ 2849 PDF objects out of 2984 (max. 8388607)
+ 1917 compressed objects within 20 object streams
  0 named destinations out of 1000 (max. 500000)
  140 words of extra memory for PDF output out of 10000 (max. 10000000)
 

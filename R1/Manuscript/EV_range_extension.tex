@@ -23,8 +23,8 @@
 \title{Runtime Power Management of Battery Electric Vehicles for Extended Range with Consideration of Driving Time}
 
 \author{
-Donkyu~Baek,~\IEEEmembership{Member,~IEEE,}
-Jaemin~Kim,~\IEEEmembership{Member,~Student IEEE} and
+Donkyu~Baek,~\IEEEmembership{Member,~IEEE}
+and
 Naehyuck~Chang,~\IEEEmembership{Fellow,~IEEE}
 
 \thanks{Direct questions and comments about this article to Naehyuck Chang, Korea Advanced Institute of Science and Technology, 291, Daehak-ro, Yuseong-gu, Daejeon, Korea (e-mail: naehyuck@cad4x.kaist.ac.kr). This work is supported in part by NRF Grant 2015R1A2A1A09005694.}
@@ -68,7 +68,9 @@ In this paper, we derive the energy-aware velocity for a given EV and demonstrat
 We derive an analytical EV power model with a scale of production EVs such as Chevrolet  Bolt. We introduce new performance metrics for EV, energy-delay product ($EDP$), energy-square-delay product ($E^2DP$) and energy-cubic-delay product ($E^3DP$), which demonstrates a practically applicable energy-aware-velocity planning. The proposed method results in up to a 43.4\% extended driving range without increasing battery capacity, and a 51.7\% improvement of $EDP$ compared with the least-energy-constant-velocity driving. 
 
 
-\textcolor{red}{We summarize the paper structure as follows. Section~\ref{sec:related work} describes related work for low-energy driving for both ICEV and EV. Section~\ref{sec:energy consumption} introduces analysis of power consumption of ICEV and EV  by the vehicle setup and driving conditions. This section also compares power consumption characteristics of EV with those of ICEV and demonstrates why  ICEV eco-driving results can hardly apply to EV. Section~\ref{sec:framework} introduces an EV specific system-level framework for energy-aware-velocity planning. In this section, we are first to introduce new single performance metrics to take into account both driving energy and driving time in this section. We visualize the impacts of the model fidelity on the energy-aware-velocity planning in Section~\ref{sec:impact_EV_power model}. Section~\ref{sec:conclusions} is a summary of major technical contribution of this paper.}
+\textcolor{red}{We summarize the paper structure as follows. Section~\ref{sec:related work} describes related work for low-energy driving for both ICEV and EV. Section~\ref{sec:energy consumption} introduces analysis of power consumption of ICEV and EV  by the vehicle setup and driving conditions. This section also compares power consumption characteristics of EV with those of ICEV and demonstrates why  ICEV eco-driving results can hardly apply to EV. Section~\ref{sec:framework} introduces a framework to derive EV-specific energy-aware-velocity planning. In this section, we are first to introduce new performance metrics and their solution methods to take into account both driving energy and driving time: energy-delay product ($EDP$), energy-square-delay product ($E^2DP$) and energy-cubic-delay product ($E^3DP$). Section \ref{sec:experiment} demonstrates the experimental results. 
+We also visualize the impacts of the model fidelity on the energy-aware-velocity planning in Section~\ref{sec:impact_EV_power model}. Section~\ref{sec:conclusions} is a summary of major technical contribution of this paper.}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Related work} \label{sec:related work}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

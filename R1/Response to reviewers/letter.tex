@@ -44,7 +44,7 @@ We also visualize the impacts of the model fidelity on the energy-aware-velocity
 
 In this paper, we use the same EV power model equation in [1], which has been proven to be accurate as long as the coefficients are appropriate. However, the model coefficients in [1] are only for low-speed, ultra light-weighted EV (a half metric Ton). However, we would like to demonstrate a more practical results that are applicable to production EVs. Therefore, all the coefficients should be updated for production-scale EVs in this paper. 
 
-Here goes how we extracted correct coefficients of the EV power equation. We use a vehicle simulator that supports EV as well, ADVISOR, to extract the coefficients of new vehicles starting from known vehicle specifications such as the aerodynamic resistance, rolling resistance, curb weight, and so on. Such data is often published in the users' manual, website and so forth. We further use the vehicle performance data such as the top speed, maximum acceleration, and so on, which are also available on the manuals and website. We iteratively run ADVISOR and derive the model coefficients so that all the known values match among each other. We evaluate the model accuracy with the range-speed real vehicle experiments as shown in Fig. 1(a), which has been published by [32], [33], [34], [35], [36]. We further refine the coefficients until all the available data values match well. Finally, the derived EV power model well matches with the range-speed experimental data as shown in Fig. 1(b) as well as the top speed and maximum acceleration, setting the aerodynamic resistance, rolling resistance, curb weight, etc. with the known (fact) values. The errors of the range-speed simulation is merely 1.4\%, the time to approach 60 mph at departure is 7.8\%, and the top speed is 3.0\%, respectively. \uline{We revised the manuscript adding the following paragraph with a new figure in Section III-A on page 3 and 4.} \\
+Here goes how we extracted correct coefficients of the EV power equation. We use a vehicle simulator that supports EV as well, ADVISOR, to extract the coefficients of new vehicles starting from known vehicle specifications such as the aerodynamic resistance, rolling resistance, curb weight, and so on. Such data is often published in the users' manual, website and so forth. We further use the vehicle performance data such as the top speed, maximum acceleration, and so on, which are also available on the manuals and website. We iteratively run ADVISOR and derive the model coefficients so that all the known values match among each other. We evaluate the model accuracy with the range-speed real vehicle experiments as shown in Fig. 1(a), which has been published by [32], [33], [34], [35], [36]. We further refine the coefficients until all the available data values match well. Finally, the derived EV power model well matches with the range-speed experimental data as shown in Fig. 1(b) as well as the top speed and maximum acceleration, setting the aerodynamic resistance, rolling resistance, curb weight, etc. with the known (fact) values. The errors of the range-speed simulation is merely 1.4\%, the time to approach 60 mph at departure is 7.8\%, and the top speed is 3.0\%, respectively. \uline{We revised the manuscript adding the following paragraph with a new figure in Section III.A on page 3 and 4.} \\
 
 %%%%%%%%%%%%%%%%%
 \textcolor{red}{We use ADVISOR to extract the model coefficients of new vehicles starting from known vehicle specifications such as the aerodynamic resistance, rolling resistance, curb weight, and so on. Such data is often published in the users' manual, website and so forth. We further use the vehicle performance data such as the top speed, maximum acceleration, and so on, which are also available on the manuals, commercials and websites. We iteratively run ADVISOR and derive the model coefficients so that all the known data values match among each other.}
@@ -83,14 +83,14 @@ In this revised manuscript, we did spend an extended period of time and added a 
 
 We divide a given driving route into multiple segments so that the solution of GA indicates a set of velocity values for each segment. We evaluate the GA solutions and choose one of the solutions. We apply the vehicle acceleration and deceleration constraints so that the velocity difference at the boundary of two adjacent segments becomes close enough to avoid a jerky motion. We update the solution through crossover and mutation processes until the solution converges. The proposed EDP-aware-velocity planning is merely 4.3\% higher than the true EDP-minimum-velocity planning on average. Through this results, we confirm that the results of the proposed heuristics are close enough to the true optimal solutions. We include the comparison with GA in the revised version of the manuscript. We revised the associated sentences as follows:\\
 
-\uline{We added the sixth and seventh paragraphs in IV-E on page 8 as follows:}\\
+\uline{We added the sixth and seventh paragraphs in IV.E on page 8 as follows:}\\
 \textcolor{red}{As the proposed solutions for  $EDP$-, $E^2DP$- and $E^3DP$-aware-velocity planning are not optimal, we perform  validation how close the proposed heuristics method is to the true optimal, comparing with the results of GA. We use the GA results as a golden reference to evaluate the optimality of the proposed heuristics.
 %GA can hardly be used for a practical solution method as its time complexity is not suitable for real applications. %
 We divide a given driving route into multiple segments so that the solution of GA indicates a set of velocity values for each segment. %We evaluate the GA solutions and choose one of the solutions. 
 We apply the vehicle acceleration and deceleration constraints so that the velocity difference at the boundary of two adjacent segments becomes close enough to avoid a jerky motion. We update the solution through crossover and mutation processes until the solution converges.} 
 
 
-\uline{We modified the ninth paragraph in IV-C on page 8 as follows:}\\
+\uline{We modified the ninth paragraph in IV.C on page 8 as follows:}\\
 Fig.~12 summarizes $EDP$ of the least-energy-constant-velocity driving, the minimum-delay-constant-velocity driving, the minimum-energy-velocity planning, the velocity planning with $EDP$, $E^2DP$ and $E^3DP$ as a metric on the road benchmarks \textcolor{red}{and the minimum-EDP-velocity planning with GA}. The proposed velocity planning results in up to 46.2\% improvements of $EDP$ compared with the least-energy-constant-velocity driving. 
 %The improvements occur especially when the slope of the uphill is steep.
 The driving velocity on a flat road is faster than that of the least-energy-constant-velocity driving at the expense of relatively little energy to save driving time. Then, the velocity decreases when climbing the following uphill to spend less motor torque, which saves more energy.
@@ -126,7 +126,7 @@ We also updated Fig. 12 and Fig. 13:
 
 \item [R2-C1] The paper claims that the proposed BEV power model is more accurate than those in the literature. While the results in Section V demonstrate the benefits of the proposed model and in some way indirectly show its accuracy, it would be good to have a direct comparison of model accuracy between the proposed model and those in literature, e.g., based on simulations as in Fig. 1. 
 
-\item [R2-A1] We appreciate the reviewers in that we can more efficiently deliver our technical contributions with a clearer evidence from the valuable comment. Reviewer 1 also questioned the BEV power model validation, and we added this contents in Section III-A on Page 3. The proposed EV power model well matches with the range-speed measurement  data provided by [32], [33], [34], [35], [36]. Please find the detailed answer with R1-A2: the answer (response) to the second comment of Reviewer 1.
+\item [R2-A1] We appreciate the reviewers in that we can more efficiently deliver our technical contributions with a clearer evidence from the valuable comment. Reviewer 1 also questioned the BEV power model validation, and we added this contents in Section III.A on Page 3. The proposed EV power model well matches with the range-speed measurement  data provided by [32], [33], [34], [35], [36]. Please find the detailed answer with R1-A2: the answer (response) to the second comment of Reviewer 1.
 
 \item [R2-C2] It would be good to have more discussion on the assumptions of the approach and the experiments, e.g., how much can the velocity be changed in practical scenarios without impeding traffic and causing unsafe situations (also depending on the road conditions and whether it is urban or rural environment I suppose). Currently, there only seems to be one constraint on not slower than 10 km/h. 
 
@@ -190,7 +190,7 @@ Fig.~\ref{fig:histogram}(c) and (d) shows the velocity and acceleration histogra
 
 \item [R2-A3] We appreciate the reviewer's comment. We replaced the previous synthetic road benchmarks with the real road benchmarks. We made six new real road benchmarks from various locations in California.  The first three roads are in cities. Jones Street in San Francisco and Hoover Street in Los Angeles are two representative city landscapes such as hills and flat roads, respectively, and Cliff Drive in Santa Barbara is a mixture of those. The second two roads are in mountain areas: Serrano Avenue in Anaheim Hills and Otay Lakes Road in San Ysidro Mountain in California. The last road is Junipero Serra Boulevard connecting San Fransisco and San Jose. The details of road data is summarized in Table~II, and Fig.~\ref{fig:bench_altitude}, which visualize the altitudes of the road benchmarks. We also revised all the associated contents with the new real road benchmarks. 
 
-\uline{We added Section IV-C on Page 6 is as follows:}\\
+\uline{We added Section IV.C Real Road Benchmarks on Page 6 is as follows:}\\
 \textcolor{red}{We choose six  roads from various locations in California and make real road benchmarks. The first three roads are in cities. Jones Street in San Francisco and Hoover Street in Los Angeles are two representative city landscapes such as hills and flat roads, respectively, and Cliff Drive in Santa Barbara is a mixture of those. The second two roads are in mountain areas: Serrano Avenue in Anaheim Hills and Otay Lakes Road in San Ysidro Mountain in California. The last road is Junipero Serra Boulevard connecting San Fransisco and San Jose. The details of road data is summarized in Table~II, and Fig.~\ref{fig:bench_altitude}, which visualize the altitudes of the road benchmarks.}
 
 
@@ -229,7 +229,7 @@ Junipero Serra Blvd.	&1500		&7.46		&-5.48	&0.40		&2.72 	&2.70	\\ \hline
 
 However, we still offer online ``recomputation,'' which can produce a new solution in a reasonable amount of time if an unexpected interrupt occurs. For example, if a vehicle accident occurs, a GPS navigator may perform rerouting to detour the accident area. The proposed velocity planning should be ``recomputed'' for the modified route. After detouring, the new route will be merged to the original route, and we can still reuse the previously computed  velocity planning for the rest of travel. While the proposed methods can perform such online ``recomputation,'' the previous method that uses ADVISOR in the inner loop can hardly meet such requirement. 
 
-\uline{We add the eighth paragraph in III-A on Page 3 as follows:}\\
+\uline{We add the eighth paragraph in III.A on Page 3 as follows:}\\
 \textcolor{red}{The proposed methods allows us to produce an updated solution in a reasonable amount of time if an unexpected interrupt occurs. For example, if a vehicle accident occurs, a GPS navigator may perform rerouting to detour the accident area. The proposed velocity planning should be ``recomputed'' for the modified route. After detouring, the new route will be merged to the original route, and we can still reuse the previously computed  velocity planning for the rest of travel. While the proposed methods can perform such online ``recomputation,'' the previous method that uses ADVISOR in the inner loop can hardly meet such requirement.}
 
 \item [R2-C5] The baseline for comparison is the least-energy-constant-velocity scheme. As the optimal velocity significantly depends on road slope, such scheme is obviously sub-optimal. It would be interesting to see how the proposed method compares with a simple extension of least-energy-constant-velocity, where a constant velocity is calculated for each segment with the same slope.
@@ -241,22 +241,22 @@ However, the segmented-least-energy-constant-velocity planning have two major sh
 
 \item [R2-C6] The paper is easy to follow. There are some minor issues/typos. For instance,
 \begin{itemize}
-\item Abstract, ``… from the vehicle dynamics, … , and consideration of regenerative braking.'' -> ``with the consideration of vehicle dynamics, … , and regenerative braking.''
-\item Abstract, ``… (or at each time instant.) The major …'' -> ``… (or at each time instant). The major …''.
-\item Page 1, column 2, ``but higher daily …'' -> `` but also higher daily…''.
-\item Page 1, column 2, ``weight not to degrade …'' -> ``weight, and not to degrade…''.
-\item Page 1, column 2, ``Such conventional ways … ownership.'' -> ``These conventional ways of extending EV range may have a negative impact on the cost of ownership.''
-\item Page 1, column 2, ``difference between that of ICEV'' -> ``differences from that of ICEV''.
-\item Page 2, column 1, ``ICEVS'' -> ``ICEVs''.
-\item Page 3, column 1, ``a sort of a fast vehicle simulator …'' -> ``a fast simulator''.
-\item Page 3, column 2, ``demonstrates s …'' -> ``demonstrates …''.
-\item Page 5, column 2, ``As total number of steps …'' -> ``As the total number of steps …''.
-\item Page 5, column 2, ``total number of nodes and edges …'' -> ``the total number of nodes and edges …''.
-\item Page 5, column 2, ``a distance” -> ``the distance''.
-\item Page 5, column 2, ``a power consumption'' -> ``the power consumption''.
-\item Page 7, column 1, ``due unexpected interrupts.'' -> ``due to unexpected interrupts.''
-\item Conclusion, ``legacy system-level …''. ``classic” might be a better word than “legacy”.
-\item Conclusion, ``a tight deadline constraint.” -> “a tight energy constraint?”.
+\item Abstract, ``… from the vehicle dynamics, … , and consideration of regenerative braking.'' $\rightarrow$ ``with the consideration of vehicle dynamics, … , and regenerative braking.''
+\item Abstract, ``… (or at each time instant.) The major …'' $\rightarrow$ ``… (or at each time instant). The major …''.
+\item Page 1, column 2, ``but higher daily …'' $\rightarrow$ `` but also higher daily…''.
+\item Page 1, column 2, ``weight not to degrade …'' $\rightarrow$ ``weight, and not to degrade…''.
+\item Page 1, column 2, ``Such conventional ways … ownership.'' $\rightarrow$ ``These conventional ways of extending EV range may have a negative impact on the cost of ownership.''
+\item Page 1, column 2, ``difference between that of ICEV'' $\rightarrow$ ``differences from that of ICEV''.
+\item Page 2, column 1, ``ICEVS'' $\rightarrow$ ``ICEVs''.
+\item Page 3, column 1, ``a sort of a fast vehicle simulator …'' $\rightarrow$ ``a fast simulator''.
+\item Page 3, column 2, ``demonstrates s …'' $\rightarrow$ ``demonstrates …''.
+\item Page 5, column 2, ``As total number of steps …'' $\rightarrow$ ``As the total number of steps …''.
+\item Page 5, column 2, ``total number of nodes and edges …'' $\rightarrow$ ``the total number of nodes and edges …''.
+\item Page 5, column 2, ``a distance'' $\rightarrow$ ``the distance''.
+\item Page 5, column 2, ``a power consumption'' $\rightarrow$ ``the power consumption''.
+\item Page 7, column 1, ``due unexpected interrupts.'' $\rightarrow$ ``due to unexpected interrupts.''
+\item Conclusion, ``legacy system-level …''. ``classic” might be a better word than “legacy''.
+\item Conclusion, ``a tight deadline constraint.'' $\rightarrow$ ``a tight energy constraint?''.
 \end{itemize}
 
 \item [R2-A6] We sincerely appreciate such kind comments, and we also apologize typos. Thank you for helping us improve the revised  manuscript. We made all the corrections accordingly. 
@@ -288,7 +288,7 @@ The proposed algorithms are energy minimization meeting other constraints. So, t
 
 \item [R3-C2] Three different energy-delay product metrics are given in the paper. Can you recommend which one would be the best practical scenarios?
 
-\item [R3-A2] We appreciate the reviewer's insight to make the paper contribution clearer. Please refer R2-A2 for the histogram analysis of the speed and acceleration. We describe the details of he comparison of the proposed metrics in Section V-A. 
+\item [R3-A2] We appreciate the reviewer's insight to make the paper contribution clearer. Please refer R2-A2 for the histogram analysis of the speed and acceleration. We describe the details of he comparison of the proposed metrics in Section V.A. 
 
 Of course, the least-energy-constant-velocity driving results in the least velocity and acceleration change, and thus it provides the maximum predictability and comfort. In the revised manuscript, we added new analysis of the baseline and proposed methods ($EDP$, $E^2DP$ and $E^3DP$) about the velocity and acceleration change. The newly added analysis is a histogram analysis of velocity and acceleration, which backs up the following statements in the previous version of manuscript.
 
@@ -300,25 +300,25 @@ The minimum-delay-constant-velocity driving guides to accelerate to speed limit 
 
 \item [R3-A3] We perform a design space exploration (DSE) for all feasible vehicle velocities and the acceleration pairs. We obtain the minimum-energy velocity and the initial and final acceleration for a given road. The point at the minimum energy consumption per distance (Wh/km) represents the least-energy-constant-velocity driving. The least-energy-constant velocity is 37 km/h for the benchmark route in Fig. 10. We added this new content in the revised version of the manuscript. 
 
-\uline{We modify the fourth paragraph in IV-D on Page 7 as follows:}\\
+\uline{We modify the fourth paragraph in IV.D on Page 7 as follows:}\\
 \textcolor{red}{
 Fig.~10 visualizes a more detailed picture how each driving method behaves on Serrano Avenue, for example. 
 The point at the minimum energy consumption per distance (Wh/km) represents the least-energy-constant-velocity driving. The least-energy-constant velocity is 37 km/h in this example, which is achieved by a design space exploration (DSE). The minimum-delay-constant velocity is determined by 64 km/h, which is the speed limit of Serrano Avenue.}
 
 \item [R3-C4] Time complexity analysis of the proposed techniques should be discussed.
 
-\item [R3-A4] We propose a heuristics method that uses DP for the minimum-$EDP$, $E^2DP$ and $E^3DP$-velocity planning. DP solves the velocity planning in a polynomial time. The number of velocity states is a product of the number of selectable velocities in each distance $N$ and the number of steps to the endpoint $M$ as mentioned in Section IV-B. Also, the number of calculation to get the optimal velocity planning until the distance is $M$. Therefore, the complexity is $O(NM^2)$ for the minimum-energy-velocity planning and the proposed $EDP$-, $E^2DP$- and $E^3DP$-aware-velocity planning. We added this new content in the revised version of the manuscript. 
+\item [R3-A4] We propose a heuristics method that uses DP for the minimum-$EDP$, $E^2DP$ and $E^3DP$-velocity planning. DP solves the velocity planning in a polynomial time. The number of velocity states is a product of the number of selectable velocities in each distance $N$ and the number of steps to the endpoint $M$ as mentioned in Section IV.B. Also, the number of calculation to get the optimal velocity planning until the distance is $M$. Therefore, the complexity is $O(NM^2)$ for the minimum-energy-velocity planning and the proposed $EDP$-, $E^2DP$- and $E^3DP$-aware-velocity planning. We added this new content in the revised version of the manuscript. 
  
-\uline{We add the sixth paragraph in IV-E on Page 8 as follows:}\\
-\textcolor{red}{DP solves the velocity planning in a polynomial time. The number of velocity states is a product of the number of selectable velocities in each distance $N$ and the number of steps to the endpoint $M$ as mentioned in Section IV-B. Also, the number of calculation to get the optimal velocity planning until the distance is $M$. Therefore, the complexity is $O(NM^2)$ for the minimum-energy-velocity planning and the proposed $EDP$-, $E^2DP$- and $E^3DP$-aware-velocity planning.} 
+\uline{We add the sixth paragraph in IV.E on Page 8 as follows:}\\
+\textcolor{red}{DP solves the velocity planning in a polynomial time. The number of velocity states is a product of the number of selectable velocities in each distance $N$ and the number of steps to the endpoint $M$ as mentioned in Section IV.B. Also, the number of calculation to get the optimal velocity planning until the distance is $M$. Therefore, the complexity is $O(NM^2)$ for the minimum-energy-velocity planning and the proposed $EDP$-, $E^2DP$- and $E^3DP$-aware-velocity planning.} 
 
 \item [R3-C5] Is the vehicle used in your experiment general enough? Can you discuss the difference between the vehicle used in your experiment and those practical vehicles?
 
 \item [R3-A5] In this paper, we use a model of Chevrolet Bolt, which has been produced since November 2016. Total 26,000 units have been  delivered, and Bolt is positioned as the third best-selling EV in the United States. We added this new content in the revised version of the manuscript. 
 
-Reviewer 1 also questioned the BEV power model validation, and we added this contents in Section III-A on Page 3. The proposed EV power model well matches with the range-speed measurement data provided by [32], [33], [34], [35], [36]. Please find the detailed answer with R1-A2: the answer (response) to the second comment of Reviewer 1. 
+Reviewer 1 also questioned the BEV power model validation, and we added this contents in Section III.A on Page 3. The proposed EV power model well matches with the range-speed measurement data provided by [32], [33], [34], [35], [36]. Please find the detailed answer with R1-A2: the answer (response) to the second comment of Reviewer 1. 
 
-\uline{We modify the nineth paragraph in III-A on Page 3 as follows:}\\
+\uline{We modify the nineth paragraph in III.A on Page 3 as follows:}\\
 We choose Chevrolet Bolt (1,616 kg curb weight) for the target vehicle, but our method does not restrict a particular type of vehicles. \textcolor{red}{Chevrolet Bolt has been produced since November 2016. Total 26,000 cars have been  delivered, and Bolt is positioned as the third best-selling EV in the United States.} The top speed of Chevrolet Bolt is a 150 km/h. It is capable of achieving a 6.5 second 0--100 km/h time with a 150 kW electric permanent magnet motor~[30]. Chevrolet Bolt is equipped with a 350 V and 57.4 kWh Lithium-ion battery pack with 96-series and 3-parallel of 3.65 V cells~[31]. Chevrolet Bolt battery chemistry is Lithium Nickel Manganese Cobalt Oxide from LG. 
 
 \end{description}

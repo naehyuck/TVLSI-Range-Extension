@@ -296,20 +296,18 @@ The minimum-delay-constant-velocity driving guides to accelerate to speed limit 
 
 \item [R3-C3] There are some parameter setting without discussion. For example, is there any specific reason to choose 42km/h in one of your experiments?
 
-\item [R3-A3] We perform a design space exploration (DSE) for all feasible vehicle velocities and the acceleration pairs. We obtain the minimum-energy velocity and the initial and final acceleration for a given road. The point at the minimum energy consumption per distance (Wh/km) represents the least-energy-constant-velocity driving. The least-energy-constant velocity is 37 km/h for the benchmark route in Fig. 8. We added this new content in the revised version of the manuscript. 
+\item [R3-A3] We perform a design space exploration (DSE) for all feasible vehicle velocities and the acceleration pairs. We obtain the minimum-energy velocity and the initial and final acceleration for a given road. The point at the minimum energy consumption per distance (Wh/km) represents the least-energy-constant-velocity driving. The least-energy-constant velocity is 37 km/h for the benchmark route in Fig. 10. We added this new content in the revised version of the manuscript. 
 
-\uline{We modify the third paragraph in IV-B on Page 6 as follows:}\\
+\uline{We modify the fourth paragraph in IV-D on Page 7 as follows:}\\
 \textcolor{red}{
-%We compare the simulation results among the least-energy-constant-velocity driving, the minimum-delay-constant-velocity driving and the minimum-energy-velocity planning. 
-Fig.~\ref{fig:no_deadline_trace} visualizes a more detailed picture how each driving method behaves on Serrano Avenue, for example. 
-%We perform a design space exploration (DSE) for all feasible vehicle velocities and the acceleration pairs to derive the least-energy-constant-velocity driving. 
+Fig.~10 visualizes a more detailed picture how each driving method behaves on Serrano Avenue, for example. 
 The point at the minimum energy consumption per distance (Wh/km) represents the least-energy-constant-velocity driving. The least-energy-constant velocity is 37 km/h in this example, which is achieved by a design space exploration (DSE). The minimum-delay-constant velocity is determined by 64 km/h, which is the speed limit of Serrano Avenue.}
 
 \item [R3-C4] Time complexity analysis of the proposed techniques should be discussed.
 
 \item [R3-A4] We propose a heuristics method that uses DP for the minimum-$EDP$, $E^2DP$ and $E^3DP$-velocity planning. DP solves the velocity planning in a polynomial time. The number of velocity states is a product of the number of selectable velocities in each distance $N$ and the number of steps to the endpoint $M$ as mentioned in Section IV-B. Also, the number of calculation to get the optimal velocity planning until the distance is $M$. Therefore, the complexity is $O(NM^2)$ for the minimum-energy-velocity planning and the proposed $EDP$-, $E^2DP$- and $E^3DP$-aware-velocity planning. We added this new content in the revised version of the manuscript. 
  
-\uline{We add the fifth paragraph in IV-C on Page 8 as follows:}\\
+\uline{We add the sixth paragraph in IV-E on Page 8 as follows:}\\
 \textcolor{red}{DP solves the velocity planning in a polynomial time. The number of velocity states is a product of the number of selectable velocities in each distance $N$ and the number of steps to the endpoint $M$ as mentioned in Section IV-B. Also, the number of calculation to get the optimal velocity planning until the distance is $M$. Therefore, the complexity is $O(NM^2)$ for the minimum-energy-velocity planning and the proposed $EDP$-, $E^2DP$- and $E^3DP$-aware-velocity planning.} 
 
 \item [R3-C5] Is the vehicle used in your experiment general enough? Can you discuss the difference between the vehicle used in your experiment and those practical vehicles?
@@ -318,9 +316,8 @@ The point at the minimum energy consumption per distance (Wh/km) represents the 
 
 Reviewer 1 also questioned the BEV power model validation, and we added this contents in Section III-A on Page 3. The proposed EV power model well matches with the range-speed measurement data provided by [32], [33], [34], [35], [36]. Please find the detailed answer with R1-A2: the answer (response) to the second comment of Reviewer 1. 
 
-\uline{We modify the eighth paragraph in III-A on Page 4 as follows:}\\
-We choose Chevrolet Bolt (1,616 kg curb weight) for the target vehicle, but our method does not restrict a particular type of vehicles. \textcolor{red}{Chevrolet Bolt has been produced since November 2016. Total 26,000 units have been  delivered, and Bolt is positioned as the third best-selling EV in the United States.} The top speed of Chevrolet Bolt is a 150 km/h. It is capable of achieving a 6.5 second 0--100 km/h time with a 150 kW electric permanent magnet motor~[30]. Chevrolet Bolt is equipped with a 350 V and 57.4 kWh Lithium-ion battery pack with 96-series and 3-parallel of 3.65 V cells~[31]. Chevrolet Bolt battery chemistry is Lithium Nickel Manganese Cobalt Oxide from LG. 
-
+\uline{We modify the nineth paragraph in III-A on Page 3 as follows:}\\
+We choose Chevrolet Bolt (1,616 kg curb weight) for the target vehicle, but our method does not restrict a particular type of vehicles. \textcolor{red}{Chevrolet Bolt has been produced since November 2016. Total 26,000 cars have been  delivered, and Bolt is positioned as the third best-selling EV in the United States.} The top speed of Chevrolet Bolt is a 150 km/h. It is capable of achieving a 6.5 second 0--100 km/h time with a 150 kW electric permanent magnet motor~[30]. Chevrolet Bolt is equipped with a 350 V and 57.4 kWh Lithium-ion battery pack with 96-series and 3-parallel of 3.65 V cells~[31]. Chevrolet Bolt battery chemistry is Lithium Nickel Manganese Cobalt Oxide from LG. 
 
 \end{description}
 \end{document}

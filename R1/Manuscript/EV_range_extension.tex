@@ -180,13 +180,13 @@ We choose Chevrolet Bolt (1,616 kg curb weight) for the target vehicle, but our 
 \centering
 	\begin{subfigure}{0.4\textwidth}
 	\includegraphics[width=\hsize]{Figures/Bolt_EV_range.jpg}
-	\caption{Range-speed experimental data}
+	\caption{Range-speed experimental data.}
 	\label{fig:range_speed_exp}
 	\end{subfigure}
 ~
 	\begin{subfigure}{0.4\textwidth}
 	\includegraphics[width=\hsize]{Figures/Range-speed_validation.pdf}
-	\caption{Range comparison with simulation results}
+	\caption{Range comparison with simulation results.}
 	\label{fig:range_speed_valid}
 	\end{subfigure}
 \caption{\textcolor{red}{(a) Range-speed experimental data for Chevrolet Bolt~\cite{GM_Bolt:range_speed} and (b) comparison with simulation results of the proposed EV power model.}}
@@ -342,14 +342,14 @@ Junipero Serra Blvd.	&1500		&7.46		&-5.48	&0.40		&2.72 	&2.70	\\ \hline
 \centering
 	\begin{subfigure}{0.42\textwidth}
 	\includegraphics[width=\hsize]{Figures/range_comp_bar.pdf}
-	\caption{Range extension}
+	\caption{Range extension.}
 	\label{fig:range_comp}
 	\end{subfigure}
 ~
 	\begin{subfigure}{0.42\textwidth}
 	\includegraphics[width=\hsize]{Figures/driving_time_comp_bar.pdf}
 	\caption{Driving time}
-	\label{fig:driving_time_comp}
+	\label{fig:driving_time_comp.}
 	\end{subfigure}
 \caption{\textcolor{red}{Range extension and driving time by the minimum-energy-velocity planning, Least-energy-constant-velocity driving and Minimum-delay-constant-velocity driving.}}
 \label{fig:min_energy_planning_comp}
@@ -431,8 +431,6 @@ We apply the vehicle acceleration and deceleration constraints so that the veloc
 \centering
 	\begin{subfigure}{0.45\textwidth}
 	\includegraphics[width=\hsize]{Figures/Histogram_legend.pdf}
-%	\caption{Range extension}
-%	\label{fig:range_comp}
 	\end{subfigure}
 %~
 	\begin{subfigure}{0.5\textwidth}
@@ -497,7 +495,7 @@ The $EDP$-aware-velocity planning maintains the EV velocity to the least-energy 
 \begin{figure} %Figure 11
 \centering
 \includegraphics[width=\hsize]{Figures/EDP_comp_profile.pdf}
-\caption{\textcolor{red}{Velocity profile comparison with $EDP$, $E^2DP$ and $E^3DP$ on  Jones Street in San Francisco.}}
+\caption{\textcolor{red}{Velocity profile comparison with $EDP$, $E^2DP$ and $E^3DP$ on  Serrano Avenue in Anaheim Hills.}}
 \label{fig:EDP_aware_velocity_planning}
 \end{figure} 
 
@@ -506,7 +504,7 @@ On the other hand, when the $E^2DP$ is used as a metric to optimize, the energy 
 When it comes to $E^3DP$, the effect of energy penalty becomes even more distinct, and the average driving velocity becomes lower. 
 The $E^3DP$ metric can be a proper optimization metric when the battery state of charge is less than 30\% for example.
 
-\begin{figure}	 %Figure 12.
+\begin{figure}	 
 \centering
 \includegraphics[width=\hsize]{Figures/EDP_comp_bar.pdf}
 \caption{\textcolor{red}{Comparison of $EDP$ for the proposed energy-aware-velocity planning methods.}}
@@ -529,7 +527,6 @@ The driving velocity on a flat road is faster than that of the least-energy-cons
 
 Lesson learned from embedded systems power management, it is crucial to extract an accurate power model from the device to system. Power optimization results largely change by the power model. Inaccurate power model obviously misleads the power optimization results. It goes without saying that an accurate EV power model mandates for the minimum energy velocity problem that reflects power variation by the velocity, acceleration, road slope, payload, and so forth.
 
-%% Should be updated.
 \begin{figure}	 %Figure 14.
 \centering
 \includegraphics[width=0.85\hsize]{Figures/model_fidelity.pdf}

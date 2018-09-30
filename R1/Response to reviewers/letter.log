@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  30 SEP 2018 13:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  30 SEP 2018 14:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -430,23 +430,16 @@ File: Figures/EDP_comp_profile.pdf Graphic file (type pdf)
 
 <use Figures/EDP_comp_profile.pdf>
 Package pdftex.def Info: Figures/EDP_comp_profile.pdf used on input line 105.
-(pdftex.def)             Requested size: 305.33788pt x 298.98975pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+(pdftex.def)             Requested size: 281.85585pt x 275.99669pt.
 
 <Figures/EDP_comp_bar.pdf, id=15, 576.03708pt x 547.89882pt>
 File: Figures/EDP_comp_bar.pdf Graphic file (type pdf)
 
 <use Figures/EDP_comp_bar.pdf>
-Package pdftex.def Info: Figures/EDP_comp_bar.pdf used on input line 115.
-(pdftex.def)             Requested size: 258.36667pt x 245.74124pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[3 <./Figures/Bolt_EV_range.jpg> <./Figures/Range-speed_validation.pdf>]
-[4 <./Figures/EDP_comp_profile.pdf> <./Figures/EDP_comp_bar.pdf>]
+Package pdftex.def Info: Figures/EDP_comp_bar.pdf used on input line 113.
+(pdftex.def)             Requested size: 281.85585pt x 268.0882pt.
+ [3 <./Figures/Bolt_EV_range.jpg> <./Figures/Range-speed_validation.pdf>] [4 <.
+/Figures/EDP_comp_profile.pdf> <./Figures/EDP_comp_bar.pdf>]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
@@ -458,7 +451,7 @@ Missing character: There is no ™ in font ptmr7t!
 File: Figures/Histogram_legend.pdf Graphic file (type pdf)
 
 <use Figures/Histogram_legend.pdf>
-Package pdftex.def Info: Figures/Histogram_legend.pdf used on input line 162.
+Package pdftex.def Info: Figures/Histogram_legend.pdf used on input line 159.
 (pdftex.def)             Requested size: 211.3883pt x 65.28683pt.
 
 <Figures/Histogram_noconst_vel.pdf, id=399, 573.38165pt x 257.32407pt>
@@ -466,7 +459,7 @@ File: Figures/Histogram_noconst_vel.pdf Graphic file (type pdf)
 
 <use Figures/Histogram_noconst_vel.pdf>
 Package pdftex.def Info: Figures/Histogram_noconst_vel.pdf used on input line 1
-66.
+63.
 (pdftex.def)             Requested size: 211.3883pt x 94.8668pt.
 
 <Figures/Histogram_noconst_acc.pdf, id=400, 573.38165pt x 257.32407pt>
@@ -474,51 +467,71 @@ File: Figures/Histogram_noconst_acc.pdf Graphic file (type pdf)
 
 <use Figures/Histogram_noconst_acc.pdf>
 Package pdftex.def Info: Figures/Histogram_noconst_acc.pdf used on input line 1
-72.
+69.
 (pdftex.def)             Requested size: 211.3883pt x 94.8668pt.
 
 <Figures/Histogram_vel.pdf, id=401, 563.83188pt x 254.44249pt>
 File: Figures/Histogram_vel.pdf Graphic file (type pdf)
 
 <use Figures/Histogram_vel.pdf>
-Package pdftex.def Info: Figures/Histogram_vel.pdf used on input line 178.
+Package pdftex.def Info: Figures/Histogram_vel.pdf used on input line 175.
 (pdftex.def)             Requested size: 211.3883pt x 95.3924pt.
 
 <Figures/Histogram_acc.pdf, id=402, 562.91162pt x 254.67416pt>
 File: Figures/Histogram_acc.pdf Graphic file (type pdf)
 
 <use Figures/Histogram_acc.pdf>
-Package pdftex.def Info: Figures/Histogram_acc.pdf used on input line 184.
+Package pdftex.def Info: Figures/Histogram_acc.pdf used on input line 181.
 (pdftex.def)             Requested size: 211.3883pt x 95.63469pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/Benchmark_altitude.pdf, id=403, 667.84375pt x 357.19489pt>
+ [6 <./Figures/Histogram_legend.pdf> <./Figures/Histogram_noconst_vel.pdf> <./F
+igures/Histogram_noconst_acc.pdf> <./Figures/Histogram_vel.pdf> <./Figures/Hist
+ogram_acc.pdf>]
+<Figures/Benchmark_altitude.pdf, id=2078, 631.31998pt x 333.62881pt>
 File: Figures/Benchmark_altitude.pdf Graphic file (type pdf)
 
 <use Figures/Benchmark_altitude.pdf>
-Package pdftex.def Info: Figures/Benchmark_altitude.pdf used on input line 217.
+Package pdftex.def Info: Figures/Benchmark_altitude.pdf used on input line 214.
 
-(pdftex.def)             Requested size: 328.82706pt x 175.87727pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[6 <./Figures/Histogram_legend.pdf> <./Figures/Histogram_noconst_vel.pdf> <./Fi
-gures/Histogram_noconst_acc.pdf> <./Figures/Histogram_vel.pdf> <./Figures/Histo
-gram_acc.pdf>] [7 <./Figures/Benchmark_altitude.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 242.
+(pdftex.def)             Requested size: 328.82706pt x 173.77306pt.
+ [7 <./Figures/Benchmark_altitude.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 239.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 242.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 239.
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ¦ in font ptmr7t!
@@ -530,10 +543,7 @@ Missing character: There is no € in font ptmr7t!
 Missing character: There is no  in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no  in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no  in font ptmr7t!
@@ -542,10 +552,7 @@ Missing character: There is no € in font ptmr7t!
 Missing character: There is no œ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
-Missing character: There is no ¦ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no  in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no  in font ptmr7t!
@@ -554,52 +561,7 @@ Missing character: There is no € in font ptmr7t!
 Missing character: There is no œ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
-Missing character: There is no ¦ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ¦ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
 Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ¦ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ¦ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ¦ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ¦ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ¦ in font ptmr7t!
@@ -612,48 +574,6 @@ Missing character: There is no œ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ¦ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ¦ in font ptmr7t!
@@ -671,7 +591,19 @@ Missing character: There is no € in font ptmr7t!
 Missing character: There is no  in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no  in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
 Missing character: There is no œ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no  in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ¦ in font ptmr7t!
@@ -689,16 +621,31 @@ Missing character: There is no € in font ptmr7t!
 Missing character: There is no  in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
+Missing character: There is no  in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
 Missing character: There is no œ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
-Missing character: There is no ¦ in font ptmr7t!
+Missing character: There is no  in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no  in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no œ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no  in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no  in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no œ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no  in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ¦ in font ptmr7t!
@@ -717,54 +664,6 @@ Missing character: There is no œ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ¦ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no  in font ptmr7t!
@@ -791,7 +690,7 @@ fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on letter.pdf (10 pages, 829213 bytes).
+Output written on letter.pdf (10 pages, 823693 bytes).
 PDF statistics:
  2132 PDF objects out of 2487 (max. 8388607)
  1423 compressed objects within 15 object streams

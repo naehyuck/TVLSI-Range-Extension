@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.28)  30 SEP 2018 15:14
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  30 SEP 2018 15:10
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.28)  30 SEP 2018 15:11
->>>>>>> 0389261b7c923159798dbe4b938abbbe89f23356
->>>>>>> 61c8124f12cf6f51f0de7e78e26b70eb0f97b5d0
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.28)  30 SEP 2018 15:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -484,7 +476,6 @@ File: Figures/Histogram_acc.pdf Graphic file (type pdf)
 <use Figures/Histogram_acc.pdf>
 Package pdftex.def Info: Figures/Histogram_acc.pdf  used on input line 181.
 (pdftex.def)             Requested size: 211.3883pt x 95.63469pt.
-<<<<<<< HEAD
 
 Underfull \hbox (badness 10000) in paragraph at lines 193--196
 
@@ -506,85 +497,20 @@ Package pdftex.def Info: Figures/Benchmark_altitude.pdf  used on input line 220
 (pdftex.def)             Requested size: 328.82706pt x 173.77306pt.
  [7 <./Figures/Benchmark_altitude.pdf>]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 245.
-=======
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 192.
- [6 <./Figures/Histogram_legend.pdf> <./Figures/Histogram_noconst_vel.pdf> <./F
-igures/Histogram_noconst_acc.pdf> <./Figures/Histogram_vel.pdf> <./Figures/Hist
-ogram_acc.pdf>]
-<Figures/Benchmark_altitude.pdf, id=2078, 631.31998pt x 333.62881pt>
-File: Figures/Benchmark_altitude.pdf Graphic file (type pdf)
-<use Figures/Benchmark_altitude.pdf>
-<<<<<<< HEAD
-Package pdftex.def Info: Figures/Benchmark_altitude.pdf used on input line 218.
-
-(pdftex.def)             Requested size: 328.82706pt x 173.77306pt.
- [7 <./Figures/Benchmark_altitude.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 243.
-=======
-Package pdftex.def Info: Figures/Benchmark_altitude.pdf  used on input line 219
-.
-(pdftex.def)             Requested size: 328.82706pt x 173.77306pt.
- [7 <./Figures/Benchmark_altitude.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 244.
->>>>>>> 0389261b7c923159798dbe4b938abbbe89f23356
->>>>>>> 61c8124f12cf6f51f0de7e78e26b70eb0f97b5d0
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-<<<<<<< HEAD
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 245.
  [8]
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-=======
-<<<<<<< HEAD
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 243.
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ¦ in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no  in font ptmr7t!
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no œ in font ptmr7t!
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
-=======
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 244.
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
->>>>>>> 0389261b7c923159798dbe4b938abbbe89f23356
->>>>>>> 61c8124f12cf6f51f0de7e78e26b70eb0f97b5d0
+Underfull \hbox (badness 10000) in paragraph at lines 294--296
 
  []
 
-[9] [10] (./letter.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[9] [10] (./letter.aux) ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 4280 strings out of 493089
- 67914 string characters out of 6134841
- 141544 words of memory out of 5000000
- 7677 multiletter control sequences out of 15000+600000
- 31750 words of font info for 68 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 42i,10n,40p,1364b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/f
-onts/type1/urw/times/utmri8a.pfb>
-Output written on letter.pdf (10 pages, 834166 bytes).
-=======
  4227 strings out of 492649
  67094 string characters out of 6129622
  145896 words of memory out of 5000000
@@ -592,16 +518,6 @@ Output written on letter.pdf (10 pages, 834166 bytes).
  30124 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,10n,40p,1364b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
-<<<<<<< HEAD
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/te
-xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/urw/times/utmri8a.pfb>
-Output written on letter.pdf (10 pages, 834949 bytes).
-=======
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/ba
 se/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 mi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
@@ -609,9 +525,7 @@ mi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 0.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
 xlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on letter.pdf (10 pages, 834199 bytes).
->>>>>>> 0389261b7c923159798dbe4b938abbbe89f23356
->>>>>>> 61c8124f12cf6f51f0de7e78e26b70eb0f97b5d0
+Output written on letter.pdf (10 pages, 835250 bytes).
 PDF statistics:
  2132 PDF objects out of 2487 (max. 8388607)
  1423 compressed objects within 15 object streams

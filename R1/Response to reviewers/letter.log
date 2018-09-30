@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.28)  30 SEP 2018 14:20
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.28)  30 SEP 2018 14:24
+>>>>>>> 230bbc177d53693ef6fd0a83a97aa34095fc820e
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -505,7 +509,11 @@ fb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
 cal/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texliv
 e/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+<<<<<<< HEAD
 Output written on letter.pdf (10 pages, 825068 bytes).
+=======
+Output written on letter.pdf (10 pages, 825073 bytes).
+>>>>>>> 230bbc177d53693ef6fd0a83a97aa34095fc820e
 PDF statistics:
  2132 PDF objects out of 2487 (max. 8388607)
  1423 compressed objects within 15 object streams

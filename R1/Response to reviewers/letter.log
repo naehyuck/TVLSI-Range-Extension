@@ -1,28 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.28)  30 SEP 2018 15:25
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  30 SEP 2018 15:16
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.28)  30 SEP 2018 15:24
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  30 SEP 2018 15:13
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.28)  30 SEP 2018 15:14
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.12.19)  30 SEP 2018 15:10
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.28)  30 SEP 2018 15:11
->>>>>>> 0389261b7c923159798dbe4b938abbbe89f23356
->>>>>>> 61c8124f12cf6f51f0de7e78e26b70eb0f97b5d0
->>>>>>> ad3ba60b6a3d0ed2d461addf5a236df9ee54db50
->>>>>>> e3aa5e30281d7826cc8e5f245b29a91a268c288e
->>>>>>> 604415d0ef3140a38c203508cf23cc3e671973c5
->>>>>>> 226d5773c987ad950fdf6e4df7a08a7ab03853b1
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.9.28)  30 SEP 2018 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -500,18 +476,6 @@ File: Figures/Histogram_acc.pdf Graphic file (type pdf)
 <use Figures/Histogram_acc.pdf>
 Package pdftex.def Info: Figures/Histogram_acc.pdf  used on input line 181.
 (pdftex.def)             Requested size: 211.3883pt x 95.63469pt.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> e3aa5e30281d7826cc8e5f245b29a91a268c288e
->>>>>>> 604415d0ef3140a38c203508cf23cc3e671973c5
->>>>>>> 226d5773c987ad950fdf6e4df7a08a7ab03853b1
 
 Underfull \hbox (badness 10000) in paragraph at lines 193--196
 
@@ -527,96 +491,29 @@ gures/Histogram_noconst_acc.pdf> <./Figures/Histogram_vel.pdf> <./Figures/Histo
 gram_acc.pdf>]
 <Figures/Benchmark_altitude.pdf, id=2078, 631.31998pt x 333.62881pt>
 File: Figures/Benchmark_altitude.pdf Graphic file (type pdf)
-<<<<<<< HEAD
-=======
 <use Figures/Benchmark_altitude.pdf>
 Package pdftex.def Info: Figures/Benchmark_altitude.pdf  used on input line 220
 .
 (pdftex.def)             Requested size: 328.82706pt x 173.77306pt.
  [7 <./Figures/Benchmark_altitude.pdf>]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 245.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 192.
->>>>>>> ad3ba60b6a3d0ed2d461addf5a236df9ee54db50
- [6 <./Figures/Histogram_legend.pdf> <./Figures/Histogram_noconst_vel.pdf> <./F
-igures/Histogram_noconst_acc.pdf> <./Figures/Histogram_vel.pdf> <./Figures/Hist
-ogram_acc.pdf>]
-<Figures/Benchmark_altitude.pdf, id=2078, 631.31998pt x 333.62881pt>
-File: Figures/Benchmark_altitude.pdf Graphic file (type pdf)
->>>>>>> 604415d0ef3140a38c203508cf23cc3e671973c5
-
-<use Figures/Benchmark_altitude.pdf>
-Package pdftex.def Info: Figures/Benchmark_altitude.pdf used on input line 220.
-
-(pdftex.def)             Requested size: 328.82706pt x 173.77306pt.
- [7 <./Figures/Benchmark_altitude.pdf>]
-<<<<<<< HEAD
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 245.
-=======
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 244.
-<<<<<<< HEAD
-=======
->>>>>>> 0389261b7c923159798dbe4b938abbbe89f23356
->>>>>>> 61c8124f12cf6f51f0de7e78e26b70eb0f97b5d0
->>>>>>> ad3ba60b6a3d0ed2d461addf5a236df9ee54db50
->>>>>>> e3aa5e30281d7826cc8e5f245b29a91a268c288e
->>>>>>> 604415d0ef3140a38c203508cf23cc3e671973c5
->>>>>>> 226d5773c987ad950fdf6e4df7a08a7ab03853b1
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-<<<<<<< HEAD
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 245.
  [8]
 Underfull \hbox (badness 10000) in paragraph at lines 296--297
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 245.
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 294--296
-=======
-<<<<<<< HEAD
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 244.
-=======
-<<<<<<< HEAD
->>>>>>> 604415d0ef3140a38c203508cf23cc3e671973c5
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 245.
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ¶ in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
- [8]
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
-<<<<<<< HEAD
-=======
->>>>>>> 0389261b7c923159798dbe4b938abbbe89f23356
->>>>>>> 61c8124f12cf6f51f0de7e78e26b70eb0f97b5d0
->>>>>>> ad3ba60b6a3d0ed2d461addf5a236df9ee54db50
->>>>>>> e3aa5e30281d7826cc8e5f245b29a91a268c288e
->>>>>>> 604415d0ef3140a38c203508cf23cc3e671973c5
->>>>>>> 226d5773c987ad950fdf6e4df7a08a7ab03853b1
 
  []
 
-[9] [10] (./letter.aux) ) 
+[9] [10] (./letter.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  4227 strings out of 492649
  67094 string characters out of 6129622
@@ -624,51 +521,15 @@ Here is how much of TeX's memory you used:
  8021 multiletter control sequences out of 15000+600000
  30124 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
-<<<<<<< HEAD
-=======
-=======
- 4270 strings out of 493089
- 67773 string characters out of 6134841
- 141544 words of memory out of 5000000
- 7668 multiletter control sequences out of 15000+600000
- 30124 words of font info for 66 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 42i,10n,40p,1364b,559s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/ba
-se/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-<<<<<<< HEAD
-Output written on letter.pdf (10 pages, 834946 bytes).
-=======
-Output written on letter.pdf (10 pages, 834198 bytes).
-=======
->>>>>>> e3aa5e30281d7826cc8e5f245b29a91a268c288e
->>>>>>> 226d5773c987ad950fdf6e4df7a08a7ab03853b1
  42i,10n,40p,1364b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/ba
-se/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-<<<<<<< HEAD
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/f
+onts/type1/urw/times/utmri8a.pfb>
 Output written on letter.pdf (10 pages, 835246 bytes).
-=======
-<<<<<<< HEAD
-Output written on letter.pdf (10 pages, 835250 bytes).
-=======
-Output written on letter.pdf (10 pages, 834199 bytes).
->>>>>>> 0389261b7c923159798dbe4b938abbbe89f23356
->>>>>>> 61c8124f12cf6f51f0de7e78e26b70eb0f97b5d0
->>>>>>> ad3ba60b6a3d0ed2d461addf5a236df9ee54db50
->>>>>>> e3aa5e30281d7826cc8e5f245b29a91a268c288e
->>>>>>> 604415d0ef3140a38c203508cf23cc3e671973c5
->>>>>>> 226d5773c987ad950fdf6e4df7a08a7ab03853b1
 PDF statistics:
  2132 PDF objects out of 2487 (max. 8388607)
  1423 compressed objects within 15 object streams
